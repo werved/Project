@@ -3,13 +3,13 @@ Feature: Notifikasi
 
 Background:
 Given User buka aplikasi SecondHand
-When User klik "Masuk"
+When User klik tombol "Masuk"
 And User masukkan "tes@example.com" pada bidang "Email"
 And User masukkan "password" pada bidang "Password"
-And User klik "Masuk"
+And User klik tombol "Masuk"
 Then Menampilkan halaman dashboard
 
-@N01 @positif
+@N001 @positif
 Scenario: Lihat list "Notifikasi" 
 When Klik icon "Notifikasi"
 And Lihat pada halaman menu
