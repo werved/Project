@@ -1,5 +1,5 @@
-@update_penawaran
-Feature: Update penawaran
+@Update_Penawaran
+Feature: Update Penawaran
 Agar penawaran dapat diupdate
 
 Background: 
@@ -8,24 +8,24 @@ Background:
     And Seller membuka submenu "Diminati"
     Then Seller melihat daftar produk
 
-@upd001 @positive
+@Upd001 @Positif
 Scenario: Terima produk
-    When Seller klik produk dengan status "Penawaran produk"
-    And berhasil menampilkan halaman "Info Penawar"
-    And Seller klik "Terima"
-    Then status produk berubah menjadi "Penawaran produk diterima"
-    When Seller klik "Status"
-    And Seller klik "Berhasil Terjual"
-    And Seller klik "Kirim"
-    Then status produk berubah menjadi "Berhasil terjual"
+    When Klik produk dengan status "Penawaran produk"
+    And Berhasil menampilkan halaman "Info Penawar"
+    And Klik "Terima"
+    Then Status produk berubah menjadi "Penawaran produk diterima"
+    When Klik "Status"
+    And Klik "Berhasil Terjual"
+    And Klik "Kirim"
+    Then Status produk berubah menjadi "Berhasil terjual"
     
-@upd002 @positive
+@Upd002 @Positif
 Scenario: Tolak produk
-    When Seller klik produk dengan status "Penawaran produk"
-    And berhasil menampilkan halaman "Info Penawar"
-    And Seller klik "Tolak"
-    Then status produk berubah menjadi "Penawaran produk ditolak"
-    When Seller klik "Status"
-    And Seller klik "Batalkan Transaksi"
-    And Seller klik "Kirim"
-    Then status produk berubah menjadi "Penjualan dibatalkan"
+    When Klik produk dengan status "Penawaran produk"
+    And Berhasil menampilkan halaman "Info Penawar"
+    And Klik "Tolak"
+    Then Status produk berubah menjadi "Penawaran produk ditolak"
+    When Klik "Status"
+    And Klik "Batalkan Transaksi"
+    And Klik "Kirim"
+    Then Status produk berubah menjadi "Penjualan dibatalkan"
