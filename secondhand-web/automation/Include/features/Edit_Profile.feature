@@ -19,7 +19,7 @@ Then data profile User berhasil diperbaharui redirect halaman utama
 
 
 @ep02 @neg
-Scenario Outline: User gagal mengupdate karena tidak mengisi field yang ada
+Scenario Outline:User gagal mengupdate karena tidak mengisi field yang ada
 When User klik ikon profile
 And klik nama User
 And User mengisi "<nama>" pada kolom Nama
