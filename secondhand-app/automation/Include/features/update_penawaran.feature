@@ -12,20 +12,20 @@ Background:
 Scenario: Terima produk
     When Klik produk dengan status "Penawaran produk"
     And Berhasil menampilkan halaman "Info Penawar"
-    And Klik "Terima"
+    And Klik tombol "Terima"
     Then Status produk berubah menjadi "Penawaran produk diterima"
-    When Klik "Status"
-    And Klik "Berhasil Terjual"
-    And Klik "Kirim"
+    When Klik tombol "Status"
+    And Klik tombol "Berhasil Terjual"
+    And Klik tombol "Kirim"
     Then Status produk berubah menjadi "Berhasil terjual"
     
 @Upd002 @Positif
 Scenario: Tolak produk
     When Klik produk dengan status "Penawaran produk"
     And Berhasil menampilkan halaman "Info Penawar"
-    And Klik "Tolak"
+    And Klik tombol "Tolak"
     Then Status produk berubah menjadi "Penawaran produk ditolak"
-    When Klik "Status"
-    And Klik "Batalkan Transaksi"
-    And Klik "Kirim"
+    When Klik tombol "Status"
+    And Klik tombol "Batalkan Transaksi"
+    And Klik tombol "Kirim"
     Then Status produk berubah menjadi "Penjualan dibatalkan"
