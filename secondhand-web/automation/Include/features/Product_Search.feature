@@ -1,6 +1,7 @@
+@Product_Search
 Feature: Product_Search
 
-@web @ps @pos
+@Ps @Positif
 Scenario: Memastikan user dapat mencari produk
     When Buka "https://secondhand.binaracademy.org/"
     And Klik kolom Search "Cari di sini ..."
