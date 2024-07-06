@@ -9,19 +9,14 @@ Feature: Edit_Profile
     And User klik tombol "Masuk" 
     Then User melihat halaman "Telusuri Kategori" 
 
-  @TK001 @Positive
-  Scenario Outline: Edit data profile
-    When User klik icon profile
-    Then User klik nama akun
-    And User upload foto
-    And User mengisi "<nama>" 
-    And User mengisi "<kota>" 
-    And User mengisi "<alamat>" 
-    And User mengisi "<no_handphone>" 
-    And User klik tombol "Simpan"
-    Then User melihat halaman "Telusuri Kategori" 
-    
-    Examples: 
-      | nama      | kota    | alamat         | no_handphone |
-      | tesedit   | Jogja   | JL. Edit       | 01223344556  |
-    
+  @Ep01 @Positif 
+  Scenario: Edit data profile
+    When klik icon profile
+    Then klik nama akun
+    And Upload foto
+    And Input Nama "tesedit" 
+    And Input Kota "Jogja" 
+    And Input Alamat "JL. Edit" 
+    And Input No Handphone "01223344556" 
+    And Klik tombol "Simpan" 
+    Then Melihat halaman "Telusuri Kategori" 

@@ -5,7 +5,7 @@ Feature: Masuk
   Background: 
     Given User membuka "https://secondhand.binaracademy.org/users/sign_in"
     
-  @MSK001 @Positive
+  @Msk01 @Positif
   Scenario: User ingin login dengan credential yang benar
    When User memasukkan Email yang sudah register "tes1@example.com"
     And User memasukkan Password yang sudah register "123456"
@@ -13,7 +13,7 @@ Feature: Masuk
     Then User melihat "Telusuri Kategori" halaman
 
 
-  @MSK002 @Negative
+  @Msk02 @Negatif
   Scenario Outline: User ingin login dengan credential yang tidak benar
     When User memasukkan Email yang tidak benar "<email>"
     And User memasukkan Password yang tidak benar "<password>"

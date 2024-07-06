@@ -1,16 +1,16 @@
-@Logout
-Feature: Logout
-  As a user, I want to logout from Swag Labs web.
+@Keluar
+Feature: Keluar
+  Saya ingin keluar dari web secondhand
 
-  #Background: 
-    #Given User open "https://www.saucedemo.com/"
-    #When User input registered username "standard_user"
-    #And User input registered password "secret_sauce"
-    #And User click on LOGIN button
-    #Then User see "Products" page
+  Background: 
+    Given User membuka "https://secondhand.binaracademy.org/users/sign_in" 
+    When User memasukkan Email yang sudah register "tes1@example.com" 
+    And User memasukkan Password yang sudah register "123456"
+    And User klik tombol "Masuk" 
+    Then User melihat halaman "Telusuri Kategori" 
 
-  @LGO001
-  Scenario: LGO001 - User want to logout
-    When User click burger menu
-    And User click on Logout
-    Then User redirected to Sauce Demo homepage
+  @Lg01 @Positif
+  Scenario: User ingin keluar dari web
+    When Klik icon profile
+    And Klik tombol "Keluar" 
+    Then Melihat halaman "Telusuri Kategori" 

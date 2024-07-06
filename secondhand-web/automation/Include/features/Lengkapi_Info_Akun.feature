@@ -9,19 +9,15 @@ Feature: Lengkapi_Info_Akun
     And User klik tombol "Masuk" 
     Then User melihat halaman "Telusuri Kategori" 
 
-  @TK001 @Positive
-  Scenario Outline: Input data profile
-    When User klik icon profile
-    Then User klik nama akun
-    And User upload foto
-    And User mengisi "<nama>" 
-    And User mengisi "<kota>" 
-    And User mengisi "<alamat>" 
-    And User mengisi "<no_handphone>" 
-    And User klik tombol "Simpan"
-    Then User melihat halaman "Telusuri Kategori" 
-    
-    Examples: 
-      | nama   | kota  | alamat         | no_handphone |
-      | tes1   | Solo  | JL. Bintang    | 08123456789  |
+  @Lia01 @Positif
+  Scenario: Input data profile
+    When Klik icon profile
+    Then Klik nama akun
+    And Upload foto
+    And Input Nama "tes1" 
+    And Input Kota "Solo" 
+    And Input Alamat "JL. Bintang" 
+    And Input No Handphone "08123456789" 
+    And Klik tombol "Simpan"
+    Then Melihat halaman "Telusuri Kategori" 
     
