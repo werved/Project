@@ -11,8 +11,8 @@ Feature: Edit_Profile
 
   @Ep01 @Positif 
   Scenario: Edit data profile
-    When klik icon profile
-    Then klik nama akun
+    When Klik icon profile
+    Then Klik nama akun
     And Upload foto
     And Input Nama "tesedit" 
     And Input Kota "Jogja" 

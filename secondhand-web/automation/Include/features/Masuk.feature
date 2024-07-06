@@ -7,17 +7,17 @@ Feature: Masuk
     
   @Msk01 @Positif
   Scenario: User ingin login dengan credential yang benar
-   When User memasukkan Email yang sudah register "tes1@example.com"
+    When User memasukkan Email yang sudah register "tes1@example.com"
     And User memasukkan Password yang sudah register "123456"
-    And User klik tombol "Masuk"
-    Then User melihat "Telusuri Kategori" halaman
+    And Klik tombol "Masuk"
+    Then Melihat halaman "Telusuri Kategori" 
 
 
   @Msk02 @Negatif
   Scenario Outline: User ingin login dengan credential yang tidak benar
     When User memasukkan Email yang tidak benar "<email>"
     And User memasukkan Password yang tidak benar "<password>"
-    And User klik tombol "Masuk"
+    And Klik tombol "Masuk"
     Then Disana menampilkan pesan "<error>" 
 
     Examples: 
