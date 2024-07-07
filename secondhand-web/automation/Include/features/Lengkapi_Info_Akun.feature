@@ -1,5 +1,5 @@
-@Edit_Profile
-Feature: Edit_Profile
+@Lengkapi_Info_Akun
+Feature: Lengkapi_Info_Akun
   Saya ingin memperbaharui profile
 
   Background: 
@@ -9,14 +9,15 @@ Feature: Edit_Profile
     And User klik tombol "Masuk" 
     Then User melihat halaman "Telusuri Kategori" 
 
-  @Ep01 @Positif 
-  Scenario: Edit data profile
+  @Lia01 @Positif
+  Scenario: Input data profile
     When Klik icon profile
     Then Klik nama akun
     And Upload foto
-    And Input Nama "tesedit" 
-    And Input Kota "Jogja" 
-    And Input Alamat "JL. Edit" 
-    And Input No Handphone "01223344556" 
-    And Klik tombol "Simpan" 
+    And Input Nama "tes1" 
+    And Input Kota "Solo" 
+    And Input Alamat "JL. Bintang" 
+    And Input No Handphone "08123456789" 
+    And Klik tombol "Simpan"
     Then Melihat halaman "Telusuri Kategori" 
+    

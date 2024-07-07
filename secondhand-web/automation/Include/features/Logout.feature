@@ -1,13 +1,16 @@
-@Logout
-Feature: Logout
-    User dapat Logout dari akun yang terdaftar
+@Keluar
+Feature: Keluar
+  Saya ingin keluar dari web secondhand
 
-Background:
- Given User buka "https://secondhand.binaracademy.org/"
- Given User login
+  Background: 
+    Given User membuka "https://secondhand.binaracademy.org/users/sign_in" 
+    When User memasukkan Email yang sudah register "tes1@example.com" 
+    And User memasukkan Password yang sudah register "123456"
+    And User klik tombol "Masuk" 
+    Then User melihat halaman "Telusuri Kategori" 
 
- @lo01 @pos
- Scenario: User dapat logout dari akun terdaftar
- When User klik icon profile
- And User klik tombol "Keluar"
- Then User kembali ke halaman utama
+  @Lg01 @Positif
+  Scenario: User ingin keluar dari web
+    When Klik icon profile
+    And Klik tombol "Keluar" 
+    Then Melihat halaman "Telusuri Kategori" 
