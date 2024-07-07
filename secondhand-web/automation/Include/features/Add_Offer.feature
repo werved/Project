@@ -12,8 +12,8 @@ Feature: Add_Offer
 	@Ao001 @Positif
   Scenario: Memastikan pembeli dapat melakukan tawar harga produk dari Search
     When Klik kolom Search "Cari di sini ..."
-    And ketik "Motor"
-    And press Enter key
+    And Ketik "Motor"
+    And Tekan Enter key
     Then Diarahkan ke halaman Produk List "Motor"
     When Klik card produk bernama "Motor"
     Then Diarahkan ke halaman preview produk
@@ -22,4 +22,4 @@ Feature: Add_Offer
     When Input data Field Harga Tawar "900000"
     And Klik tombol "Kirim"
     Then Produk berhasil di nego
-    And tombol Saya tertarik dan ingin nego berubah menjadi disabled "Menunggu respon penjual"
+    And Tombol Saya tertarik dan ingin nego berubah menjadi disabled "Menunggu respon penjual"
