@@ -9,7 +9,7 @@ And User memasukkan "password" pada bidang "Password"
 And User klik tombol "Masuk"
 Then Menampilkan halaman dashboard
 
-@T001 @Positif
+@B001 @Positif
 Scenario: Menampilkan produk selanjutnya
 When Scroll halaman ke bawah
 Then Menampilkan produk selanjutnya
