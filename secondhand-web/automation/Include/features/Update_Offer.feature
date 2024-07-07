@@ -12,7 +12,7 @@ Feature: Update_Offer
   @Uo001 @Positif
   Scenario: Memastikan penjual dapat melihat produk yang ditawar
     When Klik tombol "Notification"
-    Then Menapilkan list dropdown Notification
+    Then Menampilkan list dropdown Notification
     When Klik "Penawaran Produk"
     Then Diarahkan ke halaman "Info Penawar"
     And Terdapat text "Daftar Produkmu yang Ditawar"
@@ -22,7 +22,7 @@ Feature: Update_Offer
   @Uo002 @Positif
   Scenario: Memastikan penjual dapat menerima produk yang ditawar
     When Klik tombol "Notification"
-    Then Menapilkan list dropdown Notification
+    Then Menampilkan list dropdown Notification
     When Klik "Penawaran Produk"
     Then Diarahkan ke halaman "Info Penawar"
     And Terdapat text "Daftar Produkmu yang Ditawar"
@@ -34,7 +34,7 @@ Feature: Update_Offer
   @Uo003 @Positif
   Scenario: Memastikan penjual dapat menolak produk yang ditawar
     When Klik tombol "Notification"
-    Then Menapilkan list dropdown Notification
+    Then Menampilkan list dropdown Notification
     When Klik "Penawaran Produk"
     Then Diarahkan ke halaman "Info Penawar"
     And Terdapat text "Daftar Produkmu yang Ditawar"
