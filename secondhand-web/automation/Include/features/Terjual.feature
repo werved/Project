@@ -9,7 +9,7 @@ Feature: Terjual
     Then Seller diarahkan ke halaman "Telusuri Kategori"
 		#login sebagai penjual
 		
-  @Terjual @Positif
+  @Tjl001 @Positif
   Scenario: Memastikan penjual dapat melihat produk yang berhasil terjual
     When Klik navigation link "Products"
     Then Diarahkan ke halaman "Daftar Jual Saya"

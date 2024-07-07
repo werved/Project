@@ -14,10 +14,10 @@ Feature: Edit_Produk
   Scenario Outline: Memastikan data produk dapat di edit langsung setelah produk di create
     When Klik tombol "Edit"
     Then Diarahkan ke halaman "Terbitkan"
-    When Ubah data Field Nama Produk menjadi "<namaproduk>"
-    And Ubah data Field Harga Produk menjadi "<hargaproduk>"
-    And Ubah Kategori menjadi "<kategoriproduk>"
-    And Ubah data Field Deskripsi "<deskripsiproduk>"
+    When Ubah data Field Nama Produk menjadi "<nama_produk>"
+    And Ubah data Field Harga Produk menjadi "<harga_produk>"
+    And Ubah Kategori menjadi "<kategori_produk>"
+    And Ubah data Field Deskripsi "<deskripsi_produk>"
     And Ubah gambar dari penyimpanan pribadi
     And Klik tombol "Terbitkan"
     Then Produk yang sudah di ubah berhasil diterbitkan
@@ -31,18 +31,18 @@ Feature: Edit_Produk
     Then Diarahkan ke halaman detail produk
     When klik tombol Edit
     Then Diarahkan ke halaman "Terbitkan"
-    When Ubah data Field Nama Produk menjadi "<namaproduk>"
-    And Ubah data Field Harga Produk menjadi "<hargaproduk>"
-    And Ubah Kategori menjadi "<kategoriproduk>"
-    And Ubah data Field Deskripsi "<deskripsiproduk>"
+    When Ubah data Field Nama Produk menjadi "<nama_produk>"
+    And Ubah data Field Harga Produk menjadi "<harga_produk>"
+    And Ubah Kategori menjadi "<kategori_produk>"
+    And Ubah data Field Deskripsi "<deskripsi_produk>"
     And Ubah gambar dari penyimpanan pribadi
     And Klik tombol "Terbitkan"
     Then Produk yang sudah di ubah berhasil diterbitkan
 
     Examples: 
-      | namaproduk   | hargaproduk | kategoriproduk | deskripsiproduk |
-      | Motor Harley |     1000000 | Kendaraan      | Ini motor seken |
-      | Motor        |     2000000 | Kendaraan      | Ini motor seken |
-      | Motor        |     1000000 | Hobi           | Ini motor seken |
-      | Motor        |     1000000 | Kendaraan      | Ini motor baru  |
-      | Motor        |     1000000 | Kendaraan      | Ini motor seken |
+      | nama_produk   | harga_produk | kategori_produk | deskripsi_produk|
+      | Motor Harley  |     1000000  | Kendaraan       | Ini motor seken |
+      | Motor         |     2000000  | Kendaraan       | Ini motor seken |
+      | Motor         |     1000000  | Hobi            | Ini motor seken |
+      | Motor         |     1000000  | Kendaraan       | Ini motor baru  |
+      | Motor         |     1000000 | Kendaraan        | Ini motor seken |

@@ -66,17 +66,17 @@ Feature: Tambah_Produk
     And klik tombol "Semua Produk"
     And klik tombol "Tambah Produk"
     Then Diarahkan ke halaman "Terbitkan"
-    When Input data Field Nama Produk "<namaproduk>"
-    And Input data Field Harga Produk "<hargaproduk>"
-    And Pilih Kategori "<kategoriproduk>"
-    And Input data Field Deskripsi "<deskripsiproduk>"
+    When Input data Field Nama Produk "<nama_produk>"
+    And Input data Field Harga Produk "<harga_produk>"
+    And Pilih Kategori "<kategori_produk>"
+    And Input data Field Deskripsi "<deskripsi_produk>"
     And Pilih gambar dari penyimpanan pribadi
     And Klik tombol "Terbitkan"
     Then Menampilkan alert "<alert>"
 
     Examples: 
-      | namaproduk | hargaproduk | kategoriproduk | deskripsiproduk | alert                      |
-      |            |     1000000 | Kendaraan      | Ini motor seken | Name can't be blank        |
-      | Motor      |             | Kendaraan      | Ini motor seken | Price can't be blank       |
-      | Motor      |     1000000 | Pilih Kategori | Ini motor seken | Category must exist        |
-      | Motor      |     1000000 | Kendaraan      |                 | Description can't be blank |
+      | nama_produk | harga_produk | kategori_produk | deskripsi_produk | alert                      |
+      |             |     1000000  | Kendaraan       | Ini motor seken  | Name can't be blank        |
+      | Motor       |              | Kendaraan       | Ini motor seken  | Price can't be blank       |
+      | Motor       |     1000000  | Pilih Kategori  | Ini motor seken  | Category must exist        |
+      | Motor       |     1000000  | Kendaraan       |                  | Description can't be blank |
