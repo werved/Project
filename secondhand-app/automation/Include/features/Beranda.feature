@@ -10,6 +10,6 @@ And User klik tombol "Masuk"
 Then Menampilkan halaman dashboard
 
 @T001 @Positif
-Scenario: Logout dari akun yang ada
+Scenario: Menampilkan produk selanjutnya
 When Scroll halaman ke bawah
 Then Menampilkan produk selanjutnya
