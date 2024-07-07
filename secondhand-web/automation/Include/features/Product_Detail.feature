@@ -2,7 +2,7 @@
 Feature: Product_Detail
 
 
-@Pd @Positif
+@Pd001 @Positif
 Scenario: Memastikan user dapat melihat produk detail
     When Buka "https://secondhand.binaracademy.org/"
     And Klik card produk "Motor"
