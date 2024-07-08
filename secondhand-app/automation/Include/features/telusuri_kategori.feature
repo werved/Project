@@ -1,15 +1,15 @@
-@telusuri_kategori
+@Telusuri_Kategori
 Feature: Telusuri Kategori
 Agar produk dengan kategori tertentu dapat dilihat
 
 Background:
-		When User membuka aplikasi
-		Then muncul halaman "Beranda"
+		When User buka aplikasi Secondhand
+		Then User melihat halaman "Beranda"
 
-@tel001 @positive
+@tTel001 @Positif
 Scenario Outline: Telusuri kategori
-    When User klik pada kategori "<nama_kategori>"
-    Then berhasil menampilkan produk list dengan kategori "<hasil_kategori_1>" dan "<hasil_kategori_2>"
+    When Klik tombol "<nama_kategori>"
+    Then Berhasil menampilkan produk list dengan kategori "<hasil_kategori_1>" dan "<hasil_kategori_2>"
     
 		Examples:
 			| <nama_kategori> | <hasil_kategori_1> | <hasil_kategori_2> 		|

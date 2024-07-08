@@ -1,12 +1,12 @@
-@search_produk
+@Search_Produk
 Feature: Search Produk
 Agar produk dapat dicari
 
 Background:
-		When User membuka aplikasi
-		Then muncul halaman "Beranda"
+		When User buka aplikasi Secondhand
+		Then User melihat halaman "Beranda"
 
-@sea001 @positive
-Scenario: Search Produk
-    When User input "test" pada search bar
-    Then berhasil menampilkan produk list dengan nama produk "test"
+@Sea001 @Positif
+Scenario: User Search Produk
+    When Input "test" pada search bar
+    Then Berhasil menampilkan produk list dengan nama produk "test"
