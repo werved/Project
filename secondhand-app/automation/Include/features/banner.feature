@@ -1,9 +1,9 @@
-@banner
+@Banner
 Feature: Lihat banner
 Memastikan banner dapat dilihat
 
-@ban001 @positive
-Scenario: Melihat banner
-    Given User membuka aplikasi Secondhand
-    When User melihat halaman "Beranda"
-    Then banner berhasil tampil
+@Ban001 @Positif
+Scenario: User melihat banner
+    Given Buka aplikasi Secondhand
+    When Lihat halaman "Beranda"
+    Then Banner berhasil tampil
