@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonKategoriNext</name>
+   <name>buttonNext</name>
    <tag></tag>
    <elementGuidId>f861f58f-4ab0-4ea1-8fc1-3b4cbe9fb570</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.next_page</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='products']/div[11]/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.next_page</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
