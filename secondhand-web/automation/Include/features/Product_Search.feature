@@ -5,7 +5,7 @@ Feature: Product_Search
 Scenario: Memastikan user dapat mencari produk
     When Buka "https://secondhand.binaracademy.org/"
     And Klik kolom Search "Cari di sini ..."
-    And ketik "Motor"
-    And press Enter key 
+    And Ketik "Motor"
+    And Tekan Enter key 
     Then Produk berhasil ditemukan
     And Diarahkan ke halaman Produk List "Motor"
