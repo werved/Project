@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>selectCategory</name>
+   <name>dropDownProductCategory</name>
    <tag></tag>
    <elementGuidId>18c26813-560f-497e-b326-ba4e975eee05</elementGuidId>
    <selectorCollection>
