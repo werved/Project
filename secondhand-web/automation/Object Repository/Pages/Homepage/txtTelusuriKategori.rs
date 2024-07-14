@@ -6,47 +6,27 @@
    <elementGuidId>9b688ce9-33bc-4784-91c2-1260c2136e15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h5.fw-bold.mb-4</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Telusuri Kategori' or . = 'Telusuri Kategori')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga'])[1]/following::h5[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.fw-bold.mb-4</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>h5</value>
-      <webElementGuid>8544af9e-d166-4fc3-9d2d-364770d2559a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>fw-bold mb-4</value>
-      <webElementGuid>eb2a4614-6a0d-4897-a839-9b22d3f6a193</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Telusuri Kategori</value>
-      <webElementGuid>ad245ee3-2c9a-4477-87b7-81b250f14d7e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/h5[@class=&quot;fw-bold mb-4&quot;]</value>
-      <webElementGuid>4724965f-713f-4d6f-b039-5dd912b180f9</webElementGuid>
+      <webElementGuid>8f6d4361-56bb-4934-b7c6-ca67ecdc884a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga'])[1]/following::h5[2]</value>
-      <webElementGuid>652042e0-cd55-4713-98aa-04e34144a500</webElementGuid>
+      <webElementGuid>6a217f70-8b69-4195-9841-3b81d5c55be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan RamadhanBanyak diskon!'])[1]/following::h5[2]</value>
-      <webElementGuid>8c91de2a-86c7-4eb3-a533-819bcd0a961b</webElementGuid>
+      <webElementGuid>14cf6952-f76e-4ad4-8475-ad4bfb21f6ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/h5</value>
-      <webElementGuid>d29bc8ec-bac1-4ea0-9f82-e45d4790a0fb</webElementGuid>
+      <webElementGuid>9fcf914e-622d-4f39-9709-126a6fff6500</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +58,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Telusuri Kategori' or . = 'Telusuri Kategori')]</value>
-      <webElementGuid>11400000-5b18-4ce1-9bde-b467bc345298</webElementGuid>
+      <webElementGuid>67125c0c-a74c-406d-8723-e929c5a0d384</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

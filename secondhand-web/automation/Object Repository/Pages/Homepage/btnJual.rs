@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonJual</name>
+   <name>btnJual</name>
    <tag></tag>
    <elementGuidId>f1412b9f-f90a-4b14-9504-e0a7aace4b92</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-primary.btn-lg.rounded-4.d-inline-flex.align-items-center.justify-content-space-between.px-5</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Jual
+' or . = 'Jual
+')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Next →'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-lg.rounded-4.d-inline-flex.align-items-center.justify-content-space-between.px-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,23 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e2daec57-8b21-43bd-a4f3-fc02821e6744</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-lg rounded-4 d-inline-flex align-items-center justify-content-space-between px-5</value>
-      <webElementGuid>c36adb89-a3e2-44b6-87d1-43ecabc8ec42</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products/new</value>
-      <webElementGuid>6b844896-791c-4b86-a167-2595a5179844</webElementGuid>
+      <webElementGuid>6edfa394-5fcb-4a2c-9844-3a58bb577d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +37,7 @@
       <type>Main</type>
       <value>Jual
 </value>
-      <webElementGuid>92e62a67-f5f5-4cfb-a988-e6221a0ecf24</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;sticky-bottom d-flex align-items-center justify-content-center py-4&quot;]/a[@class=&quot;btn btn-primary btn-lg rounded-4 d-inline-flex align-items-center justify-content-space-between px-5&quot;]</value>
-      <webElementGuid>7f47df16-c6de-48bd-9588-56138120b0d2</webElementGuid>
+      <webElementGuid>bee74018-58d8-44e5-a272-ea2102eec638</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +45,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next →'])[1]/following::a[1]</value>
-      <webElementGuid>2294571f-ba46-4525-a6ae-f3c50862dce5</webElementGuid>
+      <webElementGuid>5caf4df4-d575-4794-9776-b9f5c2fd90e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::a[2]</value>
-      <webElementGuid>cf055709-e544-4bac-87df-769a2572d26e</webElementGuid>
+      <webElementGuid>bf334806-276d-4cfc-bbca-04a67563729e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
-      <webElementGuid>8a74564f-ca81-485d-9c3a-aed3f4e5d11a</webElementGuid>
+      <webElementGuid>83b040f4-9c2a-4c92-b12c-d73df388c6a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +69,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/products/new')]</value>
-      <webElementGuid>6eb7613a-9ab4-4225-8336-b20f24f92649</webElementGuid>
+      <webElementGuid>3d8f0fef-3ead-4bc8-bc50-0bdb0360f179</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/a</value>
-      <webElementGuid>b757f1cb-fbbe-4fe7-aad1-5b461477770a</webElementGuid>
+      <webElementGuid>4f79b2fb-a3fc-4d96-a0ef-469fb96a8a5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +91,6 @@
     
     Jual
 ')]</value>
-      <webElementGuid>d80a973a-64f9-46f7-b508-84eeec3fafb8</webElementGuid>
+      <webElementGuid>4e68a948-c235-4dc8-886e-55a45c701fcb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonKategoriBaju</name>
+   <name>btnKategoriBaju</name>
    <tag></tag>
    <elementGuidId>a27e11b6-46d1-4815-a7d9-584dcd83fb70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Baju
+' or . = 'Baju
+')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(@href, '/?category_id=3')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,23 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>af257073-eecd-4202-aa35-dddee5d2d967</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false</value>
-      <webElementGuid>ff7e3a16-4f04-40e0-9b47-a0a741f7afec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/?category_id=3</value>
-      <webElementGuid>ac3a5eae-8f45-44eb-a427-33a444d15ae4</webElementGuid>
+      <webElementGuid>89fb3f50-4645-4d20-8287-ed23d5ea3c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +36,7 @@
       <type>Main</type>
       <value>Baju
 </value>
-      <webElementGuid>b0de2dc3-af34-4cde-a56b-0145c01e561e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/nav[@class=&quot;nav row gap-4 px-2 px-lg-0&quot;]/a[@class=&quot;btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false&quot;]</value>
-      <webElementGuid>153d1fa9-4abf-4819-bef9-ab1dec7feb4b</webElementGuid>
+      <webElementGuid>571b45e3-e0e6-44da-9a09-d8ff4efd0f67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +44,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=3')]</value>
-      <webElementGuid>123835a1-05be-4ac2-8f70-b19910a41be2</webElementGuid>
+      <webElementGuid>1b72adb0-13c4-4e61-80f2-db5d605f8c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +52,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>6f196f90-1210-4ded-94c0-b77ac36c299f</webElementGuid>
+      <webElementGuid>69788823-dbc8-4a45-ad0d-e22eedbbe73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +66,6 @@
         
         Baju
 ')]</value>
-      <webElementGuid>6cc9871b-cdcc-46d9-8233-e597804dc10c</webElementGuid>
+      <webElementGuid>576a09ee-9f60-49d9-b632-3c46a06792e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

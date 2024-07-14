@@ -6,47 +6,27 @@
    <elementGuidId>24e19d8e-3156-4d12-b56d-2ef3d74474e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h5.card-title</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'card-title']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='products']/div/a/div/div/h5</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>h5</value>
-      <webElementGuid>93ea60fa-52a0-4a41-8d5a-7efefbb639fd</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>card-title</value>
-      <webElementGuid>2c0992b6-1282-4cbf-8376-341bbbaa3f69</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Kaligrafi</value>
-      <webElementGuid>3e9a98a9-a2df-46d9-bf96-8e15e2c674a3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/h5[@class=&quot;card-title&quot;]</value>
-      <webElementGuid>3245567f-eca0-4837-8e97-7ae3992bbece</webElementGuid>
+      <webElementGuid>79dc29b5-6159-4cb1-a6ff-d5ba0621c1e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div/a/div/div/h5</value>
-      <webElementGuid>fb57f9dc-babd-4882-abd7-edfac3372884</webElementGuid>
+      <webElementGuid>e4c93822-c678-40bb-9b31-a3a6197f9ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 500.000'])[1]/preceding::h5[1]</value>
-      <webElementGuid>e0fb7da6-6edc-4b04-b15b-d08d97a2f773</webElementGuid>
+      <webElementGuid>0731d2a3-381b-47c7-b3f1-55ad714a05c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='kucing jalanan 2'])[1]/preceding::h5[2]</value>
-      <webElementGuid>40498b36-d135-4d43-bd41-c76addbca830</webElementGuid>
+      <webElementGuid>a4923b58-9f11-4eae-b8ad-5d47d6d9267d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div/div/h5</value>
-      <webElementGuid>5cbd729c-b45a-40ac-967a-5e169b428c8a</webElementGuid>
+      <webElementGuid>a22403a7-ed0d-4dfb-92ea-ab651df4320b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Kaligrafi' or . = 'Kaligrafi')]</value>
-      <webElementGuid>ce7a99a7-7d68-4ed6-bd21-75cdd46d1c13</webElementGuid>
+      <webElementGuid>f527ea5c-7873-47ef-9812-347500913888</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
