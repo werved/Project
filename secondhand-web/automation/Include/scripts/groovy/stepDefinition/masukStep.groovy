@@ -53,17 +53,17 @@ class masukStep {
 
 	@When("Memasukkan Email yang sudah register {string}")
 	public void memasukkan_Email_yang_sudah_register(String email) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Memasukkan Password yang sudah register {string}")
 	public void memasukkan_Password_yang_sudah_register(String password) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol login {string}")
 	public void klik_tombol_login(String btnMasuk) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/clickBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/clickBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Melihat halaman produk setelah login {string}")
@@ -73,16 +73,16 @@ class masukStep {
 
 	@When("Memasukkan Email yang tidak benar {string}")
 	public void memasukkan_Email_yang_tidak_benar(String email) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Memasukkan Password yang tidak benar {string}")
 	public void memasukkan_Password_yang_tidak_benar(String password) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Disana menampilkan pesan {string}")
 	public void disana_menampilkan_pesan(String alert) {
-		WebUI.callTestCase(findTestCase('Pages Object/Login/verifyAlerLogin'), [('varAlertLogin') : alert], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/verifyAlerLogin'), [('varAlertLogin') : alert], FailureHandling.STOP_ON_FAILURE)
 	}
 }

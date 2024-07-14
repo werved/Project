@@ -46,12 +46,12 @@ import cucumber.api.java.en.When
 class logoutSteps {
 	@When("Klik icon profile")
 	public void klik_icon_profile() {
-		WebUI.callTestCase(findTestCase('Pages Object/Navbar/navAkun/clickBtnProfile'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProfile'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol logout {string}")
 	public void klik_tombol_logout(String btnKeluar) {
-		WebUI.callTestCase(findTestCase('Pages Object/Navbar/navAkun/clickBtnKeluar'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnKeluar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Melihat halaman produk seteleah logout {string}")
