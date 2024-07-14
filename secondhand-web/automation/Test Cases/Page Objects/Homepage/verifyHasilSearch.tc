@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyHasilSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a304e5-abb6-44c7-8e9f-217494b319b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de49d69e-64a0-4422-880c-474ee9c7450b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de49d69e-64a0-4422-880c-474ee9c7450b</id>
+      <masked>false</masked>
+      <name>varProductName</name>
+   </variable>
+</TestCaseEntity>
