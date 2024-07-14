@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyHasilKategori</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2cfa7d85-cd59-4dd8-a4e7-04f426a828b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04c3fc67-613a-49c7-a294-2db76f591ddd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04c3fc67-613a-49c7-a294-2db76f591ddd</id>
+      <masked>false</masked>
+      <name>varProductCategory</name>
+   </variable>
+</TestCaseEntity>
