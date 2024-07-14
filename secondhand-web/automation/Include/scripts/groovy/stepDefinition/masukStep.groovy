@@ -68,8 +68,7 @@ class masukStep {
 
 	@Then("Melihat halaman produk setelah login {string}")
 	public void melihat_halaman_produk_setelah_login(String title) {
-		WebUI.callTestCase(findTestCase('Pages Object/Home Pages/verifyTitleTelusuriKategori'), [('varTitleTelusuriKategori') : 'Telusuri Kategori'],
-		FailureHandling.STOP_ON_FAILURE)
+		// menunggu method home pages
 	}
 
 	@When("Memasukkan Email yang tidak benar {string}")

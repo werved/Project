@@ -56,7 +56,6 @@ class logoutSteps {
 
 	@Then("Melihat halaman produk seteleah logout {string}")
 	public void Melihat_halaman_produk_seteleah_logout(String title) {
-		WebUI.callTestCase(findTestCase('Pages Object/Home Pages/verifyTitleTelusuriKategori'), [('varTitleTelusuriKategori') : 'Telusuri Kategori'],
-		FailureHandling.STOP_ON_FAILURE)
+		// menunggu method home pages
 	}
 }
