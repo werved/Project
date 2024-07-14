@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPreview</name>
+   <tag></tag>
+   <elementGuidId>85dbe74a-d5fa-487d-989f-cab2085cc929</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.btn.btn-outline-primary.w-50.rounded-4.p-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>28b1a28a-ad33-4fce-a93e-93f8e710de65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary w-50 rounded-4 p-3</value>
+      <webElementGuid>b1368049-a7f8-42b6-a847-f59ed7b36cfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>product_status_draft</value>
+      <webElementGuid>6f6a2fd3-7a26-42ea-80b0-132def721263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Preview</value>
+      <webElementGuid>9f24ebc3-ab06-4439-8041-7b9511c218b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4 d-flex gap-5&quot;]/label[@class=&quot;btn btn-outline-primary w-50 rounded-4 p-3&quot;]</value>
+      <webElementGuid>3e58228b-5943-421e-8b7a-3eab73c0302e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
+      <webElementGuid>ecd6afd5-5c51-450c-a807-be355896f0ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::label[2]</value>
+      <webElementGuid>46b7baea-a063-4b80-bff0-3173309b580b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::label[1]</value>
+      <webElementGuid>f21e326a-eab8-4cca-a19f-714ca3943aad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>ae98d84f-7661-4b5e-b766-7f1dd01fe313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Preview']/parent::*</value>
+      <webElementGuid>808ec466-4111-4051-9921-5553e319763c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/label</value>
+      <webElementGuid>bd02731e-35ad-4636-85f8-f46692d59dfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Preview' or . = 'Preview')]</value>
+      <webElementGuid>f2684bdd-5cfc-4f48-bcc2-c5c94d39f0db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
