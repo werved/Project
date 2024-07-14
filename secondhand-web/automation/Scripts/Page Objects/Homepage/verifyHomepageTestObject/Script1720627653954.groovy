@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Pages/Homepage/txtBulanRamadhanBanyakDiskon'))
+WebUI.verifyElementVisible(findTestObject('Pages/Homepage/txtTelusuriKategori'))
 
-WebUI.verifyElementVisible(findTestObject('Pages/Homepage/buttonKategoriSemua'))
+WebUI.verifyElementVisible(findTestObject('Pages/Homepage/btnKategoriSemua'))
 
 WebUI.verifyElementVisible(findTestObject('Pages/Homepage/txtNamaProduk'))
 
@@ -28,3 +28,4 @@ WebUI.verifyElementVisible(findTestObject('Pages/Homepage/txtHargaProduk'))
 WebUI.verifyElementVisible(findTestObject('Pages/Homepage/txtKategoriProduk'))
 
 WebUI.verifyElementVisible(findTestObject('Pages/Homepage/imgFotoProduk'))
+
