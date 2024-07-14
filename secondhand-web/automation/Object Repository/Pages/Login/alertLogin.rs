@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/preceding::div[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>4740ba5d-4c38-4332-a1be-860e6daf99d4</webElementGuid>
+      <webElementGuid>cfa4168e-b863-465b-9f23-05a8f06e75e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +37,7 @@
         Invalid Email or password.
         
       </value>
-      <webElementGuid>3233fb33-2274-43c2-8ba5-032d5cf37e96</webElementGuid>
+      <webElementGuid>7d40166a-40e8-4234-a8c2-506a98da4f30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -41,7 +45,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/preceding::div[1]</value>
-      <webElementGuid>2055de63-0d54-446c-b4db-6f31817d77cb</webElementGuid>
+      <webElementGuid>354c77ac-0874-4ea0-8266-26e4fef0c226</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::div[2]</value>
-      <webElementGuid>f561a871-f12d-402b-9f9d-9f3431c74586</webElementGuid>
+      <webElementGuid>faf2a014-9c19-465b-9dd7-65992a7b6d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Invalid Email or password.']/parent::*</value>
-      <webElementGuid>681e28e4-6753-4e5a-a840-9ab825705f33</webElementGuid>
+      <webElementGuid>54badbf0-9ea1-4ea5-bed3-d032321fa55a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div</value>
-      <webElementGuid>ebf484da-c92e-4951-a14c-df764126397d</webElementGuid>
+      <webElementGuid>b3e24e94-d2c9-41be-8229-b13cca45fbdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +83,6 @@
         Invalid Email or password.
         
       ')]</value>
-      <webElementGuid>6b25ebd0-93f5-4363-87a4-153e3b3a597b</webElementGuid>
+      <webElementGuid>264b4d65-b595-4c42-90a1-9cb753dc7967</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

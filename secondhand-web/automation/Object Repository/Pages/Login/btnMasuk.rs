@@ -6,12 +6,16 @@
    <elementGuidId>5a612934-8e0c-4162-a5e4-dec5857cc2fc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@name='commit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input[name=&quot;commit&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='commit']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'commit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +26,7 @@
       <name>name</name>
       <type>Main</type>
       <value>commit</value>
-      <webElementGuid>c2502253-4bba-4005-ab48-c099b21d8da5</webElementGuid>
+      <webElementGuid>2b211925-69d1-46d5-8c01-86743bad9187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Masuk</value>
-      <webElementGuid>bb4aff65-1838-4f39-9717-e6cd55342a3c</webElementGuid>
+      <webElementGuid>6a66c35d-8bc3-413e-a8af-c8acfbf31d08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='commit']</value>
-      <webElementGuid>8c4974ad-241c-4b2d-95ea-be3137f11bde</webElementGuid>
+      <webElementGuid>339ddd4e-efe6-4975-9431-bfd25f5d9834</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='new_user']/div[3]/input</value>
-      <webElementGuid>c0d658e5-60e6-426d-9b01-096d808d2bcd</webElementGuid>
+      <webElementGuid>37d59dac-53ea-441b-b923-b38ee768a659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>1dfed1d5-d19b-44a1-befd-01a93e1f34ea</webElementGuid>
+      <webElementGuid>29335f05-90ce-4773-b943-9ce5f31f239b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'commit']</value>
-      <webElementGuid>fedd4260-efd1-406e-9343-8cb05d0ed23c</webElementGuid>
+      <webElementGuid>323429b7-0348-4176-b5ec-ddc74cc32f82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
