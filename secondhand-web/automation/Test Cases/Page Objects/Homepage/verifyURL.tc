@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64cc270f-c6d7-474b-b5d8-002471a8761c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd486564-1f0c-4f6a-8ea2-8322d33fc04e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd486564-1f0c-4f6a-8ea2-8322d33fc04e</id>
+      <masked>false</masked>
+      <name>urlExpected</name>
+   </variable>
+</TestCaseEntity>
