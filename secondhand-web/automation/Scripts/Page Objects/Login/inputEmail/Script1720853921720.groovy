@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Login/fieldEmail'), 30)
 
+WebUI.clearText(findTestObject('Pages/Login/fieldEmail'))
+
 WebUI.sendKeys(findTestObject('Pages/Login/fieldEmail'), varLoginEmail)
 

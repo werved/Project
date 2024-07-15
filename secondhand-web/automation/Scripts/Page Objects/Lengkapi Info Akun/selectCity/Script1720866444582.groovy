@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Lengkapi Info Akun/selectCity'), 30)
 
-WebUI.selectOptionByValue(findTestObject('Pages/Lengkapi Info Akun/selectCity'), 'varSelectCity', false)
+WebUI.deselectOptionByValue(findTestObject('Pages/Lengkapi Info Akun/selectCity'), varSelectCity, false)
+
+WebUI.selectOptionByValue(findTestObject('Pages/Lengkapi Info Akun/selectCity'), varSelectCity, false)
 

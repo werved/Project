@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Daftar/fieldPassword'), 30)
 
-WebUI.sendKeys(findTestObject('Pages/Daftar/fieldPassword'), 'varUsername')
+WebUI.clearText(findTestObject('Pages/Daftar/fieldPassword'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Pages/Daftar/fieldPassword'), varPassword)
 
