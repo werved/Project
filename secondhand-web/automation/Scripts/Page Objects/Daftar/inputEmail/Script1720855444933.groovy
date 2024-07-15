@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Daftar/filedEmail'), 30)
 
-WebUI.sendKeys(findTestObject('Pages/Daftar/filedEmail'), 'varEmail')
+WebUI.clearText(findTestObject('Pages/Daftar/filedEmail'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Pages/Daftar/filedEmail'), varEmail)
 

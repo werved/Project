@@ -19,5 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Navbar/navAkun/fieldSearch'), 30)
 
-WebUI.sendKeys(findTestObject('Pages/Navbar/navAkun/fieldSearch'), 'varSearchNavAkun')
+WebUI.clearText(findTestObject('Pages/Navbar/navAkun/fieldSearch'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Pages/Navbar/navAkun/fieldSearch'), varSearchNavAkun)
+
+WebUI.sendKeys(findTestObject('Pages/Navbar/navAkun/fieldSearch'), Keys.chord(Keys.ENTER))
 

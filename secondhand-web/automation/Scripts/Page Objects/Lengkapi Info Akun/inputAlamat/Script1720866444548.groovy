@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Lengkapi Info Akun/fieldAlamat'), 30)
 
-WebUI.sendKeys(findTestObject('Pages/Lengkapi Info Akun/fieldAlamat'), 'varAlamat')
+WebUI.clearText(findTestObject('Pages/Lengkapi Info Akun/fieldAlamat'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Pages/Lengkapi Info Akun/fieldAlamat'), varAlamat)
 
