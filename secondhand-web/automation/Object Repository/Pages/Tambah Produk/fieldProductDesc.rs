@@ -10,6 +10,10 @@
          <value>//textarea[@id='product_description']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_description']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#product_description</value>
       </entry>
@@ -17,60 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>1e03d31a-e67e-4268-bd53-e3e6963d6ecf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control rounded-4 p-3</value>
-      <webElementGuid>69fb00a0-3575-45d0-bdea-bae05e2ee3ef</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Contoh: Jalan Ikan Hiu 33</value>
-      <webElementGuid>b5d5edb8-4b3a-460b-82d2-cc9ad56fe066</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>required</name>
-      <type>Main</type>
-      <value>required</value>
-      <webElementGuid>7481a640-ab3a-4958-87c9-441d23ddb1bd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>product[description]</value>
-      <webElementGuid>24d9682f-a87a-4b8f-b324-7e8602cc4f3e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>product_description</value>
-      <webElementGuid>98d91146-e718-4183-8312-6ebe6d256c19</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;product_description&quot;)</value>
-      <webElementGuid>b249dc81-bca9-470e-81c0-ce94a90c4f50</webElementGuid>
+      <webElementGuid>ddece7ed-7cc7-495d-96ef-e4ad3e455a56</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +34,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='product_description']</value>
-      <webElementGuid>ad24f6c1-1eca-48d5-92c9-a9461005084d</webElementGuid>
+      <webElementGuid>63a7e7e1-effd-40ef-ab7b-ea75c0651b85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +42,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>c5f3b7b5-fb2f-4da9-8c79-f8ce28d1dad3</webElementGuid>
+      <webElementGuid>1372953b-a7b2-4065-95fb-27714c19cd3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +50,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@placeholder = 'Contoh: Jalan Ikan Hiu 33' and @name = 'product[description]' and @id = 'product_description']</value>
-      <webElementGuid>c0a37160-c39f-4dca-ade5-4c603e3c0dbc</webElementGuid>
+      <webElementGuid>76184a49-adb7-43ec-ab50-12b5c8f324f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

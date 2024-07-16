@@ -10,6 +10,10 @@
          <value>//input[@id='product_name']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_name']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#product_name</value>
       </entry>
@@ -17,68 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>85f9ea48-82d1-4ac8-9e0b-45dca1d489f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control rounded-4 p-3</value>
-      <webElementGuid>e5c3a778-a072-4f7a-bd4b-73259c34d55f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Nama Produk</value>
-      <webElementGuid>4de2fb42-35ae-4e81-8c62-532962d6b4ce</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>required</name>
-      <type>Main</type>
-      <value>required</value>
-      <webElementGuid>3c3c6c72-a93f-40af-95be-7f49ef770fe6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>127c3d41-1c1a-49f1-bd5d-90fff9539484</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>product[name]</value>
-      <webElementGuid>6cf45279-6fe6-4b8c-a447-dcdfbd03bf4a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>product_name</value>
-      <webElementGuid>9c8444b8-f714-48bd-aa40-b12a2191e56c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;product_name&quot;)</value>
-      <webElementGuid>2cb9bdc9-8254-4f37-be63-6c044c142e31</webElementGuid>
+      <webElementGuid>9cd4438a-6e4e-48fb-abc7-714e1b89819b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +34,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='product_name']</value>
-      <webElementGuid>310e679b-9c7f-4ecb-b960-88692c3c0191</webElementGuid>
+      <webElementGuid>76c98838-7177-4c64-ad92-ea5b2514ffea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +42,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/form/div/input</value>
-      <webElementGuid>1a85856e-9a65-40bb-a72b-34e6e10668a2</webElementGuid>
+      <webElementGuid>bf80a74d-0fb5-472c-988a-876a15dc5781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +50,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Nama Produk' and @type = 'text' and @name = 'product[name]' and @id = 'product_name']</value>
-      <webElementGuid>e5b885d5-64c9-4f5b-85fc-9f1d0fff9efb</webElementGuid>
+      <webElementGuid>b0cb8f62-5102-4e0c-991e-599544c65eb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
