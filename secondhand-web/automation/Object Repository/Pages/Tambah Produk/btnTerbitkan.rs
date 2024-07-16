@@ -10,6 +10,10 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/following::label[1]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary w-50 rounded-4 p-3']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>label.btn.btn-primary.w-50.rounded-4.p-3</value>
       </entry>
@@ -17,44 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>label</value>
-      <webElementGuid>7245095a-43e8-4a05-8051-467583ce0c9f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary w-50 rounded-4 p-3</value>
-      <webElementGuid>a4b20184-b3c6-4855-a08a-17b5947fc16b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>product_status_published</value>
-      <webElementGuid>849f14d5-ef3c-4e36-bc1d-d90adf08b020</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Terbitkan</value>
-      <webElementGuid>c3f78626-0209-422e-a547-d88ae4f881e3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4 d-flex gap-5&quot;]/label[@class=&quot;btn btn-primary w-50 rounded-4 p-3&quot;]</value>
-      <webElementGuid>53bfa442-862a-4e6a-b953-99cc568b2ede</webElementGuid>
+      <webElementGuid>74da5cf3-2786-4029-92c0-0c261dafeee4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/following::label[1]</value>
-      <webElementGuid>68f04c07-cfe6-40f2-9c2f-60d8812bbb8e</webElementGuid>
+      <webElementGuid>e50822a0-291b-4e4b-8110-57f101cd4835</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[2]</value>
-      <webElementGuid>d404a32e-11e1-4a5c-9d4a-74640217b56f</webElementGuid>
+      <webElementGuid>ddf32a4f-ea5b-4d0b-92a2-656e402e126a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terbitkan']/parent::*</value>
-      <webElementGuid>09ec320d-dc98-41ea-acb3-45a76d399b48</webElementGuid>
+      <webElementGuid>af2b2da3-b319-4c3c-b876-f0071df01501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[2]</value>
-      <webElementGuid>463b5e83-47f9-42ee-8934-60166b89f843</webElementGuid>
+      <webElementGuid>cb1f79e4-3515-4d27-95ab-a515b7aaa686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Terbitkan' or . = 'Terbitkan')]</value>
-      <webElementGuid>69bea024-2804-4f2a-bee4-1b8a7bc1a2db</webElementGuid>
+      <webElementGuid>745fd160-30c6-41d8-98d2-2e2c1fa405ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

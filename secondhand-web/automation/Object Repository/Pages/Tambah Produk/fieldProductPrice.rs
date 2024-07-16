@@ -10,6 +10,10 @@
          <value>//input[@id='product_price']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_price']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#product_price</value>
       </entry>
@@ -17,68 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>fcbaae24-9c81-491b-851e-70be792b40fc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control rounded-4 p-3</value>
-      <webElementGuid>1fb86685-2f28-44f3-8834-385ca65af929</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Rp 0,00</value>
-      <webElementGuid>d11aeec3-0bd7-48fb-8307-319328d10af7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>required</name>
-      <type>Main</type>
-      <value>required</value>
-      <webElementGuid>06273a9c-7309-497e-8c5d-bcbaf0c1ba6b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>number</value>
-      <webElementGuid>f959467b-e516-4eda-8a62-42540c3d56af</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>product[price]</value>
-      <webElementGuid>23327515-bdda-4f78-bb58-9dcd96f5a801</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>product_price</value>
-      <webElementGuid>9e89d995-167e-4223-b42c-20de6cba870b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;product_price&quot;)</value>
-      <webElementGuid>fceae5f6-7d4a-48e2-b888-5b263913f44c</webElementGuid>
+      <webElementGuid>aaddcf3f-f877-4645-a109-da7731ccc492</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +34,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='product_price']</value>
-      <webElementGuid>d586674f-fdf7-4c29-bfae-012fa7cf192e</webElementGuid>
+      <webElementGuid>21d19dc5-f0ee-42bd-81e1-e62f583f0990</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +42,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>41894913-70fb-42ca-8e57-2028b2b1c0a8</webElementGuid>
+      <webElementGuid>493ab8fe-6bec-4eea-a167-c9d46a5b15cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +50,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Rp 0,00' and @type = 'number' and @name = 'product[price]' and @id = 'product_price']</value>
-      <webElementGuid>f77eeaa1-350e-45c4-a24f-b273e7b9e1db</webElementGuid>
+      <webElementGuid>978e3935-3cba-4d19-bb4f-6134228d0f7f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
