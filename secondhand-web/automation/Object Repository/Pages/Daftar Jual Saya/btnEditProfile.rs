@@ -6,55 +6,27 @@
    <elementGuidId>62e00e3a-e5cb-4e78-b2ff-b1a80cb3d623</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Edit')]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-outline-primary rounded-4 px-3 ms-auto']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.btn.btn-outline-primary.rounded-4.px-3.ms-auto</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Edit')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>46640af5-49a1-4e9a-bc64-ebef2c0b99a0</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary rounded-4 px-3 ms-auto</value>
-      <webElementGuid>671476fc-32db-4812-9ee9-5dd9cfa757de</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/profiles</value>
-      <webElementGuid>706c6312-3211-4cb2-962e-99281b55c901</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>54cc4ee6-4634-4405-8da1-f3bc43c99fb1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card py-2 px-4 rounded-4 border-4 border-light mt-5 d-flex justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/a[@class=&quot;btn btn-outline-primary rounded-4 px-3 ms-auto&quot;]</value>
-      <webElementGuid>c9ca3315-86d3-44c1-a4b0-73d6edbe2485</webElementGuid>
+      <webElementGuid>efbce40d-334b-4385-93f7-4e58f1755787</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +34,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>aa536b3e-3c6b-4dca-97c8-8354a87d4dfa</webElementGuid>
+      <webElementGuid>dcf0396d-0ef0-4f44-a72b-235425ddf3a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[2]/following::a[1]</value>
-      <webElementGuid>1f5baaea-7577-4d3b-80ba-2718549c9ba4</webElementGuid>
+      <webElementGuid>ba020e29-ca1e-44df-8d58-5641f804df7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/following::a[1]</value>
-      <webElementGuid>d7573be5-b052-4585-ac30-b82e33a79b02</webElementGuid>
+      <webElementGuid>29b60b16-285e-4da6-9212-eebb2652bfa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/preceding::a[1]</value>
-      <webElementGuid>34b33bd4-5739-4e3e-88a1-244a3101436d</webElementGuid>
+      <webElementGuid>a95fb9dd-be70-42ac-aebb-507f1e02e9d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Produk'])[1]/preceding::a[1]</value>
-      <webElementGuid>59a7cd75-cc3b-44d5-b06c-52aed96fca8c</webElementGuid>
+      <webElementGuid>9adc434c-882c-4fd0-9b40-46e0d78f3aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>a7c2ca6b-e0be-49b9-a472-150823f8a742</webElementGuid>
+      <webElementGuid>d61d7c8c-ac70-4cac-9c89-a92f8f7e8989</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profiles')])[3]</value>
-      <webElementGuid>9a54da15-4558-49f3-beb9-ccf2a12795e5</webElementGuid>
+      <webElementGuid>bc91f6a9-309f-4c75-9f31-6b375d07e532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>251e4a73-6f80-483d-8943-37a5ce0ced1d</webElementGuid>
+      <webElementGuid>68817c06-69de-47bc-81de-7784fadf61c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profiles' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>bb86bfb9-0bae-4e04-b53e-978cb3a11b44</webElementGuid>
+      <webElementGuid>ff34e6ab-dfd6-45e0-88e4-f3e00025182e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
