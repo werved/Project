@@ -6,47 +6,27 @@
    <elementGuidId>11905342-6b55-46d5-9402-6225e98c59bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h5.mt-5</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/following::h5[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'mt-5']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.mt-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>h5</value>
-      <webElementGuid>c59700bc-87bf-4fdd-ac6e-adcf2c594f04</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>mt-5</value>
-      <webElementGuid>11a84d25-15e5-4a93-bd97-84995d71fcd1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Daftar Produkmu yang Ditawar</value>
-      <webElementGuid>e728eb06-171b-4aac-9fef-26d015e8b542</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/h5[@class=&quot;mt-5&quot;]</value>
-      <webElementGuid>306e5181-ef96-4110-b40e-1b0856735587</webElementGuid>
+      <webElementGuid>e4a6d692-1ed8-48da-a4ab-b21099ed748c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/following::h5[1]</value>
-      <webElementGuid>ff8fc025-4188-4895-b720-b9488d56b56f</webElementGuid>
+      <webElementGuid>9c9235c0-288f-4064-81ea-09c51c938c70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='enai'])[1]/following::h5[1]</value>
-      <webElementGuid>fe67a741-add8-416f-bee9-8110c8a55605</webElementGuid>
+      <webElementGuid>ad5004c1-f226-441b-9b5b-bedb722b0147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[1]/preceding::h5[1]</value>
-      <webElementGuid>4fea10e7-d65b-4cd2-99fe-37aef3d4ecec</webElementGuid>
+      <webElementGuid>82f26221-4f33-4f6c-a3e5-911093a27532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/preceding::h5[1]</value>
-      <webElementGuid>63b08e71-7b65-4882-9584-0bfb315aeb7e</webElementGuid>
+      <webElementGuid>42da80fe-9b0e-4279-9965-cda55a9b6492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar Produkmu yang Ditawar']/parent::*</value>
-      <webElementGuid>aedf1332-5d27-4543-8488-e0cd93483b43</webElementGuid>
+      <webElementGuid>3ecf901b-0b97-4696-ba71-34f4fd90d0d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h5</value>
-      <webElementGuid>225493ed-34e6-44ac-89b9-c376a015053b</webElementGuid>
+      <webElementGuid>a79ce3e6-6f26-4a1c-9ac9-2855d37e4991</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Daftar Produkmu yang Ditawar' or . = 'Daftar Produkmu yang Ditawar')]</value>
-      <webElementGuid>6b60bc97-6104-4186-a9b5-302088bbf94b</webElementGuid>
+      <webElementGuid>5bb267b7-191e-4dab-b5e5-906e42497eeb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
