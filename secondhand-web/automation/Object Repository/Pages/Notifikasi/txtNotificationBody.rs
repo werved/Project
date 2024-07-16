@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtNotificationBody</name>
+   <tag></tag>
+   <elementGuidId>857f39fa-a94d-425a-9266-f17d3190e880</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.notification-body.fs-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>notification-body fs-5</value>
+      <webElementGuid>26ae9ae4-8026-4568-85c5-0dee8953b28b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]</value>
+      <webElementGuid>0ca8f1a9-727f-455d-a87f-ea68c22b4866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[1]/following::div[1]</value>
+      <webElementGuid>e00d21cf-78e4-476a-bb7a-cca932b1ebdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[2]/following::div[3]</value>
+      <webElementGuid>dcf2f9bc-c99e-4b0b-afe1-4f8c76ae9a50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[2]/preceding::div[2]</value>
+      <webElementGuid>aa5b8980-0711-41af-a59a-756a1e84adcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Binar Virtual BackgroundRp 150.000Ditawar Rp 100.000'])[1]/preceding::div[3]</value>
+      <webElementGuid>d9e05dd0-7307-434c-ba53-918ae2a825b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]</value>
+      <webElementGuid>2b64e2d8-8e51-4b89-9e2e-7b44a233a700</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Binar Virtual BackgroundRp 150.000Ditawar Rp 0' or . = 'Binar Virtual BackgroundRp 150.000Ditawar Rp 0')]</value>
+      <webElementGuid>e290b328-b6df-4160-a9c3-7c090a7cb61d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
