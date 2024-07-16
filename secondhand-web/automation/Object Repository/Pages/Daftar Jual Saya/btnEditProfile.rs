@@ -10,6 +10,10 @@
          <value>//a[contains(text(),'Edit')]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-outline-primary rounded-4 px-3 ms-auto']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-outline-primary.rounded-4.px-3.ms-auto</value>
       </entry>
@@ -17,44 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>46640af5-49a1-4e9a-bc64-ebef2c0b99a0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary rounded-4 px-3 ms-auto</value>
-      <webElementGuid>671476fc-32db-4812-9ee9-5dd9cfa757de</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/profiles</value>
-      <webElementGuid>706c6312-3211-4cb2-962e-99281b55c901</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>54cc4ee6-4634-4405-8da1-f3bc43c99fb1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card py-2 px-4 rounded-4 border-4 border-light mt-5 d-flex justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/a[@class=&quot;btn btn-outline-primary rounded-4 px-3 ms-auto&quot;]</value>
-      <webElementGuid>c9ca3315-86d3-44c1-a4b0-73d6edbe2485</webElementGuid>
+      <webElementGuid>4d5dd886-d6d7-401a-9169-1b2ab9a70d92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +34,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>aa536b3e-3c6b-4dca-97c8-8354a87d4dfa</webElementGuid>
+      <webElementGuid>e542401b-794b-4561-be84-cf96f50b6cc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[2]/following::a[1]</value>
-      <webElementGuid>1f5baaea-7577-4d3b-80ba-2718549c9ba4</webElementGuid>
+      <webElementGuid>531fa81a-7717-4e52-a1a8-04098cda01d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/following::a[1]</value>
-      <webElementGuid>d7573be5-b052-4585-ac30-b82e33a79b02</webElementGuid>
+      <webElementGuid>a852f093-7169-48a1-8db3-5dc7a2ca469a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/preceding::a[1]</value>
-      <webElementGuid>34b33bd4-5739-4e3e-88a1-244a3101436d</webElementGuid>
+      <webElementGuid>8dcaf7c8-25e3-4b55-a54c-c93ef18f4b8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Produk'])[1]/preceding::a[1]</value>
-      <webElementGuid>59a7cd75-cc3b-44d5-b06c-52aed96fca8c</webElementGuid>
+      <webElementGuid>02930370-c570-4eaf-9eb8-45107a63726d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>a7c2ca6b-e0be-49b9-a472-150823f8a742</webElementGuid>
+      <webElementGuid>ab7ec269-e3f4-473d-b9f1-85d95bd004cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profiles')])[3]</value>
-      <webElementGuid>9a54da15-4558-49f3-beb9-ccf2a12795e5</webElementGuid>
+      <webElementGuid>223da59d-4700-41ff-9162-5a8dd7d7c71a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>251e4a73-6f80-483d-8943-37a5ce0ced1d</webElementGuid>
+      <webElementGuid>69d96df9-cfb1-4fc2-aa33-993f091a519b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profiles' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>bb86bfb9-0bae-4e04-b53e-978cb3a11b44</webElementGuid>
+      <webElementGuid>53106462-0d53-4eab-b407-e9d524bec690</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
