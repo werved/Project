@@ -58,7 +58,7 @@ class masukStep {
 
 	@When("Memasukkan Password yang sudah register {string}")
 	public void memasukkan_Password_yang_sudah_register(String password) {
-		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol login {string}")
@@ -68,7 +68,7 @@ class masukStep {
 
 	@Then("Melihat halaman produk setelah login {string}")
 	public void melihat_halaman_produk_setelah_login(String title) {
-		// menunggu method home pages
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Memasukkan Email yang tidak benar {string}")
@@ -78,7 +78,7 @@ class masukStep {
 
 	@When("Memasukkan Password yang tidak benar {string}")
 	public void memasukkan_Password_yang_tidak_benar(String password) {
-		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('variPassword') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Disana menampilkan pesan {string}")
