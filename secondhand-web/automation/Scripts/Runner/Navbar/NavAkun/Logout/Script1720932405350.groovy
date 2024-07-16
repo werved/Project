@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFileWithTags("Include/features/Logout.feature", "@Lg01")
+CucumberKW.runFeatureFileWithTags("Include/features/Keluar.feature", "@Lg01")
