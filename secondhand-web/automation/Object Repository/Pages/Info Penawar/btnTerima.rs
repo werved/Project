@@ -6,55 +6,27 @@
    <elementGuidId>7b80eb14-8023-4b08-9301-64c00c0949ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label.btn.btn-primary.rounded-4.px-5</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary rounded-4 px-5']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.btn.btn-primary.rounded-4.px-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>label</value>
-      <webElementGuid>b59c6a55-8423-47c8-905c-8c226e4584ab</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary rounded-4 px-5</value>
-      <webElementGuid>83b92a6b-5c98-4811-ae5f-16a9643fa744</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>offer_status_accepted</value>
-      <webElementGuid>8f6a070f-6cbb-4059-9b48-7afea53a91b4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Terima</value>
-      <webElementGuid>d5f6f533-70a8-4ae2-b09f-41e88eb3a9f2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;offers mt-5&quot;]/li[@class=&quot;offer gap-4 mt-5&quot;]/div[@class=&quot;offer-content&quot;]/div[@class=&quot;offer-footer d-flex gap-2 justify-content-end&quot;]/form[@class=&quot;offer-footer d-flex gap-2 justify-content-end&quot;]/label[@class=&quot;btn btn-primary rounded-4 px-5&quot;]</value>
-      <webElementGuid>bc0fad39-f79d-408b-bf2c-22901850c60e</webElementGuid>
+      <webElementGuid>28ed507b-b4f5-4ec3-b512-9acd7d25df19</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/following::label[1]</value>
-      <webElementGuid>ecc77e3c-8654-4b3a-8254-6a74f901889f</webElementGuid>
+      <webElementGuid>63b9b937-d6a6-4f96-b4db-8767c18d5555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 12.000'])[1]/following::label[2]</value>
-      <webElementGuid>8ad7fdcc-37a0-4b12-a2b4-293e7437a702</webElementGuid>
+      <webElementGuid>51a2ea20-1de0-4777-973f-a34a9728d3ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Perbarui status penjualan produkmu'])[1]/preceding::label[1]</value>
-      <webElementGuid>6cc931fc-3c8d-4b87-8a1d-2bd5c3ccc754</webElementGuid>
+      <webElementGuid>4d5808b2-4ac2-45b2-9dbc-c6ebb78c380b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil terjual'])[1]/preceding::label[1]</value>
-      <webElementGuid>788b5dc3-f1c8-437b-bda6-538b3cc9f19c</webElementGuid>
+      <webElementGuid>f5e31c4f-65b5-4bc6-8bf1-0f2e31e7aa7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
-      <webElementGuid>23c6bc65-2b1f-4452-9afa-e042efd8b386</webElementGuid>
+      <webElementGuid>3536c4c1-d9b2-476f-aa92-2b00cc174444</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[2]</value>
-      <webElementGuid>c1088607-a69b-493b-be97-e3324416bfd7</webElementGuid>
+      <webElementGuid>50fde712-874a-493b-8f4d-e8e69ca56838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Terima' or . = 'Terima')]</value>
-      <webElementGuid>f187f322-6bf4-44d1-b26b-e34e4e1891bf</webElementGuid>
+      <webElementGuid>0809301c-75d5-45d8-a123-a9cf8361e72c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

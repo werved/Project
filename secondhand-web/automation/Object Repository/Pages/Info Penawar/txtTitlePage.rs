@@ -6,49 +6,27 @@
    <elementGuidId>afefaaac-81a6-4b26-a008-58bfb225fdaf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.fs-6.fw-bold.text-center.position-absolute.top-50.start-50.translate-middle</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='enai'])[1]/preceding::div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.fs-6.fw-bold.text-center.position-absolute.top-50.start-50.translate-middle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>d01e17dc-61ac-40fd-a239-3f026348f425</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle</value>
-      <webElementGuid>aa04f0aa-b642-4f1f-89a5-5d52120e97ab</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-        Info Penawar
-      </value>
-      <webElementGuid>bf5ad6d9-b7b8-4072-bfbe-2185ec992d09</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg navbar-light bg-white shadow fixed-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle&quot;]</value>
-      <webElementGuid>c6d40782-5c7b-423d-b927-d0480f7afc21</webElementGuid>
+      <webElementGuid>9fe376e9-25a0-4b2e-b529-d9a1e3f6496d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='enai'])[1]/preceding::div[1]</value>
-      <webElementGuid>e1118359-b3b6-4c05-882f-8b07c9dfb5a7</webElementGuid>
+      <webElementGuid>67801dfb-fc84-40d9-80d1-203bac508966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/preceding::div[2]</value>
-      <webElementGuid>c4ca31a1-9329-4d9b-8625-a983ea2865aa</webElementGuid>
+      <webElementGuid>3762a907-8a44-4fe8-a694-b4ff324db0f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Info Penawar']/parent::*</value>
-      <webElementGuid>c852f0d5-92a3-4e16-ab79-3fadc6c8517b</webElementGuid>
+      <webElementGuid>9b81b77a-3a74-4cd7-bc4a-3ab107e607c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div</value>
-      <webElementGuid>3531a3b8-61e6-44b7-84e7-9b34f16707f5</webElementGuid>
+      <webElementGuid>245acc97-c743-4e43-bc68-dd829defda86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +70,6 @@
       ' or . = '
         Info Penawar
       ')]</value>
-      <webElementGuid>7711c084-6efe-4d66-b6c7-785613588277</webElementGuid>
+      <webElementGuid>cff7a69c-66d4-4506-9b5b-1e65fddbd623</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
