@@ -10,6 +10,10 @@
          <value>//a[contains(text(),'Delete')]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-lg.btn-danger.fs-6.rounded-4.w-100.py-3.fw-bold.mt-3</value>
       </entry>
@@ -17,52 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>b9365b5e-6729-4c49-89c1-af29e8bed999</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-turbo-method</name>
-      <type>Main</type>
-      <value>delete</value>
-      <webElementGuid>9eb9385c-e159-47ef-a4e1-306cfbd10100</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3</value>
-      <webElementGuid>b97a18eb-6859-4b24-b6b8-013661a18d69</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products/125307</value>
-      <webElementGuid>cbc4e9b9-7d8b-4713-b458-472c822e0f4f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Delete</value>
-      <webElementGuid>78728d4c-c43f-4cc8-8a1b-86e0a47c83b6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/a[@class=&quot;btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3&quot;]</value>
-      <webElementGuid>94c3ecff-826f-4124-9b5f-5da26f955874</webElementGuid>
+      <webElementGuid>10a2aaef-cd78-4c2d-a599-f700948c927e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +34,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Delete')]</value>
-      <webElementGuid>ddd308d6-425d-4390-a610-c5978d0fcd55</webElementGuid>
+      <webElementGuid>688d6ba2-8a2e-4354-b13b-9c8312d98f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
-      <webElementGuid>1747effc-a529-4e59-ae67-b44c9a9b017e</webElementGuid>
+      <webElementGuid>c8d0b1dc-e563-4147-b624-23130178c25e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/following::a[2]</value>
-      <webElementGuid>ec8ce7f2-f4ca-4b36-a7d9-9958452ea134</webElementGuid>
+      <webElementGuid>3a16fbbf-8fd9-40ab-995b-849d0e6bb8a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/preceding::a[1]</value>
-      <webElementGuid>4026d85e-0582-469f-87f3-ed4afcc77d6a</webElementGuid>
+      <webElementGuid>2cef0a4d-8e7b-47cb-90e2-9df6e4b6d330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[2]/preceding::a[1]</value>
-      <webElementGuid>af716023-dd2b-44d3-9810-1dbd70512aee</webElementGuid>
+      <webElementGuid>fb49ee0f-0d78-485f-a648-05a9ed5f7c1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>da98cc6f-ad7a-42ca-8df7-3295e5a3d22f</webElementGuid>
+      <webElementGuid>e3c5ba24-b5f8-4538-97a3-ecc00464c5f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/products/125307')])[3]</value>
-      <webElementGuid>19d2b736-13b9-4fbc-a949-e3bdff3b5df1</webElementGuid>
+      <webElementGuid>d46010f3-673c-41ae-bae8-2fe3b9cad3ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>79e20f4b-c4d9-4ea6-8f8d-d177d34f85b5</webElementGuid>
+      <webElementGuid>52656846-fbca-4cf7-807d-7595a4483675</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/products/125307' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>bf73c2fa-393a-42ee-95e9-477045fc2898</webElementGuid>
+      <webElementGuid>0ab0bad2-0001-47b8-8341-bbad607e5987</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

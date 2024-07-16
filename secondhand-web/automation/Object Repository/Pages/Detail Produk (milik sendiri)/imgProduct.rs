@@ -10,6 +10,10 @@
          <value>//div[@id='productImage']/div/div/img</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'w-100']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.carousel-item.active > img.w-100</value>
       </entry>
@@ -17,36 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>img</value>
-      <webElementGuid>48abcded-0cf9-4d82-8167-d724112d992d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>w-100</value>
-      <webElementGuid>57294a1e-24e5-4a20-8ca1-e64965519f4d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JIQ1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1636a485323e5ff3eed32a56bf8061a57d543a88/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUJHa0NBQVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2b68d049d94399062afe49501241e300c4ec690c/harley_davidson.jpg</value>
-      <webElementGuid>bf507166-4e7a-45e4-9398-b19bb968c34e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;productImage&quot;)/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;carousel-item active&quot;]/img[@class=&quot;w-100&quot;]</value>
-      <webElementGuid>14e15e13-fa5b-44fa-85de-81975fe77a2a</webElementGuid>
+      <webElementGuid>cc496cc1-5440-4aef-8a6b-6b82e102abcd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='productImage']/div/div/img</value>
-      <webElementGuid>9b24746d-d103-41c0-bb4a-4bf9efa37e6d</webElementGuid>
+      <webElementGuid>1f3681ad-886d-4986-9529-afb44a23fd88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JIQ1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1636a485323e5ff3eed32a56bf8061a57d543a88/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUJHa0NBQVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2b68d049d94399062afe49501241e300c4ec690c/harley_davidson.jpg')]</value>
-      <webElementGuid>ed08d39f-30fb-428f-8704-7d840c0fc76b</webElementGuid>
+      <webElementGuid>a2e52eb7-efec-4ab4-9a1e-8a32733c1caf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/img</value>
-      <webElementGuid>c468fb2c-8764-4bb3-a0c7-e9ac566664e4</webElementGuid>
+      <webElementGuid>40b988ed-4bb9-467d-b474-d57b8fb34836</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +58,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JIQ1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1636a485323e5ff3eed32a56bf8061a57d543a88/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUJHa0NBQVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2b68d049d94399062afe49501241e300c4ec690c/harley_davidson.jpg']</value>
-      <webElementGuid>bb3cb622-f024-4892-816b-b754389df02c</webElementGuid>
+      <webElementGuid>c06ecb13-4c7e-4eec-a59f-c6815b04c07e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
