@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verifyTxtTitlepage</name>
+   <name>verifyTxtTitlePage</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>38e06222-9a80-4801-a481-ee04d4e5f09c</testCaseGuid>
