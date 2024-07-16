@@ -10,6 +10,10 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[4]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fs-5 fw-bold']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.card.py-2.px-4.rounded-4.shadow.border-0.mt-5 > div.d-flex.align-items-center > div.card-body > div.fs-5.fw-bold</value>
       </entry>
@@ -17,36 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>8532190b-1840-4b69-9794-5d3806c4ddef</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fs-5 fw-bold</value>
-      <webElementGuid>c7e22452-1751-4498-b7bc-2e93ab115df1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>penjual</value>
-      <webElementGuid>dae4ab3b-63ca-44d4-a3e0-30daa1b8966c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card py-2 px-4 rounded-4 shadow border-0 mt-5&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;fs-5 fw-bold&quot;]</value>
-      <webElementGuid>92dfad30-baf5-44ff-8d06-887c6c604885</webElementGuid>
+      <webElementGuid>c33f2fbe-9ef6-4d83-a163-a0d0ee2328c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[4]</value>
-      <webElementGuid>f1e5e271-7119-40cc-9789-ec8de754c7e5</webElementGuid>
+      <webElementGuid>56fe1d30-7b18-4a81-a7a0-9ccac80d1209</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[4]</value>
-      <webElementGuid>5e221076-c3f6-4b8c-927f-dbab1d6c7e34</webElementGuid>
+      <webElementGuid>a4bd7e3e-f1d4-400a-87dc-4210f1d38ed1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[2]/preceding::div[1]</value>
-      <webElementGuid>2753e218-8e34-4899-bd48-c134a2a95f14</webElementGuid>
+      <webElementGuid>04ab50b3-da70-4c8f-b948-0edca91a330d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div</value>
-      <webElementGuid>eff5341b-42c3-4043-af22-f904ed793203</webElementGuid>
+      <webElementGuid>abea0009-c31e-4f4b-bdbe-940c2869a858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'penjual' or . = 'penjual')]</value>
-      <webElementGuid>bcc1ee68-c068-400c-aee5-4b4351d5228f</webElementGuid>
+      <webElementGuid>2fc8cb57-7f4a-49e8-811e-db17bf0be6c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

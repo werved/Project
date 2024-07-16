@@ -10,6 +10,10 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/following::div[1]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fs-6 text-black-50']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.card.py-2.px-4.rounded-4.shadow.border-0.mt-5 > div.d-flex.align-items-center > div.card-body > div.fs-6.text-black-50</value>
       </entry>
@@ -17,36 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>a8e4ad18-e2cc-4ac9-b1a7-4b43e6f3c1b2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fs-6 text-black-50</value>
-      <webElementGuid>646088f0-655c-4cf1-81cf-e0d9757e41cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Jakarta</value>
-      <webElementGuid>b2c7afbf-d5d6-40a5-9b7c-b50283092125</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card py-2 px-4 rounded-4 shadow border-0 mt-5&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;fs-6 text-black-50&quot;]</value>
-      <webElementGuid>ac95bcdc-47b6-4588-8169-1c5d81386d1f</webElementGuid>
+      <webElementGuid>0d47f2e1-01d1-4dff-b4b2-e49da5a3b760</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/following::div[1]</value>
-      <webElementGuid>9a74d9d8-0724-41c3-8df5-58abda4a2aa0</webElementGuid>
+      <webElementGuid>9dda4c6e-7971-4f1e-8491-b1918268aa87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[5]</value>
-      <webElementGuid>1f811df6-cb4b-4d4b-80eb-d2b457d2d4ac</webElementGuid>
+      <webElementGuid>74f18ac7-1b91-4f1c-b1f3-d6b1a0c9c838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +50,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]</value>
-      <webElementGuid>6cb7593d-014d-478c-a001-3bd6dd070ed5</webElementGuid>
+      <webElementGuid>38e1f051-7d06-4dfe-bcea-0840bc17fe88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +58,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Jakarta' or . = 'Jakarta')]</value>
-      <webElementGuid>6e1dba13-4104-4928-86f0-dd1376cb0eaf</webElementGuid>
+      <webElementGuid>21fb7b87-e586-4abc-8d51-dc33ade70ab1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

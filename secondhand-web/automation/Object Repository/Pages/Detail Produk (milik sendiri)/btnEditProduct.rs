@@ -10,6 +10,10 @@
          <value>//a[contains(text(),'Edit')]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-lg btn-outline-primary fs-6 rounded-4 w-100 py-3 fw-bold']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-lg.btn-outline-primary.fs-6.rounded-4.w-100.py-3.fw-bold</value>
       </entry>
@@ -17,44 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>da0cd9be-2c71-4593-afad-88c578494e4d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-lg btn-outline-primary fs-6 rounded-4 w-100 py-3 fw-bold</value>
-      <webElementGuid>9b4cd20f-3860-4a36-b799-992d941b8e98</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products/125307/edit</value>
-      <webElementGuid>dfac0007-3ada-474c-8855-3509e042f6bb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>e0edcd49-facd-498a-ab23-1c277252d84c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/a[@class=&quot;btn btn-lg btn-outline-primary fs-6 rounded-4 w-100 py-3 fw-bold&quot;]</value>
-      <webElementGuid>6ee2168e-f421-4edd-a58e-e76d2a349d3f</webElementGuid>
+      <webElementGuid>a5ae8549-0553-42f0-9ca7-0fcf34498f47</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +34,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>0b681917-8c99-4bff-9c0f-044ed4824926</webElementGuid>
+      <webElementGuid>cb0a9345-1429-468c-bad9-47886920b908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/following::a[1]</value>
-      <webElementGuid>ce5f7225-ff1e-450b-b53d-c3e926122ca6</webElementGuid>
+      <webElementGuid>956973d7-c925-4390-94ae-7702276ff23f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::a[1]</value>
-      <webElementGuid>adacf7be-6d1e-4784-981d-1d2ae2963f1a</webElementGuid>
+      <webElementGuid>88dce2cd-b6dd-4d8a-9760-5f9e1bfb102e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[1]</value>
-      <webElementGuid>6874a963-29f7-490b-980c-f7e96db10056</webElementGuid>
+      <webElementGuid>b08a959b-2784-4ee6-be1f-50d311e47c6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='penjual'])[2]/preceding::a[2]</value>
-      <webElementGuid>bd3663d9-1023-403a-83c9-27141c8bec7e</webElementGuid>
+      <webElementGuid>b94edfad-91c8-4edc-bd17-510c06e42af8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>750ebf91-48bf-42f1-b544-5dfe27fe13d9</webElementGuid>
+      <webElementGuid>3f9e4077-87d8-4482-9f8d-4f925cb17c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/products/125307/edit')]</value>
-      <webElementGuid>b8072979-aa1b-4440-92e7-6ab16ea40b2a</webElementGuid>
+      <webElementGuid>abdd4884-c61c-4c5b-a374-5312e0980f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>6123c5d9-85d4-4027-acaf-b1b0c262af16</webElementGuid>
+      <webElementGuid>1b003cbe-e40d-400e-ad03-7b133194abda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/products/125307/edit' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>505cddd3-bb6f-4749-adf8-792bca3633d9</webElementGuid>
+      <webElementGuid>74bc731a-d5ae-48d3-b853-18128d05451e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

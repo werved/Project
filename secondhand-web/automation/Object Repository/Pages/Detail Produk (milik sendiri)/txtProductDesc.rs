@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
+         <value>//div[@class='col-8']//p[@class='card-text text-black-50 fs-6']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'card-text text-black-50 fs-6']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>p.card-text.text-black-50.fs-6</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>c9d89787-7fe0-4e99-b715-d209561433d4</webElementGuid>
+      <webElementGuid>9f75c3a3-6c47-4b48-868f-0ca9d3d2fd8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-text text-black-50 fs-6</value>
-      <webElementGuid>7aab8566-02b5-4afb-bad0-90e331598866</webElementGuid>
+      <webElementGuid>9eaf3872-4ba8-4b49-a193-6fb68a0917d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>wow</value>
-      <webElementGuid>c0066858-091a-4865-ab1b-a2949b9a0def</webElementGuid>
+      <webElementGuid>debf5189-d83a-4e5e-bf37-a1363601c1b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,46 +50,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card mt-5 p-2 border border-4 border-light rounded-4&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text text-black-50 fs-6&quot;]</value>
-      <webElementGuid>fd510c34-1f9b-432c-8a46-a30d79399e42</webElementGuid>
+      <webElementGuid>a70ad26a-bec7-42c4-8d5a-49c93cd61f66</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
-      <webElementGuid>452e4f1b-db59-464d-80e7-0f32122f56c0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/preceding::p[1]</value>
-      <webElementGuid>24b591be-97ca-40d4-bddd-403beaf409f6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::p[3]</value>
-      <webElementGuid>edf95ffb-b35f-4b2f-a6ab-9ecec79fbbd1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//p</value>
-      <webElementGuid>514fdb06-e2b0-4d81-a640-c651e67ba1ca</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//p[(text() = 'wow' or . = 'wow')]</value>
-      <webElementGuid>05ac556b-1a39-4c78-a84f-2a24befa4bfd</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>
