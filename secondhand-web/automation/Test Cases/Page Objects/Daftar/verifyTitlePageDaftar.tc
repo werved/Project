@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTitlePageDaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a0b2de9-d941-4509-ac5e-6c23562393ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60be1ada-3d33-4b4f-a1ed-d045372ae9a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>60be1ada-3d33-4b4f-a1ed-d045372ae9a2</id>
+      <masked>false</masked>
+      <name>varTitlePageDaftar</name>
+   </variable>
+</TestCaseEntity>

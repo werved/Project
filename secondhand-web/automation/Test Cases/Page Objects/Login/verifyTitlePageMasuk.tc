@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTitlePageMasuk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0920e305-03d9-4bd4-b2f9-6249ae7c473d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2ffc91b-c47a-44c4-8f83-32f0792502db</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2ffc91b-c47a-44c4-8f83-32f0792502db</id>
+      <masked>false</masked>
+      <name>varTitlePageLogin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtProductPrice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1887f486-de21-4e10-be5e-039b0bcae1b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63d34f84-dfcb-40eb-9b3a-617b3a175191</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63d34f84-dfcb-40eb-9b3a-617b3a175191</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

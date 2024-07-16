@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnKirim</name>
+   <tag></tag>
+   <elementGuidId>40dbb808-9762-451a-afdf-d141d24ca62d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='commit']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary p-3 w-100 rounded-4 fw-bold']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;commit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary p-3 w-100 rounded-4 fw-bold</value>
+      <webElementGuid>17655610-0dbd-44f6-b38d-331b7aebcf83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='commit']</value>
+      <webElementGuid>e741a705-0ef2-493c-9f78-7f46274f5587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='offerModal']/div/form/div[3]/input</value>
+      <webElementGuid>66c54036-bc82-4f38-b72e-021a5d0e27d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+      <webElementGuid>848e3d3e-7ca4-4dd5-8547-b5ae61bef370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'commit']</value>
+      <webElementGuid>35fa46d5-1031-40dc-bc04-d8c8c49a2633</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -9,15 +9,14 @@ Feature: Masuk
   Scenario: User ingin login dengan credential yang benar
     When Memasukkan Email yang sudah register "tes1@example.com"
     And Memasukkan Password yang sudah register "123456"
-    And Klik tombol "Masuk"
-    Then Melihat halaman "Telusuri Kategori" 
-
+    And Klik tombol login "Masuk"
+    Then Melihat halaman produk setelah login "Telusuri Kategori" 
 
   @Msk02 @Negatif
   Scenario Outline: User ingin login dengan credential yang tidak benar
     When Memasukkan Email yang tidak benar "<email>" 
     And Memasukkan Password yang tidak benar "<password>" 
-    And Klik tombol "Masuk" 
+    And Klik tombol login "Masuk" 
     Then Disana menampilkan pesan "<error>" 
 
     Examples: 
