@@ -10,6 +10,10 @@
          <value>(//input[@id='offer_status_cancelled'])[3]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'offer_status_cancelled']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#statusModal101528 > div.modal-dialog.modal-dialog-centered > form.modal-content.px-4.py-2 > div.modal-body > div.form-check > #offer_status_cancelled</value>
       </entry>
@@ -17,60 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>2c95d5d9-2834-4f2b-ae7a-d5ad16e1ee18</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-check-input me-2</value>
-      <webElementGuid>490bc879-a7d6-4d72-9ec4-87ee11ad6876</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>radio</value>
-      <webElementGuid>0c9ec753-ca6e-49eb-b9ec-93614b063e84</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>cancelled</value>
-      <webElementGuid>218bfa50-118e-45dd-ad45-29dbd6e70f91</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>offer[status]</value>
-      <webElementGuid>682c8ad1-e525-4af0-b594-c1c51f5df09f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>offer_status_cancelled</value>
-      <webElementGuid>c9842619-0e09-459e-92ac-ac2b81be3511</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;statusModal101528&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-check&quot;]/input[@id=&quot;offer_status_cancelled&quot;]</value>
-      <webElementGuid>203a3574-be9a-41f1-8be7-ddf7420e83ba</webElementGuid>
+      <webElementGuid>484eb0c0-65d7-4dd9-8b4c-6192c3860da1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +34,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@id='offer_status_cancelled'])[3]</value>
-      <webElementGuid>22c78af8-fd8a-47e5-8a93-7ff3c8e81b27</webElementGuid>
+      <webElementGuid>e964ccf5-5e2b-4562-ae65-da5dddcb9e3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +42,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='statusModal101528']/div/form/div[2]/div[2]/input</value>
-      <webElementGuid>824a6e10-43d3-4f79-9f09-fd3bb0b7063f</webElementGuid>
+      <webElementGuid>f52e8bcd-6cb8-47a3-94d2-7ad72941f9d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +50,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/form/div[2]/div[2]/input</value>
-      <webElementGuid>4c40c05e-09e8-494d-8d60-e884fc1e1d08</webElementGuid>
+      <webElementGuid>2c6ac803-e808-4143-8255-e783f7275aca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +58,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'offer[status]' and @id = 'offer_status_cancelled']</value>
-      <webElementGuid>15a9ef2b-a0e5-457c-91e0-728454f1a5bc</webElementGuid>
+      <webElementGuid>248a4fa7-fb32-4399-ac3f-38039701b01a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
