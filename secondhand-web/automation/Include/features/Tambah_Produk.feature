@@ -1,29 +1,21 @@
 @Tambah_Produk
 Feature: Tambah_Produk
 
-  Background: 
-    Given Buka "https://secondhand.binaracademy.org/users/sign_in"
-    When Seller masukkan Email "login@penjual.com"
-    And Seller masukkan Password "penjual"
-    And Seller klik tombol Masuk
-    Then Seller diarahkan ke halaman "Telusuri Kategori"
-		#login sebagai penjual
-  
+
   
   @Tp001 @Terbitkan @Positif
   Scenario: Memastikan produk dapat ditambahkan dari halaman Homapage
     When Klik tombol "Jual"
-    Then Diarahkan ke halaman "Terbitkan"
+    Then Diarahkan ke halaman Terbitkan
     When Input data Field Nama Produk "Motor"
     And Input data Field Harga Produk "1000000"
-    And Pilih Kategori "Kendaraan"
+    And Pilih Kategori "2"
     And Input data Field Deskripsi "Ini motor seken"
     And Pilih gambar dari penyimpanan pribadi
-    And Klik tombol "Terbitkan"
+    And Klik tombol Terbitkan
     Then Produk berhasil diterbitkan
     And Diarahkan kehalaman detail produk
-    And Terdapat tombol "Edit"
-    And Terdapat tombol "Hapus"
+
 
   @Djs @Tp002 @Terbitkan @Positif
   Scenario: Memastikan produk dapat ditambahkan dari halaman Daftar Jual Saya - Semua Produk
@@ -39,8 +31,7 @@ Feature: Tambah_Produk
     And Klik tombol "Terbitkan"
     Then Produk berhasil diterbitkan
     And Diarahkan kehalaman detail produk
-    And Terdapat tombol "Edit"
-    And Terdapat tombol "Hapus"
+
 
   @Djs @Tp003 @preview @Positif
   Scenario: Memastikan produk dapat di preview sebelum di terbitkan

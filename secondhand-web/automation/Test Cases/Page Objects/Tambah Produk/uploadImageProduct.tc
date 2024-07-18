@@ -9,12 +9,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</variableId>
+      <variableId>b04a4a7c-6964-4405-9514-6fa4c4dc784e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Images/harley_davidson.jpg'</defaultValue>
+      <defaultValue>'RunConfiguration.getProjectDir() + &quot;/Images/harley_davidson.jpg&quot;'</defaultValue>
       <description></description>
-      <id>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</id>
+      <id>b04a4a7c-6964-4405-9514-6fa4c4dc784e</id>
       <masked>false</masked>
       <name>path</name>
    </variable>
