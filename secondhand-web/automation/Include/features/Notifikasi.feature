@@ -17,5 +17,5 @@ Scenario: Check Notifikasi masuk
 @Nksi02 @Positif
 Scenario: Klik Notifikasi Penawaran Produk
     When Klik icon Notification
-    And Klik status "Penawaran Produk"
+    And Klik status "Penawaran produk"
     Then Diarahkan ke halaman "Info Penawar" 

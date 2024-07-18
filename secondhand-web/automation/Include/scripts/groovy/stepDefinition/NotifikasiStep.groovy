@@ -57,7 +57,7 @@ class NotifikasiStep {
 
 	@When("Klik status {string}")
 	public void klik_status(String string) {
-		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navNotifikasi/clickCardProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navNotifikasi/clickCardProduct'), [('notificationTitle') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Diarahkan ke halaman {string}")
