@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('Pages/Tambah Produk/imageUploader'), path)
-
-WebUI.executeJavaScript("document.getElementById('product_images').classList.remove('d-none')", null)
-
-WebUI.delay(10)
-
+CucumberKW.runFeatureFolderWithTags('Include/features', '@Tp001')

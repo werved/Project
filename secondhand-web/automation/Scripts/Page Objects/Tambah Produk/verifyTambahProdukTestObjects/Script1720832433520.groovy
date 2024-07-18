@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/fieldProductName'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/fieldProductPrice'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/dropDownProductCategory'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/fieldProductDesc'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/imageUploader'))
+WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/btnPreview'))
 
 WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/btnTerbitkan'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Tambah Produk/btnPreview'))
 

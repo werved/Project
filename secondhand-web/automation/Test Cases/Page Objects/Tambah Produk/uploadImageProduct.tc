@@ -12,7 +12,7 @@
       <variableId>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Images/harley_davidson.jpg'</defaultValue>
+      <defaultValue>'C:\\Users\\vediw\\Downloads\\harley_davidson.jpg'</defaultValue>
       <description></description>
       <id>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</id>
       <masked>false</masked>
