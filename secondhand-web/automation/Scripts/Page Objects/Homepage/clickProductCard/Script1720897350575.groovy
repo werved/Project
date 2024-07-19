@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('Pages/Homepage/txtNamaProduk'), 0)
+
 CustomKeywords.'helpers.ListHelper.listToClick'(findTestObject('Pages/Homepage/txtNamaProduk'), varProductName)
+
+WebUI.delay(3)
 

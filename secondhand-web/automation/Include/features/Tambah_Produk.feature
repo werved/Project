@@ -7,7 +7,7 @@ Feature: Tambah_Produk
   Scenario: Memastikan produk dapat ditambahkan dari halaman Homapage
     When Klik tombol "Jual"
     Then Diarahkan ke halaman Terbitkan
-    When Input data Field Nama Produk "Motor"
+    When Input data Field Nama Produk "Motor Badai"
     And Input data Field Harga Produk "1000000"
     And Pilih Kategori "2"
     And Input data Field Deskripsi "Ini motor seken"
