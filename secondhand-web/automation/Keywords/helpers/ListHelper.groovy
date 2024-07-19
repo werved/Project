@@ -28,6 +28,12 @@ public class ListHelper {
 	public int G_WAIT = 30
 
 	@Keyword
+	public getFilePath() {
+		String filePath = System.getProperty("user.dir") + "\\Images\\harley_davidson.jpg"
+		return filePath
+	}
+
+	@Keyword
 	void listToClick(TestObject testObject, String text) {
 		WebUI.waitForElementVisible(testObject, G_WAIT)
 		List<WebElement> list = WebUiCommonHelper.findWebElements(testObject, G_WAIT)

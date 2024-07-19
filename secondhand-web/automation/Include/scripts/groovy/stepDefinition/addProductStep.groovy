@@ -77,8 +77,7 @@ class addProductStep {
 
 	@When("Pilih gambar dari penyimpanan pribadi")
 	public void pilihGambarDariPenyimpananPribadi() {
-		WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/uploadImageProduct'), [('path') : 'C:\\Users\\vediw\\Downloads\\harley_davidson.jpg'],
-		FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/uploadImageProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Terbitkan")
