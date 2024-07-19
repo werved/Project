@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Pages/Harga Tawar/btnDisabledMenungguResponPenjual'))
+WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkDiminati'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('Pages/Homepage/txtNamaProduk'), 5)
 

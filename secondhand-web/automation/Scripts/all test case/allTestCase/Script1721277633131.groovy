@@ -17,30 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/clickBtnPreview'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/clickBtnTerbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldProductDesc'), [('expected') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldProductName'), [('expected') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldProductPrice'), [('expected') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/selectProductCategory'), [('category') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/uploadImageProduct'), [('path') : 'C:\\Users\\vediw\\Downloads\\harley_davidson.jpg'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/verifyTambahProdukTestObjects'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/verifyTxtErrorMessage'), [('expected') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickButtonJual'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkDiminati'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyDetailProductUserPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/clickBtnDeleteProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickButtonJual'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
 
