@@ -46,37 +46,29 @@ import cucumber.api.java.en.When
 
 class deleteProductDiminati {
 	@When("Klik navigation link Products")
-	public void klik_navigation_link_Products() {
-
+	public void klikNavigationLinkProducts() {
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("klik link Diminati")
-	public void klik_link_Diminati() {
-
+	public void klikLinkDiminati() {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkDiminati'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@When("Klik {string}")
-	public void klik(String string) {
 
+	@When("Klik product {string}")
+	public void klikProduct(String namaProduct) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : namaProduct], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@Then("Diarahkan ke halaman detail produk")
-	public void diarahkan_ke_halaman_detail_produk() {
 
-	}
-	
+
 	@When("Klik tombol Delete")
-	public void klik_tombol_Delete() {
-
+	public void klikTombolDelete() {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/clickBtnDeleteProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("Produk berhasil dihapus")
-	public void produk_berhasil_dihapus() {
-
+	public void produkBerhasilDihapus() {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@Then("diarahkan ke halaman Daftar Jual Saya")
-	public void diarahkan_ke_halaman_Daftar_Jual_Saya() {
 
-	}
 }

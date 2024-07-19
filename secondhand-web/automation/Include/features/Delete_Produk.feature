@@ -12,8 +12,7 @@ Feature: Delete_Produk
   Scenario: Memastikan produk dapat dihapus dari halaman halaman Daftar Jual Saya - Diminati
     When Klik navigation link Products
     And klik link Diminati
-    And Klik "Motor Badai"
-    Then Diarahkan ke halaman detail produk
+    And Klik product "Motor Badai"
+    Then Diarahkan kehalaman detail produk
     When Klik tombol Delete
     Then Produk berhasil dihapus
-    And diarahkan ke halaman Daftar Jual Saya
