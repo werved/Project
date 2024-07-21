@@ -17,13 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTerima'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnHubungiDi'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTolak'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyTxtOfferStatusTolak'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pages/Navbar/navAkun/btnHome'))
 
