@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>txtTitlePage</name>
+   <name>txtModalTitle</name>
    <tag></tag>
    <elementGuidId>9ccac364-a04d-4be9-a985-2416ea71214e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
