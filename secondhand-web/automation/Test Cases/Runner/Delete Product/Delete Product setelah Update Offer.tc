@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Product setelah Update Offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe3be17b-4a72-4492-a9a2-86250fca9473</testCaseGuid>
+</TestCaseEntity>
