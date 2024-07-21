@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txtTitlePage</name>
+   <tag></tag>
+   <elementGuidId>9ccac364-a04d-4be9-a985-2416ea71214e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.TextView</value>
+      <webElementGuid>e9244469-9db1-4891-9f0c-67a2b429cfeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masukkan Harga Tawarmu</value>
+      <webElementGuid>f56bf4f6-e377-441d-a50e-34ebd16e4e88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.binar.fp.secondhand:id/tv_bottom_sheet_title</value>
+      <webElementGuid>4fdd0c25-d1f4-4f76-8533-fcc885e5e335</webElementGuid>
+   </webElementProperties>
+   <locator>id.binar.fp.secondhand:id/tv_bottom_sheet_title</locator>
+   <locatorStrategy>ID</locatorStrategy>
+</MobileElementEntity>

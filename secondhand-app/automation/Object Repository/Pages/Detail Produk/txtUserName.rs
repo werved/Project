@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txtUserName</name>
+   <tag></tag>
+   <elementGuidId>67b2c29e-3c72-451c-b81e-19eed762a260</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.TextView</value>
+      <webElementGuid>427f5de7-87ec-467a-823f-e5dd7d54ef44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>xfun</value>
+      <webElementGuid>d1f759cb-1cbc-44cf-9171-ff88e7fbcd48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.binar.fp.secondhand:id/tv_name</value>
+      <webElementGuid>0d63aaa7-5aff-42c2-a7a5-1c25824edde2</webElementGuid>
+   </webElementProperties>
+   <locator>id.binar.fp.secondhand:id/tv_name</locator>
+   <locatorStrategy>ID</locatorStrategy>
+</MobileElementEntity>

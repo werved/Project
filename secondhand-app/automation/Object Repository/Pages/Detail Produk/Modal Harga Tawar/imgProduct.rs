@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>imgProduct</name>
+   <tag></tag>
+   <elementGuidId>494fe6ef-09a1-4ef9-8df7-7ecd428687ff</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.ImageView</value>
+      <webElementGuid>6411092b-aea2-4314-b2dc-da3af750df02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.binar.fp.secondhand:id/iv_product_image</value>
+      <webElementGuid>8e369c44-45af-4403-8b1c-1df5342f9959</webElementGuid>
+   </webElementProperties>
+   <locator>id.binar.fp.secondhand:id/iv_product_image</locator>
+   <locatorStrategy>ID</locatorStrategy>
+</MobileElementEntity>
