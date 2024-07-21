@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Pages/Info Penawar/btnTerima'))
 
+WebUI.delay(3)
+
