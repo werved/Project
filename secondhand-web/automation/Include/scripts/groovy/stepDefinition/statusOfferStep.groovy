@@ -44,40 +44,35 @@ import cucumber.api.java.en.When
 
 
 
-class deleteProductDiminati {
-	@When("Klik navigation link Products")
-	public void klikNavigationLinkProducts() {
-		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
+class statusOfferStep {
+
+	@When("Klik tombol Status")
+	public void klikTombolStatus() {
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("klik link Diminati")
-	public void klikLinkDiminati() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkDiminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Diarahkan Ke Modal {string}")
+	public void diarahkanKeModal(String modalTitle) {
+		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtTitlePage'), [('expected') : modalTitle], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik product {string}")
-	public void klikProduct(String namaProduct) {
-		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : namaProduct], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik form check Berhasil Terjual")
+	public void klikFormCheckBerhasilTerjual() {
+		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/clickRadioCheckBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-
-	@When("Klik tombol Delete")
-	public void klikTombolDelete() {
-		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/clickBtnDeleteProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Status produk menjadi Berhasil terjual")
+	public void statusProdukMenjadiBerhasilTerjual() {
+		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtStatusBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Produk berhasil dihapus")
-	public void produkBerhasilDihapus() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik form check Batalkan Transaksi")
+	public void klikFormCheckBatalkanTransaksi() {
+		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/clickRadioCheckBatalkanTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("klik link Terjual")
-	public void klikLinkTerjual() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-	
-	@Then("Produk berhasil terjual dihapus")
-	public void produkBerhasilTerjualDihapus() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductTerjualDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Status produk menjadi Penjualan dibatalkan")
+	public void statusProdukMenjadiPenjualanDibatalkan() {
+		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtPenjualanDibatalkan'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

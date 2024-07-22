@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verifyTxtPenjualanDibatalkan</name>
+   <name>verifyProductTerjualDeleted</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6533cdb5-b94e-43e1-b1a6-4a2cd8fe748b</testCaseGuid>
+   <testCaseGuid>0b93bdbe-8cd5-4943-9c91-a62d84ab39c4</testCaseGuid>
 </TestCaseEntity>
