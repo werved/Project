@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtStatusBerhasilTerjualVar = WebUI.getText(findTestObject('Pages/Perbarui Status/txtStatusBerhasilterjual'))
+txtStatusPenjualanDibatalkanVar = WebUI.getText(findTestObject('Pages/Perbarui Status/txtPenjualanDibatalkan'))
 
-WebUI.verifyMatch(txtStatusBerhasilTerjualVar, expected, false)
+WebUI.verifyMatch(txtStatusPenjualanDibatalkanVar, 'Penjualan dibatalkan', false)
 
