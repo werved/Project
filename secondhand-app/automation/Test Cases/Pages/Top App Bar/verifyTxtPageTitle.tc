@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtPageTitle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e3f225a-2db2-44d6-b956-dd20688d9948</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ba5a3de-adfd-4ce2-bd86-914167ca7f9a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ba5a3de-adfd-4ce2-bd86-914167ca7f9a</id>
+      <masked>false</masked>
+      <name>txtPageTitleExpected</name>
+   </variable>
+</TestCaseEntity>
