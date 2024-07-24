@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txtProductCategory</name>
+   <tag></tag>
+   <elementGuidId>4dbececd-667c-441a-a9fe-85887c4e7b9b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.TextView</value>
+      <webElementGuid>4562c49b-39bf-46aa-9efc-3be9e40ce0e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-</value>
+      <webElementGuid>3be02da1-6c70-4d0d-a1c4-05bb94b58109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.binar.fp.secondhand:id/tv_product_category</value>
+      <webElementGuid>182a8363-d335-4742-8318-704866c0c56f</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@resource-id= 'id.binar.fp.secondhand:id/content']//*[@resource-id= 'id.binar.fp.secondhand:id/tv_product_category']</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</MobileElementEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>btnInginNego</name>
+   <tag></tag>
+   <elementGuidId>37ca7c9c-429d-4830-b373-bfd2d4d0c224</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.Button</value>
+      <webElementGuid>91807bfd-50c5-4812-ab3e-daa9f024b7fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saya Tertarik dan Ingin Nego</value>
+      <webElementGuid>35ac70f9-5dd8-488f-9fde-1a2cfdae05c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.binar.fp.secondhand:id/btn_bid</value>
+      <webElementGuid>d57c14fe-f9c7-47b5-9e28-d750ce691b7f</webElementGuid>
+   </webElementProperties>
+   <locator>id.binar.fp.secondhand:id/btn_bid</locator>
+   <locatorStrategy>ID</locatorStrategy>
+</MobileElementEntity>
