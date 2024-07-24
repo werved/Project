@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputFieldLokasiProduk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f895d16-7a7d-45b0-be92-63adb5e42f6d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1877c009-ea0c-4b22-95a2-8973e3410c91</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1877c009-ea0c-4b22-95a2-8973e3410c91</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>
