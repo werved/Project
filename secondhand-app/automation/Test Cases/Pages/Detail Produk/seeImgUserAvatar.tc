@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verifyTxtPenjualanDibatalkan</name>
+   <name>seeImgUserAvatar</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6533cdb5-b94e-43e1-b1a6-4a2cd8fe748b</testCaseGuid>
+   <testCaseGuid>592e4143-1bbf-41a7-9dd8-a83c6aaabeba</testCaseGuid>
 </TestCaseEntity>

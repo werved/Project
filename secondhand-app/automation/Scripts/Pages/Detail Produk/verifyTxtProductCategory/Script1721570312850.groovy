@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+txtProductCategoryVar = Mobile.getText(findTestObject('Pages/Detail Produk/txtProductCategory'), 30)
+
+Mobile.verifyMatch(txtProductCategoryVar, txtProductCategoryExpected, false)
 

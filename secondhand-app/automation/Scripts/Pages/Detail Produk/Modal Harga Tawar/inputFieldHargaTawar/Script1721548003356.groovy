@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+Mobile.clearText(findTestObject('Pages/Detail Produk/Bottom Sheets Harga Tawar/fieldHargaTawar'), 30)
+
+Mobile.sendKeys(findTestObject('Pages/Detail Produk/Bottom Sheets Harga Tawar/fieldHargaTawar'), hargaTawar)
 

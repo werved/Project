@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 txtStatusBerhasilTerjualVar = WebUI.getText(findTestObject('Pages/Perbarui Status/txtStatusBerhasilterjual'))
 
-WebUI.verifyMatch(txtStatusBerhasilTerjualVar, expected, false)
+WebUI.verifyMatch(txtStatusBerhasilTerjualVar, 'Berhasil terjual', false)
 

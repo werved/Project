@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+Mobile.tap(findTestObject('Pages/Detail Produk/btnInginNego'), 30)
 

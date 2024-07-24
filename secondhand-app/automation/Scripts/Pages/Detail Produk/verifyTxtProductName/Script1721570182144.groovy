@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+txtProductNameVar = Mobile.getText(findTestObject('Pages/Detail Produk/txtProductName'), 30)
+
+Mobile.verifyMatch(txtProductNameVar, txtProductNameExpected, false)
 

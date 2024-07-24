@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnHome'), [:], FailureHandling.STOP_ON_FAILURE)
+
+CucumberKW.runFeatureFolderWithTags('Include/features', '@Dp003')
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verifyTxtPenjualanDibatalkan</name>
+   <name>readTxtUserName</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6533cdb5-b94e-43e1-b1a6-4a2cd8fe748b</testCaseGuid>
+   <testCaseGuid>db1aab8a-146b-4c82-885a-dd4ba659471c</testCaseGuid>
 </TestCaseEntity>

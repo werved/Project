@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Pages/Perbarui Status/radioCheckBatalkanTransaksi'))
+txtUserLocation = Mobile.getText(findTestObject('Pages/Detail Produk/txtUserLocation'), 30)
+
+KeywordUtil.logInfo('Text User Location is ' + txtProductPriceVar)
 
