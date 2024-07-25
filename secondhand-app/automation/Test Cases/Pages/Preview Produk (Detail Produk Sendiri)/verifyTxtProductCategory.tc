@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtProductCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>192d3e81-e5f1-4066-ba57-e4c7860a9948</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1bd142b-9b25-4b5a-aeaf-83cd622519c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1bd142b-9b25-4b5a-aeaf-83cd622519c6</id>
+      <masked>false</masked>
+      <name>txtProductCategoryExpected</name>
+   </variable>
+</TestCaseEntity>

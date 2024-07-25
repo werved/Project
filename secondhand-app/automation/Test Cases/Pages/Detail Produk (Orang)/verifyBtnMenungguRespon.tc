@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyBtnMenungguRespon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32eeaa59-af1b-41fe-91f9-69f65f941d23</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ac932a3-a7c7-4ebc-82bd-56f2059128ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ac932a3-a7c7-4ebc-82bd-56f2059128ab</id>
+      <masked>false</masked>
+      <name>expectedText</name>
+   </variable>
+</TestCaseEntity>
