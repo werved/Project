@@ -17,8 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Pages/Lengkapi Info Akun/selectCity'), 30)
-
-//WebUI.deselectOptionByLabel(findTestObject('Pages/Lengkapi Info Akun/selectCity'), varSelectCity, false)
-WebUI.selectOptionByLabel(findTestObject('Pages/Lengkapi Info Akun/selectCity'), varSelectCity, false)
-
+CucumberKW.runFeatureFile("Include/features/Edit_Profile.feature")
