@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/profiles']</value>
+         <value>//*[@src = '/user.svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/profiles</value>
-      <webElementGuid>f608b063-5832-437b-a2af-a02e0e8e3a41</webElementGuid>
+      <webElementGuid>f0e399cc-43be-4ac8-bc20-0c84728108c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/user.svg</value>
+      <webElementGuid>eff71549-fa1f-40e6-bd49-3bd507ac56fc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

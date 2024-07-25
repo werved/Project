@@ -9,7 +9,7 @@ Feature: Tambah_Produk
     Then Diarahkan ke halaman Terbitkan
     When Input data Field Nama Produk "Motor Badai"
     And Input data Field Harga Produk "1000000"
-    And Pilih Kategori "2"
+    And Pilih Kategori "Kendaraan"
     And Input data Field Deskripsi "Ini motor seken"
     And Pilih gambar dari penyimpanan pribadi
     And Klik tombol Terbitkan
