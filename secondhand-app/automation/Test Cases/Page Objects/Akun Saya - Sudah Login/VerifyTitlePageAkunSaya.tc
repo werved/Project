@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyTitlePageAkunSaya</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecb56f2d-1b40-445e-a9e9-c22ed03a9114</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67ce30fd-8a37-4bae-a0b4-94f59055c496</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67ce30fd-8a37-4bae-a0b4-94f59055c496</id>
+      <masked>false</masked>
+      <name>varTitlePageAkunSaya</name>
+   </variable>
+</TestCaseEntity>
