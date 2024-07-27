@@ -44,25 +44,45 @@ import cucumber.api.java.en.When
 
 
 
-class updateOfferStep {
-	@When("Klik tombol Terima")
-	public void klikTombolTerima() {
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTerima'), [:], FailureHandling.STOP_ON_FAILURE)
+class MasukSteps {
+
+	@Given("User membuka {string}")
+	public void user_membuka(String url) {
+		WebUI.navigateToUrl(url)
 	}
 
-	@Then("Penawaran produk berhasil diterima")
-	public void penawaranProdukBerhasilDiterima() {
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnHubungiDi'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Memasukkan Email yang sudah register {string}")
+	public void memasukkan_Email_yang_sudah_register(String email) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik tombol Tolak")
-	public void klikTombolTolak() {
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTolak'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Memasukkan Password yang sudah register {string}")
+	public void memasukkan_Password_yang_sudah_register(String password) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Penawaran produk berhasil ditolak")
-	public void penawaranProdukBerhasilDitolak() {
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyTxtOfferStatusTolak'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik tombol login {string}")
+	public void klik_tombol_login(String btnMasuk) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/clickBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Melihat halaman produk setelah login {string}")
+	public void melihat_halaman_produk_setelah_login(String title) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Memasukkan Email yang tidak benar {string}")
+	public void memasukkan_Email_yang_tidak_benar(String email) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Memasukkan Password yang tidak benar {string}")
+	public void memasukkan_Password_yang_tidak_benar(String password) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Disana menampilkan pesan {string}")
+	public void disana_menampilkan_pesan(String alert) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/verifyAlerLogin'), [('varAlertLogin') : alert], FailureHandling.STOP_ON_FAILURE)
 	}
 }

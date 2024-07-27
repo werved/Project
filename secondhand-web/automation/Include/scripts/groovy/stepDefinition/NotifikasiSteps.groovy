@@ -44,7 +44,7 @@ import cucumber.api.java.en.When
 
 
 
-class NotifikasiStep {
+class NotifikasiSteps {
 	@Then("Menampilkan list dropdown Notification")
 	public void melihatListNotifikasi() {
 		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navNotifikasi/verifyNotificationsTestObject'), [:], FailureHandling.STOP_ON_FAILURE)
