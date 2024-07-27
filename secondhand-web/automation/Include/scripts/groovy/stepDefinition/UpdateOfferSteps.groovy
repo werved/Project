@@ -44,35 +44,25 @@ import cucumber.api.java.en.When
 
 
 
-class statusOfferStep {
-
-	@When("Klik tombol Status")
-	public void klikTombolStatus() {
-		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
+class UpdateOfferSteps {
+	@When("Klik tombol Terima")
+	public void klikTombolTerima() {
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTerima'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Diarahkan Ke Modal {string}")
-	public void diarahkanKeModal(String modalTitle) {
-		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtTitlePage'), [('expected') : modalTitle], FailureHandling.STOP_ON_FAILURE)
+	@Then("Penawaran produk berhasil diterima")
+	public void penawaranProdukBerhasilDiterima() {
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnHubungiDi'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik form check Berhasil Terjual")
-	public void klikFormCheckBerhasilTerjual() {
-		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/clickRadioCheckBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik tombol Tolak")
+	public void klikTombolTolak() {
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTolak'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Status produk menjadi Berhasil terjual")
-	public void statusProdukMenjadiBerhasilTerjual() {
-		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtStatusBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Klik form check Batalkan Transaksi")
-	public void klikFormCheckBatalkanTransaksi() {
-		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/clickRadioCheckBatalkanTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("Status produk menjadi Penjualan dibatalkan")
-	public void statusProdukMenjadiPenjualanDibatalkan() {
-		WebUI.callTestCase(findTestCase('Page Objects/Perbarui Status/verifyTxtPenjualanDibatalkan'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Penawaran produk berhasil ditolak")
+	public void penawaranProdukBerhasilDitolak() {
+		WebUI.callTestCase(findTestCase('Page Objects/Info Penawar/verifyTxtOfferStatusTolak'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

@@ -43,7 +43,7 @@ import cucumber.api.java.en.When
 
 
 
-class logoutSteps {
+class LogoutSteps {
 	@When("Klik icon profile")
 	public void klik_icon_profile() {
 		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProfile'), [:], FailureHandling.STOP_ON_FAILURE)

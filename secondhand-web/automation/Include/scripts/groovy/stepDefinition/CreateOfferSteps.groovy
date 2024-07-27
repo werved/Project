@@ -44,7 +44,7 @@ import cucumber.api.java.en.When
 
 
 
-class createOfferStep {
+class CreateOfferSteps {
 	@When("User Ketik {string} pada kolom Search")
 	public void userKetikPadaKolomSearch(String namaProduk) {
 		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/inputSearch'), [('varSearchNavAkun') : namaProduk], FailureHandling.STOP_ON_FAILURE)

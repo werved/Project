@@ -44,7 +44,7 @@ import cucumber.api.java.en.When
 
 
 
-class addProductStep {
+class AddProductSteps {
 	@When("Klik tombol {string}")
 	public void klikTombol(String string) {
 		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickButtonJual'), [:], FailureHandling.STOP_ON_FAILURE)

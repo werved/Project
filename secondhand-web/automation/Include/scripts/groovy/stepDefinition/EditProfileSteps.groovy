@@ -44,7 +44,7 @@ import cucumber.api.java.en.When
 
 
 
-class editProfileStep {
+class EditProfileSteps {
 	@When("User memasukkan Email yang sudah register {string}")
 	public void userMemasukkanEmailYangSudahRegister(String email) {
 		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
