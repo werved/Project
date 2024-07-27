@@ -62,6 +62,7 @@ class CreateOfferSteps {
 
 	@When("Tap tombol Saya Tertarik dan Ingin Nego")
 	public void tapTombolSayaTertarikDanInginNego() {
+		WebUI.callTestCase(findTestCase('Pages/Detail Produk (Orang)/clickBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Diarahkan ke Modal {string}")
@@ -69,14 +70,18 @@ class CreateOfferSteps {
 	}
 
 	@When("input field harga tawar dengan {string}")
-	public void inputFieldHargaTawarDengan(String string) {
+	public void inputFieldHargaTawarDengan(String hargaTawar) {
+		WebUI.callTestCase(findTestCase('Pages/Detail Produk (Orang)/Bottom Sheets Harga Tawar/inputFieldHargaTawar'), [('hargaTawar') : hargaTawar],
+		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Tap tombol Kirim")
 	public void tapTombolKirim() {
+		WebUI.callTestCase(findTestCase('Pages/Detail Produk (Orang)/Bottom Sheets Harga Tawar/clickBtnKirim'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Produk berhasil ditawar dengan Notif {string}")
-	public void produkBerhasilDitawarDenganNotif(String string) {
+	public void produkBerhasilDitawarDenganNotif(String berhasilTawar) {
+		WebUI.callTestCase(findTestCase('Pages/Detail Produk (Orang)/verifyTxtBerhasilTawar'), [('expected') : berhasilTawar], FailureHandling.STOP_ON_FAILURE)
 	}
 }
