@@ -20,19 +20,19 @@ Feature: Create Offer
     When Tap Navbar Beranda
     And Tap Search field dengan mengetikkan "Binar VBackground"
     And Tap pada Produk "Binar VBackground"
-    #And Tap tombol Saya Tertarik dan Ingin Nego
-    #Then Diarahkan ke Modal "Masukkan Harga Tawaranmu"
-    #When input field harga tawar dengan "900000"
-    #And Tap tombol Kirim
-    #Then Produk berhasil ditawar dengan Notif "Harga Tawaranmu berhasil dikirim ke penjual"
+    And Tap tombol Saya Tertarik dan Ingin Nego
+    Then Diarahkan ke Modal "Masukkan Harga Tawaranmu"
+    When input field harga tawar dengan "900000"
+    And Tap tombol Kirim
+    Then Produk berhasil ditawar dengan Notif "Harga tawarmu berhasil dikirim ke penjual"
 
   @Co002 @Positif
   Scenario: Memastikan pembeli dapat melakukan tawar harga produk tanpa perlu login
     When Tap Navbar Beranda
     And Tap Search field dengan mengetikkan "Binar VBackground"
     And Tap pada Produk "Binar VBackground"
-    #And Tap tombol Saya Tertarik dan Ingin Nego
-    #Then Diarahkan ke Modal "Masukkan Harga Tawaranmu"
-    #When input field harga tawar dengan "900000"
-    #And Tap tombol Kirim
-    #Then Produk berhasil ditawar dengan Notif "Harga Tawaranmu berhasil dikirim ke penjual"
+    And Tap tombol Saya Tertarik dan Ingin Nego
+    Then Diarahkan ke Modal "Masukkan Harga Tawaranmu"
+    When input field harga tawar dengan "900000"
+    And Tap tombol Kirim
+    Then Produk berhasil ditawar dengan Notif "Harga tawarmu berhasil dikirim ke penjual"
