@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Pages/Preview Produk (Detail Produk Sendiri)/btnKembaliKeHalamanSebelumnya'), 30)
+Mobile.getText(findTestObject('Pages/Info Penawar/txtProductName'), 30)
+
+Mobile.verifyMatch(actual, expected, false)
 
