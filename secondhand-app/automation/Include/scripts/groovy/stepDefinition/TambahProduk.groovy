@@ -52,76 +52,76 @@ class TambahProduk {
 
 	@Then("Berhasil menampilkan halaman {string}")
 	public void berhasilMenampilkanHalaman(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Top App Bar/verifyTxtPageTitle'), [('txtPageTitleExpected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Top App Bar/verifyTxtPageTitle'), [('txtPageTitleExpected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ubah Nama Produk {string}")
 	public void ubahNamaProduk(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/inputFieldNamaProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldNamaProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ubah Harga Produk {string}")
 	public void ubahHargaProduk(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/inputFieldHargaProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldHargaProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik Kategori")
 	public void klikKategori() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/clickFieldDropDownKategori'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/clickFieldDropDownKategori'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Pilih Kategori {string}")
 	public void pilihKategori(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/Pilih Kategori/selectCategoryOption'), [('category') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/Pilih Kategori/selectCategoryOption'), [('category') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ubah Lokasi {string}")
 	public void ubahLokasi(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/inputFieldLokasiProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldLokasiProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ubah Deskripsi {string}")
 	public void ubahDeskripsi(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/inputFieldDeskripsiProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/inputFieldDeskripsiProduk'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Gagal menambahkan produk dengan snackbar {string}")
 	public void gagalMenambahkanProdukDenganSnackbar(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/verifyTxtErrorMessage'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/verifyTxtErrorMessage'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Upload Foto")
 	public void uploadFoto() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/clickImageUploader'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/clickImageUploader'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik Upload Foto")
 	public void klikUploadFoto() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/clickImageUploader'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/clickImageUploader'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik icon Galeri")
 	public void klikIconGaleri() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/Bottom Sheets Pilih Gambar/clickBtnGaleri'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/Bottom Sheets Pilih Gambar/clickBtnGaleri'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik foto")
 	public void klikFoto() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/Bottom Sheets Pilih Gambar/clickImgFileExplorer'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/Bottom Sheets Pilih Gambar/clickImgFileExplorer'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Terbitkan")
 	public void klikTombolTerbitkan() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/clickBtnTerbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/clickBtnTerbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Berhasil menambahkan produk dengan snackbar {string}")
 	public void berhasilMenambahkanProdukDenganSnackbar(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/seeToastMessageSuccess'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/seeToastMessageSuccess'), [('expected') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Preview")
 	public void klikTombolPreview() {
-		Mobile.callTestCase(findTestCase('Pages/Tambah Produk/clickBtnPreview'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Tambah Produk/clickBtnPreview'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
