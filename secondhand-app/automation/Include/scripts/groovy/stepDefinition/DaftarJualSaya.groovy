@@ -48,21 +48,21 @@ class DaftarJualSaya {
 	
 	@When("Klik tab {string}")
 	public void klikTab(String string) {
-		Mobile.callTestCase(findTestCase('Pages/Daftar Jual Saya/clickBtnTabTitle'), [('title') : ''], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnTabTitle'), [('title') : ''], FailureHandling.STOP_ON_FAILURE)
 	}
 	
 	@Then("Ditampilkan list produk yang ditawar oleh buyer")
 	public void ditampilkanListProdukYangDitawarOlehBuyer() {
-		Mobile.callTestCase(findTestCase('Pages/Daftar Jual Saya/Tab Diminati/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Diminati/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 	
 	@Then("Ditampilkan list produk terjual")
 	public void ditampilkanListProdukTerjual() {
-		Mobile.callTestCase(findTestCase('Pages/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 	
 	@Then("Ditampilkan list produk")
 	public void ditampilkanListProduk() {
-		Mobile.callTestCase(findTestCase('Pages/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
