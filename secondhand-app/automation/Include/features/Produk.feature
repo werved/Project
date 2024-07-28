@@ -10,7 +10,7 @@ Background:
 @Pdk001 @Positif
 Scenario: Memastikan User dapat update produk
     When User klik menu "Daftar Jual Saya"
-    And Klik menu "Produk"
+    And Klik tab "Produk"
     Then Ditampilkan list produk
     And Klik produk Item
     Then Diarahkan ke halaman "Ubah Produk"
@@ -26,7 +26,7 @@ Scenario: Memastikan User dapat update produk
 @Pdk002 @Negatif
 Scenario Outline: Memastikan User gagal update produk
  When Klik menu "Daftar Jual Saya"
-    And Klik menu "Produk"
+    And Klik tab "Produk"
     Then Ditampilkan list produk
     And Klik produk Item
     Then Diarahkan ke halaman "Ubah Produk"

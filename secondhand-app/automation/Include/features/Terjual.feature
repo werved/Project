@@ -10,5 +10,5 @@ Background:
 @Trjl001 @Positif
 Scenario: Memastikan User dapat melihat produk yang terjual
     When Klik menu "Daftar Jual Saya"
-    And Klik menu "Terjual"
+    And Klik tab "Terjual"
     Then Ditampilkan list produk terjual

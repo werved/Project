@@ -10,5 +10,5 @@ Background:
 @Mnt001 @Positif
 Scenario: User dapat melihat produk yang diminati
     When Klik menu "Daftar Jual Saya"
-    And Klik menu "Diminati"
+    And Klik tab "Diminati"
     Then Ditampilkan list produk yang ditawar oleh buyer
