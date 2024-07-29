@@ -57,3 +57,5 @@ WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/TapBtnMasu
 
 WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Bottom Sheets/closeBottomSheets'), [:], FailureHandling.STOP_ON_FAILURE)
+
