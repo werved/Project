@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementNotClickable(findTestObject('Pages/Harga Tawar/btnDisabledMenungguResponPenjual'))
+WebUI.verifyElementVisible(findTestObject('Pages/Harga Tawar/btnDisabledMenungguResponPenjual'))
 

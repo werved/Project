@@ -19,5 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Pages/Lengkapi Info Akun/uploadProfileImage'), 30)
 
-WebUI.uploadFile(findTestObject('Pages/Lengkapi Info Akun/uploadProfileImage'), 'C:\\path\\to\\your\\image.jpg')
+filePath = CustomKeywords.'helpers.ListHelper.getFilePath'()
+
+WebUI.uploadFile(findTestObject('Pages/Lengkapi Info Akun/uploadProfileImage'), filePath)
+
+WebUI.delay(10)
 

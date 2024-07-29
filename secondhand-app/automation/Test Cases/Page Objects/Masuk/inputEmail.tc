@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7122252d-1408-48fc-bab4-8b6ed2735156</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d11d18b-7066-405f-9177-72f840b8c8a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d11d18b-7066-405f-9177-72f840b8c8a7</id>
+      <masked>false</masked>
+      <name>varEmailMasuk</name>
+   </variable>
+</TestCaseEntity>

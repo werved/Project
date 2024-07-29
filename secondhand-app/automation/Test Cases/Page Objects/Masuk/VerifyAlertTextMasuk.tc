@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAlertTextMasuk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfe5191c-e13b-41f3-94a9-1388b2d2e8d5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e98ae44-16e9-4ff9-adbe-35881b6e45cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e98ae44-16e9-4ff9-adbe-35881b6e45cd</id>
+      <masked>false</masked>
+      <name>varAlertTextMasuk</name>
+   </variable>
+</TestCaseEntity>

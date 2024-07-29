@@ -26,6 +26,7 @@ class Hook {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.openBrowser("")
+		WebUI.maximizeWindow()
 	}
 
 	@AfterTestSuite

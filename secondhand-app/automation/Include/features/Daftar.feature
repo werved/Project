@@ -3,10 +3,10 @@ Feature: Daftar
   Sebagai User saya mendaftar ke dalam aplikasi.
 
   Background: 
-    Given Buka aplikasi "Secondhand"
-    Given Buka halaman Masuk
+    Given User buka aplikasi "Secondhand"
+    Given User buka halaman Masuk
 
-@Dftr01 @Positif
+@Dftr001 @Positif
 Scenario: User melakukan pendaftaran pada aplikasi dengan informasi yang valid
     When Klik tombol "Daftar"
     Then Tampil halaman Daftar
@@ -19,7 +19,7 @@ Scenario: User melakukan pendaftaran pada aplikasi dengan informasi yang valid
     And Klik tombol Daftar
     Then Tampil halaman Akun Saya
 
-@Dftr02 @Negatif
+@Dftr002 @Negatif
   Scenario Outline: User gagal melakukan daftar karena tidak sesuai format
     When Klik tombol "Daftar"
     Then Tampil halaman Daftar
@@ -30,7 +30,7 @@ Scenario: User melakukan pendaftaran pada aplikasi dengan informasi yang valid
     And Input "<kota>" pada kolom Kota
     And Input "<alamat>" pada Kolom Alamat
     And Klik tombol Daftar
-    Then Tampil pesan "<error>"
+    Then Tampil pesan "<error>" 
 
     Examples:
     | nama | email | password | hp | kota | alamat | error |

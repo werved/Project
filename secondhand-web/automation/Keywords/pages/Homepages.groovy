@@ -41,7 +41,7 @@ public class Homepages {
 
 		for(int i = 0; i < listProductNameSize; i++) {
 			if(listProductName.get(i).getText().contains(text)) {
-				KeywordUtil.logInfo(listProductName.getText())
+				KeywordUtil.logInfo(listProductName.get(i).getText())
 			} else {
 				KeywordUtil.logInfo("Product Name does not contain " + text)
 				break
@@ -63,7 +63,7 @@ public class Homepages {
 
 		for(int i = 0; i < listProductCategorySize; i++) {
 			if(listProductCategory.get(i).getText().equals(text)) {
-				KeywordUtil.logInfo(listProductCategory.getText())
+				KeywordUtil.logInfo(listProductCategory.get(i).getText())
 			} else {
 				KeywordUtil.logInfo("Product Category does not contain " + text)
 				break

@@ -10,6 +10,10 @@
          <value>a.nav-link.dropdown-toggle.position-relative</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'nav-link dropdown-toggle position-relative']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/a</value>
       </entry>
@@ -19,10 +23,10 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/notifications</value>
-      <webElementGuid>92864960-fcff-4bc1-873e-615b572800a0</webElementGuid>
+      <value>bi bi-bell</value>
+      <webElementGuid>5de2319a-a8af-400b-8f88-53a5474bc949</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/a</value>
-      <webElementGuid>d87feb18-a1c2-47a2-ad66-1506d707298f</webElementGuid>
+      <webElementGuid>e46ff888-0ee5-4f7a-9ae5-c43fb0f33279</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[1]/following::a[1]</value>
-      <webElementGuid>aa210fb5-b817-4b4d-ab11-f53a36bf6d0e</webElementGuid>
+      <webElementGuid>8721dd2e-e259-42b7-9452-93885c431da4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::a[1]</value>
-      <webElementGuid>b014f6d5-2500-42e7-908d-ff52ca8286b1</webElementGuid>
+      <webElementGuid>5dca3da1-e816-41d8-a6b3-df0062aa6113</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[1]/preceding::a[1]</value>
-      <webElementGuid>51ac2070-a775-4380-9ace-bcf5ff000bfa</webElementGuid>
+      <webElementGuid>827f4e59-19e2-4513-be1f-4443d5096358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>a21c4e8c-9c6c-49a4-b1d1-9667aa1eb9bc</webElementGuid>
+      <webElementGuid>c40f8079-d062-489d-98b5-21d551b7d021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>a233f8a1-19e4-40a4-96f8-c85031db04b5</webElementGuid>
+      <webElementGuid>b8810c34-a39c-49f4-9a58-b5b91ab1bdef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +94,6 @@
           New alerts
         
     ')]</value>
-      <webElementGuid>36db0bca-c606-4f61-9c06-b0e705f3b959</webElementGuid>
+      <webElementGuid>262bf33d-e021-4c5e-a394-c57668831993</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

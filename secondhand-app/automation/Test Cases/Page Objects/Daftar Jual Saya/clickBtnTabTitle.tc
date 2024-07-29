@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>clickBtnTabTitle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f31505b9-4e07-4e7c-9bbd-2487113d347c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fb62cba-8776-4086-8da6-c7b15c2d8256</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2fb62cba-8776-4086-8da6-c7b15c2d8256</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>

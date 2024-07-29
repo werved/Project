@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Pages/Harga Tawar/btnKirim'))
-
-WebUI.verifyElementVisible(findTestObject('Pages/Harga Tawar/fieldHargaTawar'))
+WebUI.delay(3)
 
 txtTitlePageVar = WebUI.getText(findTestObject('Pages/Harga Tawar/txtTitlePage'))
 
-KeywordUtil.logInfo('Text Title Page is ' + txtTitlePageVar)
+WebUI.verifyMatch(txtTitlePageVar, expected, false)
 

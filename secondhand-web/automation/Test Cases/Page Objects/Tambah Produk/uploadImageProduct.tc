@@ -5,17 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4ced668c-5589-4b97-b903-6f58e3e3127c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'Images/harley_davidson.jpg'</defaultValue>
-      <description></description>
-      <id>d2d4ebbf-d190-4c03-9f11-5f44baa7b3f0</id>
-      <masked>false</masked>
-      <name>path</name>
-   </variable>
 </TestCaseEntity>
