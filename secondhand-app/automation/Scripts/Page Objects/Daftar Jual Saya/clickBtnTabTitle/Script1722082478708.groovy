@@ -24,7 +24,7 @@ driver = MobileDriverFactory.getDriver()
 List<MobileElement> tabTitles = driver.findElementsByXPath("//*[@resource-id = 'id.binar.fp.secondhand:id/tabs']//*[@class='android.widget.TextView']")
 
 for (int i=0; i < tabTitles.size(); i++) {
-	if (tabTitles.get(i).getText().equals(title)) {
+	if (tabTitles.get(i).getText().contains(title)) {
 		tabTitles.get(i).click()
 		break
 	}
