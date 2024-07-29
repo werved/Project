@@ -7,8 +7,8 @@ Feature: Daftar
 
   @Dfr01 @Positif
   Scenario: Daftar dengan credential yang valid
-    When Masukan Name "tes1" 
-    And Input Email "tes1@example.com" 
-    And Input Password "123456"
-    And Klik tombol "Daftar" 
-    Then Melihat halaman "Telusuri Kategori" 
+    When Masukan Name Daftar "tes29" 
+    And Input Email Daftar "tes2907.3@example.com" 
+    And Input Password Daftar "123456"
+    And Klik tombol Daftar "Daftar" 
+    Then Melihat halaman setelah daftar "Telusuri Kategori" 
