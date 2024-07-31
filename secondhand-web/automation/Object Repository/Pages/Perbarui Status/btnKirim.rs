@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnKirim</name>
+   <tag></tag>
+   <elementGuidId>d713c37a-80df-4b91-8bf1-e669b7604470</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='commit'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary p-3 w-100 rounded-4 fw-bold']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#statusModal101744 > div.modal-dialog.modal-dialog-centered > form.modal-content.px-4.py-2 > div.modal-footer.border-0 > input[name=&quot;commit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary p-3 w-100 rounded-4 fw-bold</value>
+      <webElementGuid>62daafd2-f7f7-4547-bfd1-04895ccfed8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name='commit'])[2]</value>
+      <webElementGuid>ced1b0db-bbb4-4405-a8d8-7d6420ed04f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='statusModal101744']/div/form/div[3]/input</value>
+      <webElementGuid>4327e196-4e19-4081-adee-1c84194c2d87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/form/div[3]/input</value>
+      <webElementGuid>b9e23f7c-c996-421f-b092-a4d9897dd438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'commit']</value>
+      <webElementGuid>62f0f0af-d3d9-486a-85f7-3ded9c40e0cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

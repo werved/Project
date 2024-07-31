@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldProductDesc</name>
+   <tag></tag>
+   <elementGuidId>cdd06c45-f837-4f14-8b89-f78af170e056</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='product_description']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_description']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product_description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_description</value>
+      <webElementGuid>ddece7ed-7cc7-495d-96ef-e4ad3e455a56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@id='product_description']</value>
+      <webElementGuid>63a7e7e1-effd-40ef-ab7b-ea75c0651b85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>1372953b-a7b2-4065-95fb-27714c19cd3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Contoh: Jalan Ikan Hiu 33' and @name = 'product[description]' and @id = 'product_description']</value>
+      <webElementGuid>76184a49-adb7-43ec-ab50-12b5c8f324f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

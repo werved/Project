@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputFieldHargaProduk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47e64fdd-43f9-47a1-ad49-c8300675d113</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af3fe508-0568-4dd8-bb32-a80425e74960</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af3fe508-0568-4dd8-bb32-a80425e74960</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

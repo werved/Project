@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>imgFotoProduk</name>
+   <tag></tag>
+   <elementGuidId>a8145823-0306-492a-a842-95733534864e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.notification-image.rounded-4.overflow-hidden.me-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>notification-image rounded-4 overflow-hidden me-4</value>
+      <webElementGuid>3efeb957-4a3a-4508-8520-5d5675c351c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/img</value>
+      <webElementGuid>ea26d348-2368-4c98-8e47-486993551c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[2]/following::img[1]</value>
+      <webElementGuid>e86c748e-da4c-45ec-93f6-830aa2cf8b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[1]/following::img[1]</value>
+      <webElementGuid>8f075d08-779e-49f3-ad01-08437cbd0b22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[1]/preceding::img[1]</value>
+      <webElementGuid>7ccadb2d-fda4-4791-840f-724b99188e46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Binar Virtual BackgroundRp 150.000Ditawar Rp 0'])[1]/preceding::img[1]</value>
+      <webElementGuid>acc1fc19-d6a1-4d16-b020-a3a72725fa79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWh2Q1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a2bfce5d0964dc8809555a761a616d46a5bb8c6d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFHQWFRR0EiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--f818892d4e54f518060ffc124f73e0f075cd27ce/binar.jpg')]</value>
+      <webElementGuid>8e854447-9135-4cd2-96c6-bdceb456e30d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>92161685-6286-4cbe-8277-d4118bd55742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWh2Q1E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a2bfce5d0964dc8809555a761a616d46a5bb8c6d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFHQWFRR0EiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--f818892d4e54f518060ffc124f73e0f075cd27ce/binar.jpg']</value>
+      <webElementGuid>ad1b9344-2e40-401d-9614-8f6c325b281c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

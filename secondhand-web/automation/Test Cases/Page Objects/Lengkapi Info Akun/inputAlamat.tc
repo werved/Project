@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputAlamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>607cc04d-f5b4-4d62-acdf-eb62865d9bdc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98efe7f4-00e0-472f-92a0-0ab06d3836e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98efe7f4-00e0-472f-92a0-0ab06d3836e5</id>
+      <masked>false</masked>
+      <name>varAlamat</name>
+   </variable>
+</TestCaseEntity>

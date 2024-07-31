@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtTimestamp</name>
+   <tag></tag>
+   <elementGuidId>dfc0c30f-3659-4c4c-92e4-5b32819678c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.notification-timestamp.fs-6.text-black-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>notification-timestamp fs-6 text-black-50</value>
+      <webElementGuid>faffb9d5-b692-4da2-a926-40c89900db2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div[2]</value>
+      <webElementGuid>d0961b79-de1a-4947-96b2-8cedfb8101f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Binar Virtual BackgroundRp 150.000Ditawar Rp 0'])[1]/following::div[1]</value>
+      <webElementGuid>b1dce669-6020-499a-8ebe-c697293e5154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[1]/following::div[2]</value>
+      <webElementGuid>81a164fa-d565-4a9f-b509-ecabb6e17f31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penawaran produk'])[2]/preceding::div[1]</value>
+      <webElementGuid>075c23ca-1492-4153-a261-2e4fda41ee72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Binar Virtual BackgroundRp 150.000Ditawar Rp 100.000'])[1]/preceding::div[2]</value>
+      <webElementGuid>4bfa11bd-4e9d-41ac-9b71-fe82edbb983c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div[2]</value>
+      <webElementGuid>2ff8dec6-e798-471c-8aad-42dbae4e9fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '02 Jun, 21:09' or . = '02 Jun, 21:09')]</value>
+      <webElementGuid>a4b6b4a8-342e-480a-9857-1b43cf08f1f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

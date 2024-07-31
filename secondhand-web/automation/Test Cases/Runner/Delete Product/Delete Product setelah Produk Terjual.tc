@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Product setelah Produk Terjual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f278d800-7452-4e54-9e39-78a5f154b91b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldProductName</name>
+   <tag></tag>
+   <elementGuidId>41851f12-c8f7-4b9d-a416-51e9bd7f1891</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='product_name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product_name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_name</value>
+      <webElementGuid>9cd4438a-6e4e-48fb-abc7-714e1b89819b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='product_name']</value>
+      <webElementGuid>76c98838-7177-4c64-ad92-ea5b2514ffea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/form/div/input</value>
+      <webElementGuid>bf80a74d-0fb5-472c-988a-876a15dc5781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Nama Produk' and @type = 'text' and @name = 'product[name]' and @id = 'product_name']</value>
+      <webElementGuid>b0cb8f62-5102-4e0c-991e-599544c65eb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

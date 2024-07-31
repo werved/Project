@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>clickProductCard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50ea588f-be4f-43c3-8fce-f3cfe5f264e0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>249aadc5-118b-4f59-aaa8-2ee322d4a73f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>249aadc5-118b-4f59-aaa8-2ee322d4a73f</id>
+      <masked>false</masked>
+      <name>varProductName</name>
+   </variable>
+</TestCaseEntity>
