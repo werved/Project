@@ -44,35 +44,30 @@ import cucumber.api.java.en.When
 
 
 
-class DaftarJualSaya {
-	
-	@Given("User tap navbar icon Akun")
-	public void userTapNavbarIconAkun() {
-		Mobile.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-	
-	@When("Klik menu Daftar Jual Saya")
-	public void klikMenuDaftarJualSaya() {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
+class DaftarSteps {
+
+	@When("Masukan Name Daftar {string}")
+	public void masukanNameDaftar(String fieldName) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputName'), [('varName') : fieldName], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik tab {string}")
-	public void klikTab(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
+	@When("Input Email Daftar {string}")
+	public void inputEmailDaftar(String fieldEmail) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputEmail'), [('varEmail') : fieldEmail], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Ditampilkan list produk yang ditawar oleh buyer")
-	public void ditampilkanListProdukYangDitawarOlehBuyer() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Diminati/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Input Password Daftar {string}")
+	public void inputPasswordDaftar(String fieldPassword) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputPassword'), [('varPassword') : fieldPassword], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Ditampilkan list produk terjual")
-	public void ditampilkanListProdukTerjual() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik tombol Daftar {string}")
+	public void klikTombolDaftar(String btnDaftar) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/clickBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Ditampilkan list produk")
-	public void ditampilkanListProduk() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Melihat halaman setelah daftar {string}")
+	public void melihatHalamanSetelahDaftar(String fielDaftar) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

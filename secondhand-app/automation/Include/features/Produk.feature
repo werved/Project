@@ -3,13 +3,13 @@ Feature: Produk
     Sebagai User dapat melakukan edit dan hapus produk yang dijual
 
 Background:
-    Given User membuka aplikasi "Secondhand"
-    Given User buka halaman "Masuk" ke dalam aplikasi
-    Given User buka halaman "Akun Saya"
+    #Given User membuka aplikasi "Secondhand"
+    #Given User buka halaman "Masuk" ke dalam aplikasi
+    Given User tap navbar icon Akun
 
 @Pdk001 @Positif
 Scenario: Memastikan User dapat update produk
-    When User klik menu "Daftar Jual Saya"
+    When Klik menu Daftar Jual Saya
     And Klik tab "Produk"
     Then Ditampilkan list produk
     And Klik produk Item
