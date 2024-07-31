@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductName'), 30)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductCategory'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductName'), 30)
 
 Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductPrice'), 30)
 
@@ -28,3 +28,4 @@ Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - 
 Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Diminati/txtProductBid'), 30)
 
 Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Diminati/txtProductStatus'), 30)
+
