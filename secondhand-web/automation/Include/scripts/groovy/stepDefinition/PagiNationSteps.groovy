@@ -44,40 +44,40 @@ import cucumber.api.java.en.When
 
 
 
-class DeleteProductDiminatiSteps {
-	@When("Klik navigation link Products")
-	public void klikNavigationLinkProducts() {
-		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
+class PagiNationSteps {
+	@Given("Buka {string}")
+	public void buka(String url) {
+		WebUI.navigateToUrl(url)
 	}
 
-	@When("klik link Diminati")
-	public void klikLinkDiminati() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkDiminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Berhasil menampilkan halaman Beranda")
+	public void berhasilMenampilkanHalamanBeranda() {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik product {string}")
-	public void klikProduct(String namaProduct) {
-		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : namaProduct], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik selanjutnya {string}")
+	public void klikSelanjutnya(String btnMext) {
+		WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+		WebUI.delay(5)
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickButtonNext'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
 	}
 
-
-	@When("Klik tombol Delete")
-	public void klikTombolDelete() {
-		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/clickBtnDeleteProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+	@When("Klik sebelumnya {string}")
+	public void klikSebelumnya(String btnPrev) {
+		WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+		WebUI.delay(5)
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickButtonPrevious'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
 	}
 
-	@Then("Produk berhasil dihapus")
-	public void produkBerhasilDihapus() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Berhasil menampilkan URL {string}")
+	public void berhasilMenampilkanURL(String urlPage) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyUrl'), [('urlExpectedVar') : urlPage], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("klik link Terjual")
-	public void klikLinkTerjual() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("Produk berhasil terjual dihapus")
-	public void produkBerhasilTerjualDihapus() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductTerjualDeleted'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
+	//		@Then("Berhasil menampilkan halaman Beranda")
+	//		public void BerhasilMenampilkanHalamanBeranda() {
+	//			WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
+	//		}
 }
