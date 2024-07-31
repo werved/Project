@@ -54,14 +54,14 @@ Background:
     And Klik tombol "Simpan"
     And Kosongkan kata sandi baru "<sandibaru>" 
     And Klik tombol "Simpan"
-    And Kosongkan konfirmasi kata sandi "<konf.katasandi>" 
+    And Kosongkan konfirmasi kata sandi "<konf_katasandi>" 
     And Klik tombol "Simpan" 
     Then Menampilkan alert kata sandi "<alert>" 
     
     Examples: 
-      | sandilama     | sandibaru     | konf.katasandi     | alert
-      |               | 123456        | 123456             | Wajib Diisi
-      | 123456        |               | 123456             | Wajib Diisi
-      | 123456        | 123456        |                    | Wajib Diisi
+      | sandilama     | sandibaru     | konf_katasandi     | alert       |
+      |               | 123456        | 123456             | Wajib Diisi |
+      | 123456        |               | 123456             | Wajib Diisi |
+      | 123456        | 123456        |                    | Wajib Diisi |
     
     
