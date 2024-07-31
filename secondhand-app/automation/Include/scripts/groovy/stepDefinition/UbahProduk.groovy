@@ -44,35 +44,29 @@ import cucumber.api.java.en.When
 
 
 
-class DaftarJualSaya {
-	
-	@Given("User tap navbar icon Akun")
-	public void userTapNavbarIconAkun() {
-		Mobile.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)
+class UbahProduk {
+	@Then("Klik produk Item")
+	public void klikProdukItem() {
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/clickProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik menu Daftar Jual Saya")
-	public void klikMenuDaftarJualSaya() {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Hapus Kategori")
+	public void hapusKategori() {
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickBtnRemoveChip'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Klik tab {string}")
-	public void klikTab(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
+	@Then("Pilih Spinner Kategori")
+	public void pilihSpinnerKategori() {
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickSpinnerCategory'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Ditampilkan list produk yang ditawar oleh buyer")
-	public void ditampilkanListProdukYangDitawarOlehBuyer() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Diminati/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Diarahkan ke halaman Ubah Produk")
+	public void diarahkanKeHalamanUbahProduk() {
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/seeTxtPageTitle'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("Ditampilkan list produk terjual")
-	public void ditampilkanListProdukTerjual() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("Ditampilkan list produk")
-	public void ditampilkanListProduk() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/verifyProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("Klik tombol Perbarui Produk")
+	public void klikTombolPerbaruiProduk() {
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickBtnPerbaruiProduk'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
