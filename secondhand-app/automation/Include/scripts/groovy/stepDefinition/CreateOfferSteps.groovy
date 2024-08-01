@@ -62,7 +62,7 @@ class CreateOfferSteps {
 
 	@When("Tap tombol Saya Tertarik dan Ingin Nego")
 	public void tapTombolSayaTertarikDanInginNego() {
-		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (Orang)/clickBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (Orang)/tapBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Diarahkan ke Modal {string}")
@@ -77,7 +77,7 @@ class CreateOfferSteps {
 
 	@When("Tap tombol Kirim")
 	public void tapTombolKirim() {
-		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (Orang)/Bottom Sheets Harga Tawar/clickBtnKirim'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (Orang)/Bottom Sheets Harga Tawar/tapBtnKirim'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Produk berhasil ditawar dengan Notif {string}")

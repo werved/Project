@@ -58,7 +58,7 @@ class DaftarJualSaya {
 
 	@When("Klik tab {string}")
 	public void klikTab(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/tapBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Ditampilkan list produk yang ditawar oleh buyer")
