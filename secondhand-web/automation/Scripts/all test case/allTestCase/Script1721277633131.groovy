@@ -245,3 +245,6 @@ WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/verifyTambahProdukTe
 
 WebUI.callTestCase(findTestCase('Page Objects/Tambah Produk/verifyTxtErrorMessage'), [('expected') : ''], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyTitlePageDaftarJualSaya'), [('varTitlePageDaftarJualSaya') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
+
