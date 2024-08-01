@@ -31,6 +31,8 @@ WebUI.callTestCase(findTestCase('Page Objects/Daftar/verifyTitlePageDaftar'), [(
 
 WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnAddProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik orang lain)/verifyBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnEditProfile'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickCardProduct'), [:], FailureHandling.STOP_ON_FAILURE)
