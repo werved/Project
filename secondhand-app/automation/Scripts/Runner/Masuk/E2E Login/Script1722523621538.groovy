@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Masuk/AlertTextLogin'), 10)
-
-getAlertTextMasuk = Mobile.getText(findTestObject('Pages/Masuk/AlertTextLogin'), 0)
-
-Mobile.verifyMatch(getAlertTextMasuk, varAlertTextMasuk, false)
-
+CucumberKW.runFeatureFileWithTags('Include/features/Masuk.feature', '@Msk002, @Msk003')

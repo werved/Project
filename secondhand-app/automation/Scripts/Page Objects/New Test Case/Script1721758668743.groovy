@@ -59,3 +59,8 @@ WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [(
 
 WebUI.callTestCase(findTestCase('Page Objects/Bottom Sheets/closeBottomSheets'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+
