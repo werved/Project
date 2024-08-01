@@ -4,20 +4,20 @@ Agar list produk selanjutnya atau sebelumnya dapat dilihat
       
 @Pagi001 @Positif
 Scenario: User lihat list produk selanjutnya
-    Given Buka "https://secondhand.binar-academy.org/"
+    Given Buka "https://secondhand.binaracademy.org/"
     When Berhasil menampilkan halaman Beranda
-    And Klik "Next"
-    Then Berhasil menampilkan URL "https://secondhand.binar-academy.org/?page=2"
+    And Klik selanjutnya "Next"
+    Then Berhasil menampilkan URL "https://secondhand.binaracademy.org/?page=2"
     And Berhasil menampilkan halaman Beranda
 
 @Pagi002 @Positif
 Scenario: User lihat list produk sebelumnya
-    Given Buka "https://secondhand.binar-academy.org/"
+    Given Buka "https://secondhand.binaracademy.org/"
     When Berhasil menampilkan halaman Beranda
-    And Klik "Next"
-    Then Berhasil menampilkan URL "https://secondhand.binar-academy.org/?page=2"
-    When Klik "Previous"
-    Then Berhasil menampilkan URL "https://secondhand.binar-academy.org/?page=1"
+    And Klik selanjutnya "Next"
+    Then Berhasil menampilkan URL "https://secondhand.binaracademy.org/?page=2"
+    When Klik sebelumnya "Previous"
+    Then Berhasil menampilkan URL "https://secondhand.binaracademy.org/?page=1"
       
 #Versi awal      
 #@Pagi001 @Positif
