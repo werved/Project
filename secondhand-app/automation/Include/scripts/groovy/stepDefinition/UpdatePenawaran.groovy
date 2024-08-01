@@ -47,12 +47,12 @@ import cucumber.api.java.en.When
 class UpdatePenawaran {
 	@When("Klik produk dengan status {string}")
 	public void klikProdukDenganStatus(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Diminati/clickProductCard'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Diminati/tapProductCard'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Terima")
 	public void klikTombolTerima() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTerima'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapBtnTerima'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Status produk berubah menjadi {string}")
@@ -62,27 +62,27 @@ class UpdatePenawaran {
 
 	@When("Klik tombol Status")
 	public void klikTombolStatus() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapBtnStatus'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Berhasil Terjual")
 	public void klikTombolBerhasilTerjual() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickRadioBtnBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapRadioBtnBerhasilTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Kirim")
 	public void klikTombolKirim() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnKirim'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapBtnKirim'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Tolak")
 	public void klikTombolTolak() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickBtnTolak'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapBtnTolak'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tombol Batalkan Transaksi")
 	public void klikTombolBatalkanTransaksi() {
-		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/clickRadioBtnBatalkanTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Info Penawar/tapRadioBtnBatalkanTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Muncul Bottom Sheets {string}")

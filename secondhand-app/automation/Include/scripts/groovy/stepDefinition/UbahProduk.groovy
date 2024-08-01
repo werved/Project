@@ -47,17 +47,17 @@ import cucumber.api.java.en.When
 class UbahProduk {
 	@Then("Klik produk Item")
 	public void klikProdukItem() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/clickProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/Tab Produk - Terjual/tapProductCard'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Hapus Kategori")
 	public void hapusKategori() {
-		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickBtnRemoveChip'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/tapBtnRemoveChip'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Pilih Spinner Kategori")
 	public void pilihSpinnerKategori() {
-		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickSpinnerCategory'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/tapSpinnerCategory'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Diarahkan ke halaman Ubah Produk")
@@ -67,6 +67,6 @@ class UbahProduk {
 
 	@Then("Klik tombol Perbarui Produk")
 	public void klikTombolPerbaruiProduk() {
-		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/clickBtnPerbaruiProduk'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Ubah Produk/tapBtnPerbaruiProduk'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
