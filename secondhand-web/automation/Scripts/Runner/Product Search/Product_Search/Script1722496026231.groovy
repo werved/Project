@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Pages/Homepage/txtBulanramadhanBanyakDiskon'), 0)
-
-WebUI.click(findTestObject('Pages/Homepage/btnKategoriKendaraan'))
-
-WebUI.delay(5)
-
+CucumberKW.runFeatureFile("Include/features/Product_Search.feature")

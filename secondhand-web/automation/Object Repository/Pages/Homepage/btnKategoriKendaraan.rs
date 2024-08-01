@@ -6,37 +6,43 @@
    <elementGuidId>8ca3e8e7-34e3-495c-be8f-ffb18aa0b9cc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Kendaraan
-' or . = 'Kendaraan
-')]</value>
+         <value>//*[@href = '/?category_id=2']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(@href, '/?category_id=2')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7746518d-a38a-4e7d-bb85-712a330438ce</webElementGuid>
+      <webElementGuid>81613340-0392-4393-b7d9-b458ce72c1aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Kendaraan
 </value>
-      <webElementGuid>2c72724d-fa7e-47af-8228-702100c22433</webElementGuid>
+      <webElementGuid>bcf8d3c3-0842-45d4-97f6-94f3e6357244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=2</value>
+      <webElementGuid>74d9eeda-8517-4d92-87c9-55bc2c88189b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -44,7 +50,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=2')]</value>
-      <webElementGuid>dae92d00-edbb-416f-8c53-8672149ffb1c</webElementGuid>
+      <webElementGuid>02a33475-85fc-461b-a091-a577b686d453</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -52,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>7cb8cd6a-39a9-4688-ab3a-f2aac45681cf</webElementGuid>
+      <webElementGuid>540516a0-5003-4e8f-9d5b-e3e811b80464</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +72,6 @@
         
         Kendaraan
 ')]</value>
-      <webElementGuid>c8f798c3-bfa5-4a32-8f8f-3f0da80b1495</webElementGuid>
+      <webElementGuid>b1b06687-c8a8-4080-b0c0-8fb82ba6dbd0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
