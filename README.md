@@ -56,7 +56,96 @@ Learn how to create Web and App automation testing.
 
 
 ### 2. Katalon
-(menyusul)
+```
+|-- create project 1
+		    |-- set .gitignore 2
+            |-- include
+                |-- features (gherkin) 3
+                |-- step definitions 7
+		    |-- object repository
+                |-- test objects (locator) 4
+            |-- test cases
+                |-- method 5
+                |-- runner 8
+            |-- keyword
+                |-- custom keyword [if required] 6
+            |-- test listener
+                |-- hook 9
+            |-- test suites 10
+------------------------------------------------------------
+            |-- report
+            |-- driver
+            |-- browser/device
+```
+
+1. **create project**: Create a new project to automate. &#10003;
+2. **set .gitignore**: To ignore files so they don't get pushed to the remote repository. &#10003;
+    <br>
+    common .gitignore:
+    - **/*.log
+    - **/*.gradle
+    - **/*.properties
+    - **/*.classpath
+    -  **/*.project
+    - **/*.idea
+    - **/*.settings
+    - **/*.cache
+    - **/*.meta
+    - **/bin
+    - **/Reports
+    - **/Libs
+    - **/output
+    - **/build
+    - **/apk
+    - **/settings
+    - **/*.prj
+
+3. **features (gherkin)**: Contains steps from a feature with gherkin syntax. &#10003;
+    <br>
+    - Feature: Feature name.
+    - @ (tag): Tagging feature or scenario for runner
+    - Background: To define steps that are can use to all scenarios within a feature.
+    - Given: Sets up the initial context or state of the feature.
+    - When: Contains the action or event that triggers the behavior.
+    - Then: Contains the expected outcome or result of the action (When).
+    - And: Used to add more details or conditions to the steps.
+
+4. **test objects (locator)**: Contains the target to be tested &#10003;
+    <br>
+    common test objects (locator):
+    - id / resource-id
+    - name
+    - class
+    - data-test
+    - xpath
+
+5. **method**: Contains methods used in test cases. &#10003;
+
+6. **custom keyword**: Contains custom keyword for supporting method. &#10003;
+
+7. **step defintion**: Define gherkin syntax within a feature into code. &#10003;
+
+8. **runners**: Execute test cases. &#10003;
+<br>
+code:
+    - CucumberKW.*runFeatureFiles*("") = Want to run a Spesific feature.
+    - CucumberKW.*runFeatureFilesWithTags*("","") = Want to run from feature with spesific tags
+    - CucumberKW.*runFeatureFolder*("") = Want to run features in a spesific folder.
+    - CucumberKW.*runFeatureFolderWithTags*("","") = Want to run features within spesific tags in a spesific folder.
+
+9. **test suites**: Groups several test cases to be run together. &#10003;
+
+10. **hooks (test listeners)**: Manages actions run (method) before or after a test suite is executed. &#10003;
+----------------------------------------------------------------
+11. **report**: Generates run test result reports. &#10003;
+
+12. **driver**: Connects to the browser or device to be tested. &#10003;
+
+13. **browser/device**: The environment where the testing is executed. &#10003;
+
+
+
+
 
 
 ### 3. Other
