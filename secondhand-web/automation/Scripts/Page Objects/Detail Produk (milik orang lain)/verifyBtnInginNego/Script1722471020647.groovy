@@ -17,9 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Pages/Homepage/txtBulanramadhanBanyakDiskon'), 0)
-
-WebUI.click(findTestObject('Pages/Homepage/btnKategoriKendaraan'))
-
-WebUI.delay(5)
+WebUI.verifyElementVisible(findTestObject('Pages/Detail Produk (milik orang lain)/btnInginNego'), FailureHandling.STOP_ON_FAILURE)
 

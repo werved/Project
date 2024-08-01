@@ -6,37 +6,43 @@
    <elementGuidId>802045b3-ffd1-4f12-b212-a885ce8fb7f2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Kesehatan
-' or . = 'Kesehatan
-')]</value>
+         <value>//*[@href = '/?category_id=5']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaligrafi'])[1]/preceding::a[1]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d2ac6ca0-35ba-4502-ad5d-4a58670c0cfe</webElementGuid>
+      <webElementGuid>afd05b01-a7b4-422c-b1d6-9add3a19db25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Kesehatan
 </value>
-      <webElementGuid>17f5cd94-517e-4c66-a812-dce2a634c916</webElementGuid>
+      <webElementGuid>8cab7caa-9b4d-48ef-95d9-abb0b37969f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=5</value>
+      <webElementGuid>829d4254-dc5a-41f3-9bec-999db4a106df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -44,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaligrafi'])[1]/preceding::a[1]</value>
-      <webElementGuid>3292e496-9b65-4149-ae9c-9b0ab1f5aa2e</webElementGuid>
+      <webElementGuid>82bf3565-c48f-4ee0-9ed6-2645691580d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -52,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 500.000'])[1]/preceding::a[1]</value>
-      <webElementGuid>b9998ee6-146c-42a8-b433-708437ed1b02</webElementGuid>
+      <webElementGuid>c47e0271-034c-4e53-aab1-e18446a0a5b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,7 +66,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=5')]</value>
-      <webElementGuid>553eec68-e8c9-4a15-8b4f-e1869e2025f3</webElementGuid>
+      <webElementGuid>7b9a5b44-4022-44bd-8e01-6d935d1715b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]</value>
-      <webElementGuid>080a6424-0a8e-41ec-94b9-64280b7e69a9</webElementGuid>
+      <webElementGuid>fbc7872e-86eb-405b-b964-916a924fdab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +88,6 @@
         
         Kesehatan
 ')]</value>
-      <webElementGuid>83b70e15-17e2-43b2-a66a-ed7c35a4d951</webElementGuid>
+      <webElementGuid>61ba9648-9fa7-400e-8b10-ee17c2395fc3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
