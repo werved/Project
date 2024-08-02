@@ -89,17 +89,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>57bfda2f-6955-4691-ab57-dcb7b7ef2a8e</guid>
+      <guid>cfa3eb28-6329-46e2-bbb1-f815eeb59bac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Status Offer/Status Offer Berhasil Terjual</testCaseId>
+      <testCaseId>Test Cases/Runner/Status Offer/Status Offer Berhasil Dibatalkan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f86d2481-b535-42f1-801d-083f9fd42d90</guid>
+      <guid>277ad2c3-896b-4eb4-b298-9aa96e05aefd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Delete Product/Delete Product setelah Produk Terjual</testCaseId>
+      <testCaseId>Test Cases/Runner/Delete Product/Delete Product setelah Update Offer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

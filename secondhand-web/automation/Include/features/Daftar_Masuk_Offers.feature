@@ -7,7 +7,7 @@ Feature: Daftar Masuk Offers
   Scenario: Seller Daftar dengan credential yang valid
     Given User membuka "https://secondhand.binaracademy.org/users/sign_up"
     When Masukan Name Daftar "Seller"
-    And Input Email Daftar "seller@seller5.com"
+    And Input Email Daftar "seller@seller6.com"
     And Input Password Daftar "123456"
     And Klik tombol Daftar "Daftar"
     Then Melihat halaman setelah daftar "Telusuri Kategori"
@@ -17,7 +17,7 @@ Feature: Daftar Masuk Offers
   Scenario: Buyer Daftar dengan credential yang valid
     Given User membuka "https://secondhand.binaracademy.org/users/sign_up"
     When Masukan Name Daftar "Buyer"
-    And Input Email Daftar "buyer@buyer123.com"
+    And Input Email Daftar "buyer@buyer6.com"
     And Input Password Daftar "123456"
     And Klik tombol Daftar "Daftar"
     Then Melihat halaman setelah daftar "Telusuri Kategori"
@@ -26,7 +26,7 @@ Feature: Daftar Masuk Offers
   @Dmo03 @Msksel
   Scenario: seller ingin login dengan credential yang benar
   	Given User membuka "https://secondhand.binaracademy.org/users/sign_in"
-    When Memasukkan Email yang sudah register "seller@seller5.com"
+    When Memasukkan Email yang sudah register "seller@seller6.com"
     And Memasukkan Password yang sudah register "123456"
     And Klik tombol login "Masuk"
     Then Melihat halaman produk setelah login "Telusuri Kategori"
