@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Pages/Lengkapi Info Akun/btnSimpan'), 3)
-
-WebUI.waitForElementVisible(findTestObject('Pages/Lengkapi Info Akun/btnSimpan'), 30)
-
-WebUI.click(findTestObject('Pages/Lengkapi Info Akun/btnSimpan'))
-
+CucumberKW.runFeatureFolderWithTags('Include/features', '@Dmo06')
