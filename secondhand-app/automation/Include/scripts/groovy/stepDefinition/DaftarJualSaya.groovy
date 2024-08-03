@@ -45,7 +45,7 @@ import cucumber.api.java.en.When
 
 
 class DaftarJualSaya {
-	
+
 	@Given("User tap navbar icon Akun")
 	public void userTapNavbarIconAkun() {
 		Mobile.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)

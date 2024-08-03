@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputNama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37614833-4b8f-4c7d-9cf6-7670d8b1ba59</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7fe59740-f87e-4031-877c-5cd3b8bfb6ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7fe59740-f87e-4031-877c-5cd3b8bfb6ac</id>
+      <masked>false</masked>
+      <name>varNameDaftar</name>
+   </variable>
+</TestCaseEntity>

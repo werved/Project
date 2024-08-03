@@ -64,3 +64,25 @@ WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertUsernameOrPasswor
 
 WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inpuKota'), [('varCity') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputAlamat'), [('varAlamat') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputEmail'), [('varEmailDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputNama'), [('varNameDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputNomorHpDaftar'), [('varNomorHp') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputPassword'), [('varPasswordDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapLinkPageLogin'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [('varAlertTextDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
+
