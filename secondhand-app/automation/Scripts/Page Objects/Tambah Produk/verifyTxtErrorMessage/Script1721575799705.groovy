@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.getText(findTestObject('Pages/Tambah Produk/txtErrorMessage'), 30)
+Mobile.getText(findTestObject('Pages/Tambah Produk/txtErrorMessage'), 5)
 
 Mobile.verifyMatch(actual, expected, false)
 

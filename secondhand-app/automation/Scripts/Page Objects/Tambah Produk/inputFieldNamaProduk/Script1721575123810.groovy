@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('Pages/Tambah Produk/fieldNamaProduk'), 30)
+Mobile.clearText(findTestObject('Pages/Tambah Produk/fieldNamaProduk'), 5)
 
 Mobile.sendKeys(findTestObject('Pages/Tambah Produk/fieldNamaProduk'), expected)
 
