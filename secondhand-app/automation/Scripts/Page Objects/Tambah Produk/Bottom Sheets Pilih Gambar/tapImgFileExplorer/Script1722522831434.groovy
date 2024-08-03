@@ -16,7 +16,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import io.appium.java_client.MobileElement as MobileElement
 import org.openqa.selenium.Keys as Keys
+import java.util.concurrent.TimeUnit
 
-Mobile.tap(findTestObject('Pages/Tambah Produk/Bottom Sheets Pilih Gambar/imgFileExplorer'), 5)
+driver = MobileDriverFactory.getDriver()
 
+// Implicit wait to find each elements
+driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
+
+// Mobile element for Android API 30
+List<MobileElement> android30 = driver.findElementsById('com.google.android.documentsui:id/thumbnail')
+
+// Mobile element for Android API 35
+List<MobileElement> android35 = driver.findElementsById('com.google.android.providers.media.module:id/icon_thumbnail')
+
+//Logic condition when tested with either Android API 30 or API 35
+if (android30.size() > 0) {
+    android30.get(0).click()
+} else {
+    android35.get(0).click()
+}
