@@ -58,7 +58,6 @@ class DaftarSteps {
 	@Then("Input nama untuk daftar {string} pada kolom Nama")
 	public void inputNamaUntukDaftarPadaKolomNama(String fieldNama) {
 		Mobile.callTestCase(findTestCase('Page Objects/Daftar/inputNama'), [('varNameDaftar') : fieldNama], FailureHandling.STOP_ON_FAILURE)
-		
 	}
 
 	@Then("Input email untuk daftar {string} pada kolom Email")
@@ -94,11 +93,18 @@ class DaftarSteps {
 	@Then("Tampil halaman Akun Saya {string}")
 	public void tampilHalamanAkunSaya(String titlePageSetelahDaftar) {
 		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : titlePageSetelahDaftar],
-			FailureHandling.STOP_ON_FAILURE)
+		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Tampil pesan alert ketika daftar {string}")
 	public void tampilPesanAlertKetikaDaftar(String alertDaftar) {
 		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [('varAlertTextDaftar') : alertDaftar], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Kembali ke halaman Akun Saya")
+	public void kembaliKeHalamanAkunSaya() {
+		
+		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
