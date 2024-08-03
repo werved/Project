@@ -9,8 +9,8 @@ Feature: Daftar Masuk Offers
 	    And Klik tombol "Masuk"
 	    And Tap tombol link "Daftar"
 	    Then Tampil halaman Daftar "Daftar"
-	    And Input nama untuk daftar "Romi Ganteng2" pada kolom Nama
-	    And Input email untuk daftar "romi2@yahoo.com" pada kolom Email
+	    And Input nama untuk daftar "Romi Ganteng3" pada kolom Nama
+	    And Input email untuk daftar "romi5@yahoo.com" pada kolom Email
 	    And Input password untuk daftar "romimenyala2" pada kolom Password
 	    And Input nomor untuk daftar "0812234456" pada kolom Nomor HP
 	    And Input kota untuk daftar "Jakarta" pada kolom Kota
@@ -25,8 +25,8 @@ Feature: Daftar Masuk Offers
 	    And Klik tombol "Masuk"
 	    And Tap tombol link "Daftar"
 	    Then Tampil halaman Daftar "Daftar"
-	    And Input nama untuk daftar "Romi Ganteng2" pada kolom Nama
-	    And Input email untuk daftar "romi2@yahoo.com" pada kolom Email
+	    And Input nama untuk daftar "Romi Ganteng4" pada kolom Nama
+	    And Input email untuk daftar "romi6@yahoo.com" pada kolom Email
 	    And Input password untuk daftar "romimenyala2" pada kolom Password
 	    And Input nomor untuk daftar "0812234456" pada kolom Nomor HP
 	    And Input kota untuk daftar "Jakarta" pada kolom Kota
@@ -41,8 +41,8 @@ Feature: Daftar Masuk Offers
     Then Buka halaman "Akun Saya"
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman login "Masuk"
-    And Input Email terdaftar "example@example.com" 
-    And Input Password terdaftar "123456" 
+    And Input Email terdaftar "romi5@yahoo.com" 
+    And Input Password terdaftar "romimenyala2" 
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman "Akun Saya"
   
@@ -53,7 +53,7 @@ Feature: Daftar Masuk Offers
     Then Buka halaman "Akun Saya"
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman login "Masuk"
-    And Input Email terdaftar "example@example.com" 
-    And Input Password terdaftar "123456" 
+    And Input Email terdaftar "romi6@yahoo.com" 
+    And Input Password terdaftar "romimenyala2" 
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman "Akun Saya"

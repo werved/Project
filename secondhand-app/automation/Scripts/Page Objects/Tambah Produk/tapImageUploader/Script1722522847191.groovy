@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'helpers.ScreenAction.swipeTo'(774, 1522, 774, 470)
 
-Mobile.tap(findTestObject('Pages/Tambah Produk/imageUploader'), 30)
+Mobile.tap(findTestObject('Pages/Tambah Produk/imageUploader'), 5)
 

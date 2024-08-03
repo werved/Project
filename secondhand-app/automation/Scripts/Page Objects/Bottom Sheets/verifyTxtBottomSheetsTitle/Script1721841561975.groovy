@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtBottomSheetTitleActual = Mobile.getText(findTestObject('Pages/Bottom Sheets/txtBottomSheetsTitle'), 30)
+txtBottomSheetTitleActual = Mobile.getText(findTestObject('Pages/Bottom Sheets/txtBottomSheetsTitle'), 5)
 
 Mobile.verifyMatch(txtBottomSheetTitleActual, txtBottomSheetTitleExpected, false)
 

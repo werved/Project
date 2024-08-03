@@ -18,16 +18,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import io.appium.java_client.MobileElement as MobileElement
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil 
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.waitForElementPresent(findTestObject('Pages/Ubah Produk/btnChipRemove'), 30)
+Mobile.waitForElementPresent(findTestObject('Pages/Ubah Produk/btnChipRemove'), 5)
 
 driver = MobileDriverFactory.getDriver()
 
-List<MobileElement> chipRemoves = driver.findElementsByXPath("//*[contains(@content-desc, 'Remove')]")
+List<MobileElement> chipRemoves = driver.findElementsByXPath('//*[contains(@content-desc, \'Remove\')]')
 
 for (int i = 0; i < chipRemoves.size(); i++) {
-	KeywordUtil.logInfo(chipRemoves.get(i).getAttribute("content-desc"))
+    KeywordUtil.logInfo(chipRemoves.get(i).getAttribute('content-desc'))
+
     chipRemoves.get(i).click()
-    }
+}
 

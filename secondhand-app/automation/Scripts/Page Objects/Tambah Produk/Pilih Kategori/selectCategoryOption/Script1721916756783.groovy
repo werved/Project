@@ -6,7 +6,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -15,20 +15,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
 import io.appium.java_client.MobileElement as MobileElement
-
 import org.openqa.selenium.Keys as Keys
 
-Mobile.waitForElementPresent(findTestObject('Pages/Tambah Produk/Pilih Kategori/dropDownOptionKategori'), 30)
+Mobile.waitForElementPresent(findTestObject('Pages/Tambah Produk/Pilih Kategori/dropDownOptionKategori'), 5)
 
 driver = MobileDriverFactory.getDriver()
 
-List<MobileElement> options = driver.findElementsByXPath("//*[@resource-id= 'id.binar.fp.secondhand:id/dropdown_menu']")
+List<MobileElement> options = driver.findElementsByXPath('//*[@resource-id= \'id.binar.fp.secondhand:id/dropdown_menu\']')
 
-for(int i=0; i <options.size(); i++) {
-	if(options.get(i).getText().contains(category)) {
-		options.get(i).click()
-		break
-	}
+for (int i = 0; i < options.size(); i++) {
+    if (options.get(i).getText().contains(category)) {
+        options.get(i).click()
+
+        break
+    }
 }
+

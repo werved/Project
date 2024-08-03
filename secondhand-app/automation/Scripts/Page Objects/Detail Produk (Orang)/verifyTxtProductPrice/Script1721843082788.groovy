@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtProductPriceVar = Mobile.getText(findTestObject('Pages/Detail Produk (Orang)/txtProductPrice'), 30)
+txtProductPriceVar = Mobile.getText(findTestObject('Pages/Detail Produk (Orang)/txtProductPrice'), 5)
 
 Mobile.verifyMatch(txtProductPriceVar, txtProductPriceExpected, false)
 
