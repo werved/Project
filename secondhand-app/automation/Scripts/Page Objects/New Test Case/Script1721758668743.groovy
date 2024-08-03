@@ -86,3 +86,13 @@ WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [(
 
 WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/Scroll Halaman'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/GetTxtProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Search/GetTxtProductSearch'), [:], FailureHandling.STOP_ON_FAILURE)
+

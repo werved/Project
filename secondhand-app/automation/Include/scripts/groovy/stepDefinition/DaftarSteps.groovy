@@ -101,10 +101,13 @@ class DaftarSteps {
 		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [('varAlertTextDaftar') : alertDaftar], FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@Then("Kembali ke halaman Masuk")
+	public void kembaliKeHalamanMAsuk() {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("Kembali ke halaman Akun Saya")
 	public void kembaliKeHalamanAkunSaya() {
-		
-		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

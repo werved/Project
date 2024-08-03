@@ -11,17 +11,14 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+getListProduct = Mobile.getText(findTestObject('Pages/Page_Search/Product_Name2'), 0)
 
-CustomKeywords.'helpers.ScreenAction.swipeTo'(774, 470, 774, 1522)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Pages/Masuk/BtnBack'), 5)
+KeywordUtil.logInfo('Product Name: ' + getListProduct)
 

@@ -115,4 +115,10 @@ class Masuk {
 		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 	}
+	
+	@Then("Diarahkan ke halaman daftar {string}")
+	public void diarahkanKeHalamanDaftar(String titlePageDaftar) {
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('varTitlePageDaftar') : titlePageDaftar], FailureHandling.STOP_ON_FAILURE)
+
+	}
 }

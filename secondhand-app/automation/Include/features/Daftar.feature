@@ -34,6 +34,7 @@ Scenario: User melakukan pendaftaran pada aplikasi dengan informasi yang valid
     And Input alamat untuk daftar "<alamat>" pada Kolom Alamat
     And Tap tombol Daftar
     Then Tampil pesan alert ketika daftar "<error>" 
+    And Kembali ke halaman Masuk
     And Kembali ke halaman Akun Saya
 
     Examples: 

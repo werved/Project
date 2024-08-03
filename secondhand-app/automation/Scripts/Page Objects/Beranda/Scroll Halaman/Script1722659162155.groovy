@@ -17,11 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-CustomKeywords.'helpers.ScreenAction.swipeTo'(774, 470, 774, 1522)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Pages/Masuk/BtnBack'), 5)
+CustomKeywords.'helpers.ScreenAction.swipeTo'(774, 1522, 774, 470)
 
