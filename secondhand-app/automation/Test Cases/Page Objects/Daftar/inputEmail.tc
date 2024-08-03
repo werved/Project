@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ff170a4-3e58-4afd-99b1-580f3e6555e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3240755d-918a-40f9-bac8-676ec14f920f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3240755d-918a-40f9-bac8-676ec14f920f</id>
+      <masked>false</masked>
+      <name>varEmailDaftar</name>
+   </variable>
+</TestCaseEntity>

@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Masuk/AlertTextLogin'), 10)
+CustomKeywords.'helpers.ClearText.clearText'(findTestObject('Pages/Daftar/FieldName'))
 
-getAlertTextMasuk = Mobile.getText(findTestObject('Pages/Masuk/AlertTextLogin'), 0)
-
-Mobile.verifyMatch(getAlertTextMasuk, varAlertTextMasuk, false)
+Mobile.sendKeys(findTestObject('Pages/Daftar/FieldName'), varNameDaftar)
 

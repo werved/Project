@@ -99,6 +99,17 @@ class Masuk {
 		WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertTextMasuk'), [('varAlertTextMasuk') : alertText], FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@Then("Tampil pesan invalid {string}")
+	public void tampilPesanInvalid(String alertText1) {
+		WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : alertText1],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Klik kembali dari login")
+	public void klikKembaliDariLogin() {
+		WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("Klik menu {string}")
 	public void klikMenu(String btnLinkDaftar) {
 		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
