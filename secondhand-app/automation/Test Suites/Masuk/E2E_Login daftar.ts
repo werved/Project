@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>E2E_Login All</name>
+   <name>E2E_Login daftar</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>76f40833-774d-49a6-b60e-2a714841ce56</testSuiteGuid>
+   <testSuiteGuid>857faad9-062c-47a6-83ed-91f0e6eba252</testSuiteGuid>
    <testCaseLink>
-      <guid>f4c88cad-496f-4b73-8a88-29510586059e</guid>
+      <guid>ceb89703-b3c2-406c-82dc-791e9264d9ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Masuk/E2E Login Outline</testCaseId>
+      <testCaseId>Test Cases/Runner/Masuk/E2E Login daftar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

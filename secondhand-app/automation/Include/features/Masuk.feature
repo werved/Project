@@ -57,9 +57,11 @@ Feature: Masuk
     Then Diarahkan ke halaman "Akun Saya"
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman login "Masuk"
-    And Input Email terdaftar "yuhuuuu.com"
+    And Input Email terdaftar "yuhuuuu"
     And Input Password terdaftar "123565"
-    Then Tampil pesan "Please include an '@' in the email address. 'yuhuuuu.com' is missing an '@'"
+    And Klik tombol "Masuk"
+    #Then Tampil pesan "Please include an '@' in the email address. 'yuhuuuu.com' is missing an '@'"
+    Then Tampil pesan "Email tidak valid"
     And Klik kembali dari login
 
   @Msk005 @Positif
@@ -69,4 +71,4 @@ Feature: Masuk
     And Klik tombol "Masuk"
     Then Diarahkan ke halaman login "Masuk"
     And Klik menu "Daftar"
-    Then Diarahkan ke halaman "Daftar"
+    Then Diarahkan ke halaman daftar "Daftar"
