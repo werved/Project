@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtPageTitleActual = Mobile.getText(findTestObject('Pages/Daftar Jual Saya/txtPageTitle'), 30)
+txtPageTitleActual = Mobile.getText(findTestObject('Pages/Daftar Jual Saya/txtPageTitle'), 5)
 
 Mobile.verifyMatch(txtPageTitleActual, txtPageTitleExpected, false)
 

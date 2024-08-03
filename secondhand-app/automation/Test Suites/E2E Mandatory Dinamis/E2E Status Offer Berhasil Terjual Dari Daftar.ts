@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>E2E Mandatory Dinamis</name>
+   <name>E2E Status Offer Berhasil Terjual Dari Daftar</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>f7a9a194-82f0-4361-9c46-fb2ebd1eb0af</testSuiteGuid>
+   <testSuiteGuid>2f6b677e-225a-4dc8-ad3c-5bf7f9e2611e</testSuiteGuid>
    <testCaseLink>
-      <guid>70ed7c3d-0cb5-4a59-8ab7-e6d06c3da8b6</guid>
+      <guid>c4930b5c-ea03-4cfe-80b7-72b41f5d984b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Daftar/Daftar Akun</testCaseId>
+      <testCaseId>Test Cases/Runner/Daftar/Daftar Sebagai Seller</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -33,10 +33,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7996856-6cf7-4b01-9da2-768d02c410a9</guid>
+      <guid>fa53a8e5-f6bb-46fc-a478-79bc9588a092</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Create Offer/Create Offer Dengan Login</testCaseId>
+      <testCaseId>Test Cases/Runner/Daftar/Daftar Sebagai Buyer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec58c9af-4013-4456-ac19-60ad7e3b239c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Runner/Create Offer/Create Offer Tanpa Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -47,10 +54,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b67cf635-af26-4b07-be7b-92dda2c16182</guid>
+      <guid>e6b2af7f-1d1c-4ad5-a1f0-70931e17ec21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/Masuk/Login dengan email yang valid</testCaseId>
+      <testCaseId>Test Cases/Runner/Masuk/Login Sebagai Seller</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtProductDescVar = Mobile.getText(findTestObject('Pages/Preview Produk (Detail Produk Sendiri)/txtProductDesc'), 30)
+txtProductDescVar = Mobile.getText(findTestObject('Pages/Preview Produk (Detail Produk Sendiri)/txtProductDesc'), 5)
 
 KeywordUtil.logInfo('Text Product Desc is ' + txtProductDescVar)
 
