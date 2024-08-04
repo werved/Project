@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>BtnTransaksi</name>
+   <name>btnTransaksi</name>
    <tag></tag>
    <elementGuidId>1c4e27e3-6385-49af-b6e8-d1956ba7094c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

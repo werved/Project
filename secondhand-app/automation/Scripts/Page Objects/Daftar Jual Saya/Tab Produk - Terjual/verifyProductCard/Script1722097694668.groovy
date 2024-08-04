@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductName'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductName'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductCategory'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductCategory'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductPrice'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/txtProductPrice'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/imgProduct'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/imgProduct'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/btnDelete'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar Jual Saya/Tab Produk - Terjual/btnDelete'), 5)
 

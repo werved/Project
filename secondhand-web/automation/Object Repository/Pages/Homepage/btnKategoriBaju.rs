@@ -6,37 +6,43 @@
    <elementGuidId>a27e11b6-46d1-4815-a7d9-584dcd83fb70</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Baju
-' or . = 'Baju
-')]</value>
+         <value>//*[@href = '/?category_id=3']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(@href, '/?category_id=3')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>89fb3f50-4645-4d20-8287-ed23d5ea3c54</webElementGuid>
+      <webElementGuid>a871641b-3332-455e-96c1-e29f717d0200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Baju
 </value>
-      <webElementGuid>571b45e3-e0e6-44da-9a09-d8ff4efd0f67</webElementGuid>
+      <webElementGuid>ea8648b2-dba7-444d-b66d-078b5dce967b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=3</value>
+      <webElementGuid>7389919c-460a-4c63-b4f5-3b5c60042b0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -44,7 +50,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=3')]</value>
-      <webElementGuid>1b72adb0-13c4-4e61-80f2-db5d605f8c6e</webElementGuid>
+      <webElementGuid>cea48c21-d8a1-4293-90cf-558365865746</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -52,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>69788823-dbc8-4a45-ad0d-e22eedbbe73d</webElementGuid>
+      <webElementGuid>fd2a1dd9-2f20-4a8f-9cde-1af391d7c453</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +72,6 @@
         
         Baju
 ')]</value>
-      <webElementGuid>576a09ee-9f60-49d9-b632-3c46a06792e0</webElementGuid>
+      <webElementGuid>a50acb9f-96c9-4b4b-bfb9-68442e0d7b2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

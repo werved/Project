@@ -6,35 +6,43 @@
    <elementGuidId>ada6dbbb-6c09-4d0e-99ca-aa454e7bf86c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-alt-primary.col.rounded-4.py-2.px-4.d-inline-flex.align-items-center.false</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Hobi' or . = 'Hobi')]</value>
+         <value>//*[@href = '/?category_id=1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Telusuri Kategori'])[1]/following::a[2]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-alt-primary.col.rounded-4.py-2.px-4.d-inline-flex.align-items-center.false</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f14b0841-72f7-4233-b7dc-a3f01e5e172c</webElementGuid>
+      <webElementGuid>57af13d8-14d0-421f-b554-77b51b9c762f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Hobi</value>
-      <webElementGuid>7165e6b8-0b88-4868-bee7-325b51ec8609</webElementGuid>
+      <webElementGuid>b9937b73-a3ba-4f2b-866e-f623e5e3c8a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=1</value>
+      <webElementGuid>fff24fb9-444e-407c-b9b4-6416c2e0768c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -42,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Telusuri Kategori'])[1]/following::a[2]</value>
-      <webElementGuid>d61d9b9c-bc2a-480c-bffb-be10818379d1</webElementGuid>
+      <webElementGuid>c1be7796-a43f-4b94-871b-4da0c094dbc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,7 +58,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=1')]</value>
-      <webElementGuid>26bc71d0-afa4-4ccf-b3b2-9f419c7c160b</webElementGuid>
+      <webElementGuid>1061bc89-d35e-456f-b592-bd1247527640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>420c5c10-140b-4d93-8ee2-2610abb51e1a</webElementGuid>
+      <webElementGuid>c78d5064-2680-4ab5-8dae-b9c9adba5ffd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,6 +80,6 @@
         
         Hobi
 ')]</value>
-      <webElementGuid>9fbd93e3-d75c-47a7-9565-2f8837fcf249</webElementGuid>
+      <webElementGuid>17042065-2c6e-41f4-a07a-ee5b14e3be92</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

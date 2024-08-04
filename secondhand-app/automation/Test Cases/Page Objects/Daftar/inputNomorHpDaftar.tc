@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputNomorHpDaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c29fa707-5a11-4786-b154-137d08f3a660</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84f70d4d-5ad2-4b46-a5a9-bb3b328f3e3a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84f70d4d-5ad2-4b46-a5a9-bb3b328f3e3a</id>
+      <masked>false</masked>
+      <name>varNomorHp</name>
+   </variable>
+</TestCaseEntity>

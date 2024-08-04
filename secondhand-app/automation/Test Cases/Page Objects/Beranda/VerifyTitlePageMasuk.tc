@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyTitlePageMasuk</name>
+   <name>verifyTitlePageMasuk</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>aeb7a309-aa0e-4b05-a53b-05b122c4aafc</testCaseGuid>

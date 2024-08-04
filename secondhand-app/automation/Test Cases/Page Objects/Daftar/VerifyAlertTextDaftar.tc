@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyAlertTextDaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13561de4-99b5-49ba-bd36-43c720770a5f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bee2f0c9-5e74-4609-bbce-c85163d255b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bee2f0c9-5e74-4609-bbce-c85163d255b5</id>
+      <masked>false</masked>
+      <name>varAlertTextDaftar</name>
+   </variable>
+</TestCaseEntity>

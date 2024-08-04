@@ -45,20 +45,20 @@ import cucumber.api.java.en.When
 
 
 class DaftarJualSaya {
-	
+
 	@Given("User tap navbar icon Akun")
 	public void userTapNavbarIconAkun() {
 		Mobile.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Klik menu Daftar Jual Saya")
 	public void klikMenuDaftarJualSaya() {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/tapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tab {string}")
 	public void klikTab(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/tapBtnTabTitle'), [('title') : string], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Ditampilkan list produk yang ditawar oleh buyer")

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>BtnNotifikasi</name>
+   <name>btnNotifikasi</name>
    <tag></tag>
    <elementGuidId>d6b1216c-eecb-4fb2-8ecf-5f092c22e697</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

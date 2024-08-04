@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-actualText = Mobile.getText(findTestObject('Pages/Detail Produk (Orang)/btnInginNego'), 30)
+actualText = Mobile.getText(findTestObject('Pages/Detail Produk (Orang)/btnInginNego'), 5)
 
 Mobile.verifyMatch(actualText, expectedText, false)
 
