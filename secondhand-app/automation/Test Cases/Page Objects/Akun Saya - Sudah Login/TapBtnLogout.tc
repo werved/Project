@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TapBtnLogout</name>
+   <name>tapBtnLogout</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0f01fa27-508d-449c-9f06-9060f4442478</testCaseGuid>

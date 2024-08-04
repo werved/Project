@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Scroll Halaman</name>
+   <name>scrollHalaman</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>51d0dcb0-1750-43d3-b525-d36c47a4285b</testCaseGuid>
