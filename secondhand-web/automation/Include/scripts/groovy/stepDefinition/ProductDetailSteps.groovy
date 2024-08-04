@@ -45,46 +45,46 @@ import cucumber.api.java.en.When
 
 
 class ProductDetailSteps {
-		@When("User melakukan pencarian detail produk {string}")
-		public void userMelakukanPencarianDetailProduk(String searchProduct) {
-			WebUI.callTestCase(findTestCase('Page Objects/Navbar/navHome/inputSearch'), [('varSearchNavHome') : searchProduct], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@When("Klik card produk {string}")
-		public void klikCardProduk(String cardProduct) {
-			WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : cardProduct], FailureHandling.STOP_ON_FAILURE)
-			}
-		
-		@Then("Berhasil menampilkan detail produk")
-		public void berhasilMenampilkanDetailProduk() {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik orang lain)/verifyDetailProductOtherPage'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Menampilkan foto produk")
-		public void menampilkanFotoProduk() {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/seeImgProduct'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Menampilkan nama produk {string}")
-		public void menampilkanNamaProduk(String nameProduct) {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductName'), [('expected') : nameProduct],
-				FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Menampilkan kategori produk {string}")
-		public void menampilkanKategoriProduk(String categoryProduc) {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductCategory'), [('expected') : categoryProduc], 
-    FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Menampilkan harga produk {string}")
-		public void menampilkanHargaProduk(String priceProduct) {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductPrice'), [('expected') : priceProduct],
-				FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Menampilkan tombol Saya tertarik dan ingin nego")
-		public void menampilkanTombolSayaTertarikDanInginNego() {
-			WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik orang lain)/verifyBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
+	@When("User melakukan pencarian detail produk {string}")
+	public void userMelakukanPencarianDetailProduk(String searchProduct) {
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navHome/inputSearch'), [('varSearchNavHome') : searchProduct], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Klik card produk {string}")
+	public void klikCardProduk(String cardProduct) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/clickProductCard'), [('varProductName') : cardProduct], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Berhasil menampilkan detail produk")
+	public void berhasilMenampilkanDetailProduk() {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik orang lain)/verifyDetailProductOtherPage'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Menampilkan foto produk")
+	public void menampilkanFotoProduk() {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/seeImgProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Menampilkan nama produk {string}")
+	public void menampilkanNamaProduk(String nameProduct) {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductName'), [('expected') : nameProduct],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Menampilkan kategori produk {string}")
+	public void menampilkanKategoriProduk(String categoryProduc) {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductCategory'), [('expected') : categoryProduc],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Menampilkan harga produk {string}")
+	public void menampilkanHargaProduk(String priceProduct) {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik sendiri)/verifyTxtProductPrice'), [('expected') : priceProduct],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Menampilkan tombol Saya tertarik dan ingin nego")
+	public void menampilkanTombolSayaTertarikDanInginNego() {
+		WebUI.callTestCase(findTestCase('Page Objects/Detail Produk (milik orang lain)/verifyBtnInginNego'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }

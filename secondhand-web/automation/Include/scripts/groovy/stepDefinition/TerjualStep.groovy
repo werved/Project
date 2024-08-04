@@ -45,45 +45,45 @@ import cucumber.api.java.en.When
 
 
 class TerjualStep {
-		@When("Seller masukkan Email {string}")
-		public void sellerMasukkanEmail(String email) {
-			WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@When("Seller masukkan Password {string}")
-		public void sellerMasukkanPassword(String password) {
-			WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@When("Seller klik tombol Masuk")
-		public void sellerKlikTombolMasuk() {
-			WebUI.callTestCase(findTestCase('Page Objects/Login/clickBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
-			WebUI.delay(5)
-		}
-		
-		@When("Seller diarahkan ke halaman {string}")
-		public void sellerDiarahkanKeHalaman(String titlePage1) {
-			WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@When("Seller klik navigation link {string}")
-		public void sellerKlikNavigationLink (String linkProducts) {
-			WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Diarahkan ke halaman daftar jual saya seller {string}")
-		public void diarahkanKeHalamanDaftarJuaSayaSeller(String titlePage2) {
-			WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyTitlePageDaftarJualSaya'), [('varTitlePageDaftarJualSaya') : titlePage2], 
-    FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@When("Klik terjual {string}")
-		public void klikTerjual(String string) {
-			WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-		
-		@Then("Berhasil menampilkan card produk yang berhasil terjual")
-		public void berhasilMenampilkanCardProdukYangBerhasilTerjual() {
-			WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyCardProduct'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
+	@When("Seller masukkan Email {string}")
+	public void sellerMasukkanEmail(String email) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputEmail'), [('varLoginEmail') : email], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Seller masukkan Password {string}")
+	public void sellerMasukkanPassword(String password) {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/inputPassword'), [('varPassword') : password], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Seller klik tombol Masuk")
+	public void sellerKlikTombolMasuk() {
+		WebUI.callTestCase(findTestCase('Page Objects/Login/clickBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
+	}
+
+	@When("Seller diarahkan ke halaman {string}")
+	public void sellerDiarahkanKeHalaman(String titlePage1) {
+		WebUI.callTestCase(findTestCase('Page Objects/Homepage/verifyTitlePage'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Seller klik navigation link {string}")
+	public void sellerKlikNavigationLink (String linkProducts) {
+		WebUI.callTestCase(findTestCase('Page Objects/Navbar/navAkun/clickBtnProducts'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Diarahkan ke halaman daftar jual saya seller {string}")
+	public void diarahkanKeHalamanDaftarJuaSayaSeller(String titlePage2) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyTitlePageDaftarJualSaya'), [('varTitlePageDaftarJualSaya') : titlePage2],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Klik terjual {string}")
+	public void klikTerjual(String string) {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Berhasil menampilkan card produk yang berhasil terjual")
+	public void berhasilMenampilkanCardProdukYangBerhasilTerjual() {
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyCardProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }
