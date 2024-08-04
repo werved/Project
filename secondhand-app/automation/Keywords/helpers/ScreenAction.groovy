@@ -41,6 +41,10 @@ import io.appium.java_client.TouchAction as TouchAction
 import io.appium.java_client.touch.offset.PointOption as PointOption
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as mobile
 
+import io.appium.java_client.MobileElement
+import io.appium.java_client.touch.WaitOptions
+import java.time.Duration
+
 
 class ScreenAction {
 	@Keyword

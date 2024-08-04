@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Keluar Akun Setelah Delete Produk Terjual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5fab46d-8138-4f2a-b935-c897b55a5a04</testCaseGuid>
+</TestCaseEntity>

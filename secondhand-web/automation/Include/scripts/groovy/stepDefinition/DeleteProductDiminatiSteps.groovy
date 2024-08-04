@@ -75,7 +75,7 @@ class DeleteProductDiminatiSteps {
 	public void klikLinkTerjual() {
 		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/clickLinkTerjual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("Produk berhasil terjual dihapus")
 	public void produkBerhasilTerjualDihapus() {
 		WebUI.callTestCase(findTestCase('Page Objects/Daftar Jual Saya/verifyProductTerjualDeleted'), [:], FailureHandling.STOP_ON_FAILURE)

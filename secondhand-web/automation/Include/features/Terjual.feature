@@ -11,7 +11,7 @@ Feature: Terjual
 		
   @Tjl001 @Positif
   Scenario: Memastikan penjual dapat melihat produk yang berhasil terjual
-    When Klik navigation link "Products"
-    Then Diarahkan ke halaman "Daftar Jual Saya"
-    When Klik "Terjual"
+    When Seller klik navigation link "Products"
+    Then Diarahkan ke halaman daftar jual saya seller "Daftar Jual Saya" 
+    When Klik terjual "Terjual"
     Then Berhasil menampilkan card produk yang berhasil terjual

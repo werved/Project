@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>BtnIconAkun</name>
+   <name>btnIconAkun</name>
    <tag></tag>
    <elementGuidId>aa66119d-5d4c-41d8-8cac-6fcf27f1b378</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>BtnMasuk2</name>
+   <name>btnMasuk2</name>
    <tag></tag>
    <elementGuidId>b5910684-7b23-4728-be17-4edf30da44c0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

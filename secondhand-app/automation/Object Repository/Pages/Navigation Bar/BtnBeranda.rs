@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>BtnBeranda</name>
+   <name>btnBeranda</name>
    <tag></tag>
    <elementGuidId>9ff0c0a0-6fd3-41bb-aa9a-a2577fd2c9b2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

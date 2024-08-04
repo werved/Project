@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Detail Produk (Orang)/imgProduct'), 30)
+Mobile.verifyElementVisible(findTestObject('Pages/Detail Produk (Orang)/imgProduct'), 5)
 

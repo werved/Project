@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyTitlePageAkunSaya</name>
+   <name>verifyTitlePageAkunSaya</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ecb56f2d-1b40-445e-a9e9-c22ed03a9114</testCaseGuid>

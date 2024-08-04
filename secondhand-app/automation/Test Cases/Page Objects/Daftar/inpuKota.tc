@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inpuKota</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32748d7e-010b-4f89-a311-c0a3d9b58f6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ae44846-2142-4999-9ab8-cb7b6e9907e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ae44846-2142-4999-9ab8-cb7b6e9907e8</id>
+      <masked>false</masked>
+      <name>varCity</name>
+   </variable>
+</TestCaseEntity>
