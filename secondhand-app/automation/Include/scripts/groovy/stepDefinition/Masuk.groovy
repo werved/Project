@@ -58,27 +58,27 @@ class Masuk {
 
 	@Then("Buka halaman {string}")
 	public void bukaHalaman(String titleAkunSaya) {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya2') : titleAkunSaya],
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/verifyTitlePageAkunSaya'), [('varTitlePageAkunSaya2') : titleAkunSaya],
 		FailureHandling.STOP_ON_FAILURE)
 
 	}
 
 	@Then("Klik tombol {string}")
 	public void klikTombol(String btnMasuk) {
-		WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/TapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/tapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 	}
 
 	@Then("Diarahkan ke halaman {string}")
 	public void diarahkanKeHalaman(String titleMasuk) {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : titleMasuk],
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/verifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : titleMasuk],
 		FailureHandling.STOP_ON_FAILURE)
 
 	}
 
 	@Then("Diarahkan ke halaman login {string}")
 	public void diarahkan_ke_halaman_login(String string) {
-		Mobile.callTestCase(findTestCase('Page Objects/Masuk/VerifyTitlePageMasuk'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Masuk/verifyTitlePageMasuk'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 	}
 
 
@@ -96,29 +96,29 @@ class Masuk {
 
 	@Then("Tampil pesan {string}")
 	public void tampilPesan(String alertText) {
-		WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertTextMasuk'), [('varAlertTextMasuk') : alertText], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Masuk/verifyAlertTextMasuk'), [('varAlertTextMasuk') : alertText], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Tampil pesan invalid {string}")
 	public void tampilPesanInvalid(String alertText1) {
-		WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : alertText1],
+		WebUI.callTestCase(findTestCase('Page Objects/Masuk/verifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : alertText1],
 		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Klik kembali dari login")
 	public void klikKembaliDariLogin() {
-		WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Masuk/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Klik menu {string}")
 	public void klikMenu(String btnLinkDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Masuk/tapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
 	}
 	
 	@Then("Diarahkan ke halaman daftar {string}")
 	public void diarahkanKeHalamanDaftar(String titlePageDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('varTitlePageDaftar') : titlePageDaftar], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar/verifyTitlePageDaftar'), [('varTitlePageDaftar') : titlePageDaftar], FailureHandling.STOP_ON_FAILURE)
 
 	}
 }

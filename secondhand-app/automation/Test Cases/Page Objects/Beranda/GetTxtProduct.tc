@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetTxtProduct</name>
+   <name>getTxtProduct</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9e2dbde0-aa3f-4794-93aa-4eb3bfa99f2e</testCaseGuid>

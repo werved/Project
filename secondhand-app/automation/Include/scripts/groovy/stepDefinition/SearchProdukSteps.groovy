@@ -52,7 +52,7 @@ class SearchProdukSteps {
 	
 	@Then("User melihat halaman awal beranda {string}")
 	public void userMelihatHalamanAwalBeranda(String titlePage) {
-		WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : titlePage], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Beranda/verifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : titlePage], FailureHandling.STOP_ON_FAILURE)
 	}
 	
 	@When("Input {string} pada search bar")
@@ -62,6 +62,6 @@ class SearchProdukSteps {
 	
 	@Then("Berhasil menampilkan produk list dengan nama produk {string}")
 	public void berhasilMenampilkanProdukListDenganNamaProduk(String listProduk) {
-		WebUI.callTestCase(findTestCase('Page Objects/Search/GetTxtProductSearch'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Search/getTxtProductSearch'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

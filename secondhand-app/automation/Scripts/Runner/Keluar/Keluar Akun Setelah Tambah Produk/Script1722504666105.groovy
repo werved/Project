@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Page Objects/Top App Bar/tapBtnBack'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/tapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
 

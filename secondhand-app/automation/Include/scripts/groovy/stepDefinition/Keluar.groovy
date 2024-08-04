@@ -52,11 +52,11 @@ class Keluar {
 
 	@When("Klik tombol keluar {string}")
 	public void klikTombolKeluar(String btnKeluar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/tapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Menampilkan halaman beranda {string}")
 	public void menampilkanHalamanBeranda(String titlePage) {
-		Mobile.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : titlePage], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Beranda/verifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : titlePage], FailureHandling.STOP_ON_FAILURE)
 	}
 }

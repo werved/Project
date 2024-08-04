@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyAlertTextDaftar</name>
+   <name>verifyAlertTextDaftar</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>13561de4-99b5-49ba-bd36-43c720770a5f</testCaseGuid>

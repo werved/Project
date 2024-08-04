@@ -47,11 +47,11 @@ import cucumber.api.java.en.When
 class BerandaSteps {
 	@When("Scroll halaman ke bawah")
 	public void scrollHalamanKeBawah() {
-		Mobile.callTestCase(findTestCase('Page Objects/Beranda/Scroll Halaman'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Beranda/scrollHalaman'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 	
 	@Then("Menampilkan produk selanjutnya")
 	public void menampilkaProdukSelanjutnya() {
-		Mobile.callTestCase(findTestCase('Page Objects/Beranda/GetTxtProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Beranda/getTxtProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

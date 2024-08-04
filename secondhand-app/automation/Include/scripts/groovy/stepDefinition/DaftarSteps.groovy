@@ -47,12 +47,12 @@ import cucumber.api.java.en.When
 class DaftarSteps {
 	@When("Tap tombol link {string}")
 	public void TapTombolLink(String linkDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Masuk/tapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Tampil halaman Daftar {string}")
 	public void tampilHalamanDaftar(String titlePageDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('varTitlePageDaftar') : titlePageDaftar], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar/verifyTitlePageDaftar'), [('varTitlePageDaftar') : titlePageDaftar], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Input nama untuk daftar {string} pada kolom Nama")
@@ -87,27 +87,27 @@ class DaftarSteps {
 
 	@Then("Tap tombol Daftar")
 	public void TapTombolDaftar() {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar/TapBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar/tapBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Tampil halaman Akun Saya {string}")
 	public void tampilHalamanAkunSaya(String titlePageSetelahDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : titlePageSetelahDaftar],
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/verifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : titlePageSetelahDaftar],
 		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Tampil pesan alert ketika daftar {string}")
 	public void tampilPesanAlertKetikaDaftar(String alertDaftar) {
-		Mobile.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [('varAlertTextDaftar') : alertDaftar], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Daftar/verifyAlertTextDaftar'), [('varAlertTextDaftar') : alertDaftar], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Kembali ke halaman Masuk")
 	public void kembaliKeHalamanMAsuk() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Kembali ke halaman Akun Saya")
 	public void kembaliKeHalamanAkunSaya() {
-		WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

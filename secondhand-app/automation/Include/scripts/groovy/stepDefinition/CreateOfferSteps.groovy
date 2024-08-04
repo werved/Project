@@ -57,7 +57,7 @@ class CreateOfferSteps {
 
 	@When("Tap pada Produk {string}")
 	public void tapPadaProduk(String string) {
-		WebUI.callTestCase(findTestCase('Page Objects/Search/TapProductName'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Page Objects/Search/tapProductName'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Tap tombol Saya Tertarik dan Ingin Nego")

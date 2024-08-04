@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/TapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/tapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya2') : ''], 
+Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/verifyTitlePageAkunSaya'), [('varTitlePageAkunSaya2') : ''], 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/tapBtnLogout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/VerifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : ''], 
+Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/verifyTitlePageAkunSaya'), [('varTitlePageAkunSaya') : ''], 
     FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Page Objects/Masuk/inputEmail'), [('varEmailMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Page Objects/Masuk/inputPassword'), [('varPasswordMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Page Objects/Masuk/tapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Page Objects/Masuk/tapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Page Objects/Masuk/VerifyTitlePageMasuk'), [('varTitlePageAkunSaya') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Page Objects/Masuk/verifyTitlePageMasuk'), [('varTitlePageAkunSaya') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -43,26 +43,26 @@ WebUI.callTestCase(findTestCase('Page Objects/Masuk/inputEmail'), [('varEmailMas
 
 WebUI.callTestCase(findTestCase('Page Objects/Masuk/inputPassword'), [('varPasswordMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/tapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/tapLinkPageRegister'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyTitlePageMasuk'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/verifyTitlePageMasuk'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertTextMasuk'), [('varAlertTextMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/verifyAlertTextMasuk'), [('varAlertTextMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Objects/Navigation Bar/TapBtnAkun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/TapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Akun Saya - Belum Login/tapBtnMasuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/verifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Objects/Bottom Sheets/closeBottomSheets'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/VerifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : ''], 
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/verifyAlertUsernameOrPasswordSalah'), [('varAlertEmailOrSandiSalah') : ''], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Masuk/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Masuk/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Objects/Daftar/inpuKota'), [('varCity') : ''], FailureHandling.STOP_ON_FAILURE)
 
@@ -76,23 +76,23 @@ WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputNomorHpDaftar'), [('va
 
 WebUI.callTestCase(findTestCase('Page Objects/Daftar/inputPassword'), [('varPasswordDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapBtnDaftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapLinkPageLogin'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapLinkPageLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyAlertTextDaftar'), [('varAlertTextDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/verifyAlertTextDaftar'), [('varAlertTextDaftar') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/VerifyTitlePageDaftar'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/verifyTitlePageDaftar'), [('getTitlePageMasuk') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Beranda/Scroll Halaman'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/scrollHalaman'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Beranda/GetTxtProduct'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/getTxtProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Daftar/TapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Daftar/tapBtnKembali'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Beranda/verifyTitlePageMasuk'), [('varTitlePageTelusuriKategori') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page Objects/Search/GetTxtProductSearch'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page Objects/Search/getTxtProductSearch'), [:], FailureHandling.STOP_ON_FAILURE)
 

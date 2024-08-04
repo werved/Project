@@ -53,7 +53,7 @@ class DaftarJualSaya {
 
 	@When("Klik menu Daftar Jual Saya")
 	public void klikMenuDaftarJualSaya() {
-		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/TapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.callTestCase(findTestCase('Page Objects/Akun Saya - Sudah Login/tapBtnLDaftarJualSaya'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Klik tab {string}")
