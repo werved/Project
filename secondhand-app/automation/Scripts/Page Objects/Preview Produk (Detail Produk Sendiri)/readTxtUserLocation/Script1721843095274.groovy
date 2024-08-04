@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-txtUserLocation = Mobile.getText(findTestObject('Pages/Preview Produk (Detail Produk Sendiri)/txtUserLocation'), 30)
+txtUserLocation = Mobile.getText(findTestObject('Pages/Preview Produk (Detail Produk Sendiri)/txtUserLocation'), 5)
 
 KeywordUtil.logInfo('Text User Location is ' + txtProductPriceVar)
 

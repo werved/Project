@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTitlePageDaftarJualSaya</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4fc83ec-e968-461b-9292-188fd822ea45</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>353a0437-74a0-4a9c-a51e-e09df730baf1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>353a0437-74a0-4a9c-a51e-e09df730baf1</id>
+      <masked>false</masked>
+      <name>varTitlePageDaftarJualSaya</name>
+   </variable>
+</TestCaseEntity>

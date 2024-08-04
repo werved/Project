@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pages.Homepages.verifyProductListByCategory'(findTestObject('Pages/Homepage/txtKategoriProduk'), varProductCategory)
 
+WebUI.delay(2)
+
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+

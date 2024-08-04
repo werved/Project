@@ -21,13 +21,13 @@ import org.openqa.selenium.interactions.Actions as Actions
 
 driver = MobileDriverFactory.getDriver()
 
-Mobile.tap(findTestObject('Pages/Page_Search/Search'), 3, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Pages/Page Search/fieldSearch'), 3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Pages/Page_Search/BtnBack'), 5)
+Mobile.waitForElementPresent(findTestObject('Pages/Page Search/BtnBack'), 5)
 
 Actions keyboard = new Actions(driver)
 
 keyboard.sendKeys(expected).perform()
 
-Mobile.checkElement(findTestObject('Pages/Page_Search/Product_Name'), 5)
+Mobile.checkElement(findTestObject('Pages/Page Search/txtProductName'), 5)
 

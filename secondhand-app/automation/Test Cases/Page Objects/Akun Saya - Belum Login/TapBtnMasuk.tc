@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TapBtnMasuk</name>
+   <name>tapBtnMasuk</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c8f287e5-e15f-4a9a-8a7a-d79d053daf65</testCaseGuid>
