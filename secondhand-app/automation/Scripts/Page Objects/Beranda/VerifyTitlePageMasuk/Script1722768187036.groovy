@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Beranda/Title_Page_Telusuri_Kategori'), 10)
+Mobile.verifyElementVisible(findTestObject('Pages/Beranda/txtTitlePageTelusuriKategori'), 10)
 
-getTitlePageTelusuriKategori = Mobile.getText(findTestObject('Pages/Beranda/Title_Page_Telusuri_Kategori'), 0)
+getTitlePageTelusuriKategori = Mobile.getText(findTestObject('Pages/Beranda/txtTitlePageTelusuriKategori'), 0)
 
 Mobile.verifyMatch(getTitlePageTelusuriKategori, varTitlePageTelusuriKategori, false)
 

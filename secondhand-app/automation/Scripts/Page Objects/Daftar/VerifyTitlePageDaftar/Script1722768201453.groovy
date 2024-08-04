@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar/titlePageDaftar'), 10)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar/txtTitlePageDaftar'), 10)
 
-getTitlePageDaftar = Mobile.getText(findTestObject('Pages/Daftar/titlePageDaftar'), 0)
+getTitlePageDaftar = Mobile.getText(findTestObject('Pages/Daftar/txtTitlePageDaftar'), 0)
 
 Mobile.verifyMatch(getTitlePageDaftar, varTitlePageDaftar, false)
 

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Akun Saya - Belum Login/TitlePageAkunSaya2'), 10)
+Mobile.verifyElementVisible(findTestObject('Pages/Akun Saya - Belum Login/txtTitlePageAkunSaya2'), 10)
 
-getTitlePageAkunSaya2 = Mobile.getText(findTestObject('Pages/Akun Saya - Belum Login/TitlePageAkunSaya2'), 0)
+getTitlePageAkunSaya2 = Mobile.getText(findTestObject('Pages/Akun Saya - Belum Login/txtTitlePageAkunSaya2'), 0)
 
 Mobile.verifyMatch(getTitlePageAkunSaya2, varTitlePageAkunSaya2, false)
 

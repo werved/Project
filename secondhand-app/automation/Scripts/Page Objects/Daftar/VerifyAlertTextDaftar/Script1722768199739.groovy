@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Pages/Daftar/AlertText'), 10)
+Mobile.verifyElementVisible(findTestObject('Pages/Daftar/txtAlert'), 10)
 
-getAlertTextDaftar = Mobile.getText(findTestObject('Pages/Daftar/AlertText'), 0)
+getAlertTextDaftar = Mobile.getText(findTestObject('Pages/Daftar/txtAlert'), 0)
 
 Mobile.verifyMatch(getAlertTextDaftar, varAlertTextDaftar, false)
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.waitForElementPresent(findTestObject('Pages/Page_Search/Product_Name'), 5)
+Mobile.waitForElementPresent(findTestObject('Pages/Page Search/txtProductName'), 5)
 
-Mobile.tap(findTestObject('Pages/Page_Search/Product_Name'), 5)
+Mobile.tap(findTestObject('Pages/Page Search/txtProductName'), 5)
 

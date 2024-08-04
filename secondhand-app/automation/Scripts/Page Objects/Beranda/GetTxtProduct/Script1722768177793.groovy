@@ -19,7 +19,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.waitForElementPresent(findTestObject('Pages/Beranda/Product_Name'), 10)
-getListProduct = Mobile.getText(findTestObject('Pages/Beranda/Product_Name'), 0)
+Mobile.waitForElementPresent(findTestObject('Pages/Beranda/txtProductName'), 10)
+getListProduct = Mobile.getText(findTestObject('Pages/Beranda/txtProductName'), 0)
 
 KeywordUtil.logInfo("Product Name: " + getListProduct)
