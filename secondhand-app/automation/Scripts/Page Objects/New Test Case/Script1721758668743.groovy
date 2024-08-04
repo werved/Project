@@ -59,3 +59,11 @@ WebUI.callTestCase(findTestCase('Page Objects/Beranda/VerifyTitlePageMasuk'), [(
 
 WebUI.callTestCase(findTestCase('Page Objects/Bottom Sheets/closeBottomSheets'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Page Objects/Notifikasi/verifyProductNotifikasi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Navigation Bar/tapBtnNotifikasi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Navigation Bar/tapBtnTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Objects/Transaksi/verifyProductTransaksi'), [:], FailureHandling.STOP_ON_FAILURE)
+
