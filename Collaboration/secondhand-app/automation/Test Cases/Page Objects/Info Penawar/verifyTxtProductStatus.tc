@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtProductStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9a62398-37cb-4dbe-9fec-af53b0e91296</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>115f669c-dc8d-403a-baf4-1ef4e038e61e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>115f669c-dc8d-403a-baf4-1ef4e038e61e</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

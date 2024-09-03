@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtBerhasilTawar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb50fa0b-aa2d-4f50-9b18-6704fa1b8e68</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91a0e109-8e53-473b-8a55-c2de14d3d5fe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91a0e109-8e53-473b-8a55-c2de14d3d5fe</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

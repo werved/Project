@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTxtProductName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6f06794-16b1-433d-b6ab-0c09a0452fad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15842d6d-4027-4df0-8f79-8b07acf05e82</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15842d6d-4027-4df0-8f79-8b07acf05e82</id>
+      <masked>false</masked>
+      <name>txtProductNameExpected</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>inputFieldHargaTawar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a170121-cd50-4b33-99e7-a7c9593009a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0112f701-d6c7-459e-ba65-51d8659edc82</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0112f701-d6c7-459e-ba65-51d8659edc82</id>
+      <masked>false</masked>
+      <name>hargaTawar</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>clickCardProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9bea9b6-643d-424b-8210-77e5204194cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccd136a2-3b24-4100-a757-25fbbf6b83fe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccd136a2-3b24-4100-a757-25fbbf6b83fe</id>
+      <masked>false</masked>
+      <name>notificationTitle</name>
+   </variable>
+</TestCaseEntity>
