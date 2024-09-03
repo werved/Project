@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E2E Login email tidak valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f025d703-f8cc-42f0-9c0f-f7a990755cbe</testCaseGuid>
+</TestCaseEntity>

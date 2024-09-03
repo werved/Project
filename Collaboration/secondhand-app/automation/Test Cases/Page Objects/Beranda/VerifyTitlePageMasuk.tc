@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyTitlePageMasuk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeb7a309-aa0e-4b05-a53b-05b122c4aafc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6a16051-a261-438c-9ed3-0318c4bd9b05</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a16051-a261-438c-9ed3-0318c4bd9b05</id>
+      <masked>false</masked>
+      <name>varTitlePageTelusuriKategori</name>
+   </variable>
+</TestCaseEntity>

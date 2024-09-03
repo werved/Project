@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>seeToastMessageSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af6011cf-2adf-4128-8840-9edba40275e8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1863f33-67ab-4bc4-871e-1b6972dc8669</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1863f33-67ab-4bc4-871e-1b6972dc8669</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

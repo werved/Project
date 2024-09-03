@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldProductPrice</name>
+   <tag></tag>
+   <elementGuidId>b5cc3619-fd1a-439e-a261-4e736f334f26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='product_price']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_price']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product_price</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_price</value>
+      <webElementGuid>aaddcf3f-f877-4645-a109-da7731ccc492</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='product_price']</value>
+      <webElementGuid>21d19dc5-f0ee-42bd-81e1-e62f583f0990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>493ab8fe-6bec-4eea-a167-c9d46a5b15cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Rp 0,00' and @type = 'number' and @name = 'product[price]' and @id = 'product_price']</value>
+      <webElementGuid>978e3935-3cba-4d19-bb4f-6134228d0f7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

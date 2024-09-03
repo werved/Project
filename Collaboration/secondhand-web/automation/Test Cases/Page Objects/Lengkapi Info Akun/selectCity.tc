@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>selectCity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc7b9e4b-5e64-4e35-bae8-7cb925f941ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>444e8ce6-0a78-41a5-a5a1-83253c49c14f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>444e8ce6-0a78-41a5-a5a1-83253c49c14f</id>
+      <masked>false</masked>
+      <name>varSelectCity</name>
+   </variable>
+</TestCaseEntity>
